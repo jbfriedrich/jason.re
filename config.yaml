@@ -1,0 +1,76 @@
+baseURL: "https://jason.re"
+languageCode: "en-us, de-de"
+title: "Jason Friedrich"
+theme: "hemingway"
+summaryLength: 50
+paginate: 5
+canonifyURLs: false
+footnoteReturnLinkContents: "↩"
+plainIDAnchors: true
+autolink: false
+permalinks:
+  posts: /:slug
+  micros: /:year/:month/:day/:slug
+  links: /:section/:slug
+  pictures: /:section/:slug
+taxonomies:
+  tag: tags
+  type: type
+  language: lang
+
+frontmatter:
+  date:
+    - "date"
+    - "lastmod"
+    - "publishDate"
+    - ":filename"
+  publishDate:
+    - "publishDate"
+    - "date"
+  lastmod:
+    - "lastmod"
+    - ":fileModTime"
+    - "publishDate"
+    - "date"
+
+# if you want markdown WYSIWYG line break
+blackfriday:
+  extensions:
+    - "hardLineBreak"
+
+# main menu
+menu:
+  main:
+  - identifier: about
+    name: "About"
+    url: "/about/"
+    weight: 1
+  - identifier: posts
+    name: "Blog Posts"
+    url: "/posts/"
+    weight: 2
+  - identifier: micros
+    name: "Micro Posts"
+    url: "/micros/"
+    weight: 3
+  - identifier: links
+    name: "Links"
+    url: "/links/"
+    weight: 4
+
+params:
+  author:
+    given_name: "Jason"
+    family_name: "Friedrich"
+    display_name: "Jason Friedrich"
+    thumbnail: "https://www.gravatar.com/avatar/3c4b5f09f9e988618881f349516028ab"
+    image: "https://www.gravatar.com/avatar/3c4b5f09f9e988618881f349516028ab?s=250&d=mm&r=x"
+    short_bio: "Just another left-handed, binge-watching tech geek who enjoys drinking coffee, playing video games and writing on the Internet."
+    bio: "Just another left-handed, binge-watching tech geek who enjoys drinking coffee, playing video games and writing on the Internet."
+    social:
+      github: "https://github.com/jbfriedrich"
+      twitter: "https://twitter.com/jbfriedrich"
+      mastodon: "https://mastodon.social/@jbf"
+  email: "blog@jason.re"
+  copyright: © 2019 Jason Friedrich
+  friendly_url: jason.re
