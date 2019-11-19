@@ -1,4 +1,4 @@
-publish_mode: editorial_workflow
+#publish_mode: editorial_workflow
 media_folder: "static/images" # Media files will be stored in the repo under images/uploads
 public_folder: "/images" # The src attribute for uploaded media will begin with /images
 
