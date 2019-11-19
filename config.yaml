@@ -2,6 +2,7 @@ baseURL: "https://jason.re"
 languageCode: "en-us, de-de"
 title: "Jason Friedrich"
 theme: "hemingway"
+publishDir: docs
 summaryLength: 50
 paginate: 5
 canonifyURLs: false
