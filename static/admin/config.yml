@@ -3,9 +3,10 @@ media_folder: "static/images" # Media files will be stored in the repo under ima
 public_folder: "/images" # The src attribute for uploaded media will begin with /images
 
 backend:
-  name: github
-  repo: jbfriedrich/jason.re
-  branch: master # Branch to update (optional; defaults to master)
+  name: git-gateway
+  #name: github
+  #repo: jbfriedrich/jason.re
+  #branch: master # Branch to update (optional; defaults to master)
 
 collections:
   - name: "post" # Used in routes, e.g., /admin/collections/blog
