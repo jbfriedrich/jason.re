@@ -21,7 +21,7 @@ collections:
       - {label: "Featured Image", name: "feature_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Type" name: "type", widget: "select", options: ["post", "micro", "link"], default: "post"}
+      - {label: "Type", name: "type", widget: "select", options: ["post", "micro", "link"], default: "post"}
       - {label: "Language", name: "language", widget: "select", options: ["en", "de"]}
   - name: "micro" # Used in routes, e.g., /admin/collections/blog
     label: "Status" # Used in the UI
