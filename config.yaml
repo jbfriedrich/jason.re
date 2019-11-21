@@ -36,8 +36,8 @@ frontmatter:
 
 # if you want markdown WYSIWYG line break
 blackfriday:
-  extensions:
-    - "hardLineBreak"
+#  extensions:
+#    - "hardLineBreak"
 
 # main menu
 menu:
