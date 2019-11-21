@@ -17,4 +17,4 @@ This is his chalkboard where the author makes up his mind and utters his opinion
 
 The photos on this blog are, if not credited otherwise, images from the world’s best and most generous community of photographers: [Unsplash](https://unsplash.com/)!
 
-The blog itself is build with [Hugo](https://gohugo.io/). Its source code resides on [<i class="fab fa-github"></i> GitHub](https://github.com/). The blog is hosted on [Netlify](https://netlify.com) and managed via [NetlifyCMS](https://www.netlifycms.org/).
+The blog is build with [Hugo](https://gohugo.io/) and its source code resides on [<i class="fab fa-github"></i> GitHub](https://github.com/). It is hosted on [Netlify](https://netlify.com) and managed via [NetlifyCMS](https://www.netlifycms.org/).
