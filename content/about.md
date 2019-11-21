@@ -2,7 +2,7 @@
 title: About
 date: "2014-04-09"
 type: page
-feature_image: https://jason.re/content/images/2018/08/v64sa9jik7o.jpg
+feature_image: https://rmbr.eu/file/dstore/18/8/v64sa9jik7o.jpg
 menu:
   footerLeft:
     identifier: about
