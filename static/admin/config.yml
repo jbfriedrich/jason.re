@@ -18,7 +18,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "date", widget: "datetime", timeFormat: "HH:mm"}
       - {label: "Featured Image", name: "feature_image", widget: "image", required: false}
       - {label: "Featured Image from URL", name: "feature_image", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -34,7 +34,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "date", widget: "datetime", timeFormat: "HH:mm"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Type", name: "type", widget: "hidden", default: "micro"}
@@ -48,7 +48,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "date", widget: "datetime", timeFormat: "HH:mm"}
       - {label: "Link Comment", name: "link_comment", widget: "markdown"}
       - {label: "Link URL", name: "link_url", widget: "string"}
       - {label: "Link Title", name: "link_title", widget: "string"}
