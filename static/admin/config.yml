@@ -30,11 +30,11 @@ collections:
     folder: "/content/micros" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    preview_path: "/{{year}}/{{month}}/{{day}}/{{title}}"
+    preview_path: "/micro/{{year}}{{month}}{{day}}/{{title}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime", timeFormat: "HH:mm"}
+      - {label: "Title", name: "title", widget: "datetime", dateFormat: false, timeFormat: "HH:mm:ss", format: "HH:mm:ss"}
+      - {label: "Publish Date", name: "date", widget: "datetime", timeFormat: false, fomat: "YYYY-MM-DD"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Type", name: "type", widget: "hidden", default: "micro"}
