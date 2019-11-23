@@ -1,6 +1,5 @@
 ---
-layout: post
-title: 13:00:23
+title: '13:00:23'
 date: 2019-11-22T13:00:23.942Z
 tags:
   - cars

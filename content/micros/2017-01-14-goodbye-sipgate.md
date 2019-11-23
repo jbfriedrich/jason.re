@@ -1,5 +1,5 @@
 ---
-title: 14:58:45
+title: '14:58:45'
 date: 2017-01-14T14:58:45.000Z
 type: micro
 tags:

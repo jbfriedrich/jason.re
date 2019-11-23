@@ -1,6 +1,5 @@
 ---
-layout: post
-title: 17:38:59
+title: '17:38:59'
 date: 2019-11-21T17:38:59.686Z
 tags:
   - gaming
