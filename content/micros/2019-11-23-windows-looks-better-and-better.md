@@ -9,5 +9,4 @@ tags:
 type: micro
 language: en
 ---
-
 For me, Windows really could be an alternative to macOS in a year or two. WSL2 and Windows Terminal look great. Once their final version was released and the toolset is stable, it could really be an interesting alternative for my use case.
