@@ -11,7 +11,7 @@ plainIDAnchors: true
 autolink: false
 permalinks:
   posts: /:slug
-  micros: /:year/:month/:day/:slug
+  micros: /micro/:year:month:day/:slug
   links: /:section/:slug
   pictures: /:section/:slug
 taxonomies:
