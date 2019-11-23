@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows looks better and better
+title: 15:34:29
 date: 2019-11-23T15:34:29.174Z
 tags:
   - software
