@@ -1,5 +1,6 @@
 ---
 title: '13:06:01'
+identifier: Apples Macbook Refresh 2017
 date: 2017-06-07T13:06:01.000Z
 type: micro
 tags:

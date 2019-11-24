@@ -1,5 +1,6 @@
 ---
 title: '13:00:23'
+identifier: Fugly Tesla truck
 date: 2019-11-22T13:00:23.942Z
 tags:
   - cars

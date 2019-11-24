@@ -1,5 +1,6 @@
 ---
 title: '23:51:52'
+identifier: Repeated Office365 Outages
 date: 2019-01-29T23:51:52.000Z
 type: micro
 tags:

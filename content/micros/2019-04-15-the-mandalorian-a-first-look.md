@@ -1,5 +1,6 @@
 ---
 title: '03:43:39'
+identifier: "The Mandalorian: A First Look"
 date: 2019-04-15T03:43:39.000Z
 type: micro
 tags:

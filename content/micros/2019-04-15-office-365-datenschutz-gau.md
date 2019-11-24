@@ -1,5 +1,6 @@
 ---
 title: '06:14:03'
+identifier: Office 365 Datenschutz GAU
 date: 2019-04-15T06:14:03.000Z
 type: micro
 tags:

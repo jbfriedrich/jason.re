@@ -1,5 +1,6 @@
 ---
 title: '04:57:35'
+identifier: Atom 1.18 with Integrated Github Support
 date: 2017-06-16T04:57:35.000Z
 type: micro
 tags:

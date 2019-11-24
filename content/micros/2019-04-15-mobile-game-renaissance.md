@@ -1,5 +1,6 @@
 ---
 title: '19:15:57'
+identifier: Mobile Game Renaissance
 date: 2019-04-15T19:15:57.000Z
 type: micro
 tags:

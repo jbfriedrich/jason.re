@@ -1,5 +1,6 @@
 ---
 title: '10:58:16'
+identifier: A racist president
 date: 2019-07-16T10:58:16.000Z
 type: micro
 tags:

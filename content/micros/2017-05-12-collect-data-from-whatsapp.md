@@ -1,5 +1,6 @@
 ---
 title: '16:06:56'
+identifier: Collect Data from Whatsapp
 date: 2017-05-12T16:06:56.000Z
 type: micro
 tags:
