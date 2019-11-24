@@ -9,7 +9,7 @@ link_title: OneCoin scam made billions with fake BitCoin promises
 tags:
   - tech
   - bitcoin
-  - ''
+  - blockchain
 type: link
 language: en
 ---
