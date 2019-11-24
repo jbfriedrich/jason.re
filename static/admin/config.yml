@@ -34,6 +34,7 @@ collections:
     preview_path: "/micro/{{year}}{{month}}{{day}}/{{title}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "datetime", dateFormat: false, timeFormat: "HH:mm:ss", format: "HH:mm:ss"}
+      - {label: "Identifier", name: "identifier", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", timeFormat: false, fomat: "YYYY-MM-DD"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
