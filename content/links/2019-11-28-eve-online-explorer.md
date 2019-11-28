@@ -10,6 +10,7 @@ link_url: >-
 link_title: Eve Online player explores all 7805 in-game solar systems
 tags:
   - gaming
+  - mmorpg
 type: link
 language: en
 ---
