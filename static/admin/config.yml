@@ -49,7 +49,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", timeFormat: "HH:mm"}
-      - {label: "Link Comment", name: "link_comment", widget: "markdown"}
+      - {label: "Link Comment", name: "link_comment", widget: "markdown", required: false}
       - {label: "Link URL", name: "link_url", widget: "string"}
       - {label: "Link Title", name: "link_title", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
