@@ -76,6 +76,28 @@ params:
   copyright: © 2019 Jason Friedrich
   friendly_url: jason.re
 
+mediaTypes:
+  application/atom:
+    suffixes:
+      - 'xml'
+
+outputFormats:
+  atom:
+    baseName: 'index'
+    isPlainText: false
+    mediaType: 'application/atom'
+
+outputs:
+  home:
+    - HTML
+    - Atom
+  section:
+    - HTML
+    - Atom
+
+disableKinds:
+  - 'RSS'
+
 privacy:
   googleAnalytics:
     anonymizeIP: true
