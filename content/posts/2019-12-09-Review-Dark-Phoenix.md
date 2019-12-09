@@ -1,6 +1,6 @@
 ---
 title: “Review: Dark Phoenix”
-date: 2019-12-09T04:54:13+01:00
+date: 2019-12-09T04:54:13+000Z
 type: post
 tags: [de,entertainment,movies,review]
 ---
