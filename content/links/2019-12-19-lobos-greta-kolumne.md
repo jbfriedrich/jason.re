@@ -13,7 +13,7 @@ tags:
   - umwelt
   - medien
   - deutschland
-  - ''
+  - klima
 type: link
 language: de
 ---
