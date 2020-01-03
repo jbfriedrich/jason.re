@@ -1,5 +1,5 @@
 ---
-title: '#Umweltsau: Das Verhalten Tom Buhrows und des WDR'
+title: 'Umweltsau: Das Verhalten Tom Buhrows und des WDR'
 date: 2020-01-03T14:17:04+01:00
 type: link
 link_title: '#Umweltsau: Das Verhalten Tom Buhrows und des WDR'
