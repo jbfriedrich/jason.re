@@ -4,7 +4,7 @@ title: "The Tech Curmudgeon"
 theme: "hemingway"
 #publishDir: docs
 summaryLength: 50
-paginate: 5
+paginate: 6
 canonifyURLs: false
 footnoteReturnLinkContents: "↩"
 plainIDAnchors: true
