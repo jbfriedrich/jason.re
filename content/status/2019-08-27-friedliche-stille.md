@@ -7,7 +7,6 @@ tags:
   - de
   - personal
 ---
-
 Es ist viel zu warm. Eine weitere tropische Nacht die mich schlecht schlafen lässt. Es ist schon eine Weile her, dass ich mir „aktiv“ einen Sternenhimmel angesehen, oder einfach nur einen Sonnenaufgang genossen habe.
 
 {{< img src="https://rmbr.eu/file/dstore/19/8/27D01C63-34CA-4C28-BC08-68D641FDC2F6.jpeg" >}}

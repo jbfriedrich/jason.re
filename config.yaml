@@ -9,10 +9,11 @@ canonifyURLs: false
 footnoteReturnLinkContents: "↩"
 plainIDAnchors: true
 autolink: false
+# Date String Format: Mon Jan 2 15:04:05 MST 2006
 permalinks:
-  posts: /:slug
-  micros: /micro/:year:month:day/:slug
-  links: /:section/:slug
+  posts: /post/:slug
+  micros: /status/:year/:month/:day/:slug
+  links: /:section/:2006/:01/:02/:150405
   pictures: /:section/:slug
 taxonomies:
   tag: tags
@@ -35,7 +36,7 @@ frontmatter:
     - "date"
 
 # if you want markdown WYSIWYG line break
-blackfriday:
+#blackfriday:
 #  extensions:
 #    - "hardLineBreak"
 
@@ -50,9 +51,9 @@ menu:
     name: "Blog Posts"
     url: "/posts/"
     weight: 2
-  - identifier: micros
+  - identifier: status
     name: "Micro Posts"
-    url: "/micros/"
+    url: "/status/"
     weight: 3
   - identifier: links
     name: "Links"
@@ -73,7 +74,7 @@ params:
       twitter: "https://twitter.com/jbfriedrich"
       mastodon: "https://mastodon.social/@jbf"
   email: "blog@jason.re"
-  copyright: © 2019 Jason Friedrich
+  copyright: © 2021 Jason Friedrich
   friendly_url: jason.re
 
 mediaTypes:
