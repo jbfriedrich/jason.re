@@ -1,5 +1,5 @@
 ---
-date: 2020-01-03T14:17:04+01:00
+date: 2020-01-03T14:17:04
 type: link
 linkurl: https://threadreaderapp.com/thread/1211839207406211072.html
 tags:

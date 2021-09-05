@@ -1,5 +1,5 @@
 ---
-date: 2017-01-30T23:49:40.000Z
+date: 2017-01-30T23:49:40
 type: link
 tags:
   - medicine

@@ -1,5 +1,5 @@
 ---
-date: 2019-11-28T03:39:10.797Z
+date: 2019-11-28T03:39:10
 linkurl: https://thenewstack.io/the-story-behind-all-the-animals-on-oreillys-book-covers/
 tags:
   - books

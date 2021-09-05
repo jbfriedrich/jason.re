@@ -1,6 +1,6 @@
 ---
 title: Cthulhu is a Cat
-date: 2019-08-16T02:24:29.000Z
+date: 2019-08-16T02:24:29
 feature_image: https://rmbr.eu/file/dstore/19/8/Trio910x499.png
 tags:
   - gaming

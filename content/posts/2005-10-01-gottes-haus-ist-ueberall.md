@@ -1,6 +1,6 @@
 ---
 title: Gottes Haus ist überall
-date: 2005-10-01T06:40:44.000Z
+date: 2005-10-01T06:40:44
 feature_image: https://images.unsplash.com/photo-1529908537380-8f8999f17a39?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=886e9848c4e77dc83c43bb568db23b37
 tags:
   - personal

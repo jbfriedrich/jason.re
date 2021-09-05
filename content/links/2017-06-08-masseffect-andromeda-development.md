@@ -1,5 +1,5 @@
 ---
-date: 2017-06-08T03:27:08.000Z
+date: 2017-06-08T03:27:08
 type: link
 tags:
   - gaming

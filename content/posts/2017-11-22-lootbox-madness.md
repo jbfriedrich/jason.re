@@ -1,6 +1,6 @@
 ---
 title: Lootbox madness
-date: 2017-11-22T10:41:13.000Z
+date: 2017-11-22T10:41:13
 feature_image: https://images.unsplash.com/photo-1554104365-0338ddaf81f4
 tags:
   - gaming

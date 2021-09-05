@@ -1,6 +1,6 @@
 ---
 title: Windows 8 on a MacBook Pro Mid 2009
-date: 2013-07-12T01:57:00.000Z
+date: 2013-07-12T01:57:00
 feature_image: https://images.unsplash.com/photo-1530133532239-eda6f53fcf0f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=31bc92370cefbe48f597bce89aae061d
 tags:
   - apple

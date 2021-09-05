@@ -1,5 +1,5 @@
 ---
-date: 2019-05-28T20:01:00.000Z
+date: 2019-05-28T20:01:00
 type: link
 tags:
   - privacy

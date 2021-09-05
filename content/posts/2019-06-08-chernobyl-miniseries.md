@@ -1,6 +1,6 @@
 ---
 title: HBO Chernobyl Mini-Series
-date: 2019-06-08T16:45:38.000Z
+date: 2019-06-08T16:45:38
 feature_image: https://rmbr.eu/file/dstore/19/6/hbo-chernobyl.jpg
 tags:
   - entertainment

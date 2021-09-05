@@ -1,6 +1,6 @@
 ---
 title: EDNS UDP packet size
-date: 2014-10-05T13:52:03.000Z
+date: 2014-10-05T13:52:03
 feature_image: https://images.unsplash.com/photo-1532339848923-c4beffa7abcb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=24a4e38bb8b9e913fcc7bc041dd2ed2b
 tags:
   - linux

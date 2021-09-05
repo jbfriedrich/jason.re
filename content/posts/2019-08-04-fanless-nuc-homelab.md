@@ -1,6 +1,6 @@
 ---
 title: Fan-less NUC Homelab
-date: 2019-08-04T19:01:54.000Z
+date: 2019-08-04T19:01:54
 feature_image: https://rmbr.eu/file/dstore/19/8/IMG_0858-3.jpeg
 tags:
   - picture

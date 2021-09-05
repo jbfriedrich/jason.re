@@ -1,6 +1,6 @@
 ---
 title: PAM & NSS LDAP Authentication
-date: 2013-12-01T23:31:21.000Z
+date: 2013-12-01T23:31:21
 draft: true
 tags:
   - linux

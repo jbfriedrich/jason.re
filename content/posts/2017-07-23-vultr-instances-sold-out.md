@@ -1,6 +1,6 @@
 ---
 title: "VULTR: Instances sold out"
-date: 2017-07-23T21:12:32.000Z
+date: 2017-07-23T21:12:32
 feature_image: https://images.unsplash.com/photo-1443159805125-50ae78d2d00d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=9864fbc130fb3e5cce9803e540796d15
 tags:
   - hosting

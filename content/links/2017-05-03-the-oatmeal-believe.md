@@ -1,5 +1,5 @@
 ---
-date: 2017-05-03T00:53:19.000Z
+date: 2017-05-03T00:53:19
 type: link
 tags:
   - society

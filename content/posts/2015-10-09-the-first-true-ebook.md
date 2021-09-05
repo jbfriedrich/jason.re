@@ -1,6 +1,6 @@
 ---
 title: The first true eBook
-date: 2015-10-09T13:46:27.000Z
+date: 2015-10-09T13:46:27
 feature_image: https://images.unsplash.com/photo-1455541504462-57ebb2a9cec1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=c4ddfb1c668e3e7e0a9c793e8a14f231
 tags:
   - books

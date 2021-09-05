@@ -1,6 +1,6 @@
 ---
 title: Der Preis der Freiheit ist ewige Wachsamkeit
-date: 2005-11-03T19:54:57.000Z
+date: 2005-11-03T19:54:57
 feature_image: https://images.unsplash.com/photo-1515040242872-08257d6d08c2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=872f0b011f9afe5e5a99a671b0a59845
 tags:
   - politics

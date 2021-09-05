@@ -1,6 +1,6 @@
 ---
 title: "Music recommendation: Red Fang"
-date: 2013-11-17T21:56:11.000Z
+date: 2013-11-17T21:56:11
 feature_image: https://images.unsplash.com/photo-1508075437000-bb5dc1ca55ea?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=87fad28323be3c1d29ff5cd32090bc79
 tags:
   - entertainment

@@ -1,6 +1,6 @@
 ---
 title: INWX DynDNS Service
-date: 2019-08-04T22:27:48.000Z
+date: 2019-08-04T22:27:48
 feature_image: https://images.unsplash.com/photo-1544197150-b99a580bb7a8
 tags:
   - networking

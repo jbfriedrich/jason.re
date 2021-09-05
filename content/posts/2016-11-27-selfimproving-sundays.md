@@ -1,6 +1,6 @@
 ---
 title: Self-improving Sundays
-date: 2016-11-27T13:30:10.000Z
+date: 2016-11-27T13:30:10
 feature_image: https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=67f1cd4910bbcac027033227177532ec
 tags:
   - education

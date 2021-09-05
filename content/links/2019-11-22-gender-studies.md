@@ -1,5 +1,5 @@
 ---
-date: 2019-11-22T17:24:34.429Z
+date: 2019-11-22T17:24:34
 linkurl: 'https://www.addendum.org/news/opferstudium/'
 tags:
   - gesellschaft

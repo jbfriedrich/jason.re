@@ -1,6 +1,6 @@
 ---
 title: Apple verliert mich
-date: 2014-01-02T18:54:54.000Z
+date: 2014-01-02T18:54:54
 feature_image: https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=ae805f654e7d2559076e0e6fcb91cd1c
 tags:
   - apple

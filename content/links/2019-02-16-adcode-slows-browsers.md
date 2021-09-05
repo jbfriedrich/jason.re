@@ -1,5 +1,5 @@
 ---
-date: 2019-02-16T22:56:09.000Z
+date: 2019-02-16T22:56:09
 type: link
 tags:
   - internet

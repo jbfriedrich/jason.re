@@ -1,6 +1,6 @@
 ---
 title: Meteorites
-date: 2013-03-19T02:31:48.000Z
+date: 2013-03-19T02:31:48
 feature_image: https://images.unsplash.com/photo-1534518009634-c05d08f02867?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=a9b7afb5b670e5656235e79d0fb06c67
 tags:
   - stuff

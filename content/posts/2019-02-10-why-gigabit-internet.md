@@ -1,6 +1,6 @@
 ---
 title: Why do you need Gigabit Internet?
-date: 2019-02-10T17:14:13.000Z
+date: 2019-02-10T17:14:13
 tags:
   - internet
   - neuland

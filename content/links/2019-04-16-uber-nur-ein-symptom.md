@@ -1,5 +1,5 @@
 ---
-date: 2019-04-16T20:31:23.000Z
+date: 2019-04-16T20:31:23
 type: link
 tags:
   - digitalisierung

@@ -1,6 +1,6 @@
 ---
 title: Lack of improvement?
-date: 2011-10-05T05:38:29.000Z
+date: 2011-10-05T05:38:29
 feature_image: https://images.unsplash.com/photo-1498622205843-3b0ac17f8ba4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=3a2c49473f09c5c1f767a7e5ad008077
 tags:
   - apple

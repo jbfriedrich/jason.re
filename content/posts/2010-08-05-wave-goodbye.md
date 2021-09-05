@@ -1,6 +1,6 @@
 ---
 title: Wave Goodbye
-date: 2010-08-05T03:59:53.000Z
+date: 2010-08-05T03:59:53
 feature_image: https://images.unsplash.com/photo-1529410804717-979530809e26?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=4892949a0d6f4dec1d321c48cb8075ab
 tags:
   - google

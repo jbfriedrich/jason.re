@@ -1,6 +1,6 @@
 ---
 title: What is music worth to you?
-date: 2012-05-08T15:06:59.000Z
+date: 2012-05-08T15:06:59
 feature_image: https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=f31acb85db3e244a057e53fabff5ff24
 tags:
   - entertainment

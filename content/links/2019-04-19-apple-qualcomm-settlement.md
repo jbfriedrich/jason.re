@@ -1,5 +1,5 @@
 ---
-date: 2019-04-19T17:55:31.000Z
+date: 2019-04-19T17:55:31
 type: link
 tags:
   - apple

@@ -1,6 +1,6 @@
 ---
 title: HE & DigitalOcean - Blocked IPv6 ports
-date: 2016-02-21T00:44:24.000Z
+date: 2016-02-21T00:44:24
 feature_image: https://images.unsplash.com/photo-1517373116369-9bdb8cdc9f62?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=1477902d871f75ce35d69ab0dc5631c0
 tags:
   - ipv6

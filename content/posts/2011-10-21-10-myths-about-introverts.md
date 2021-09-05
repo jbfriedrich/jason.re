@@ -1,6 +1,6 @@
 ---
 title: 10 Myths About Introverts
-date: 2011-10-21T05:15:30.000Z
+date: 2011-10-21T05:15:30
 feature_image: https://images.unsplash.com/photo-1506962522065-cf1bed0da013?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=57e9d75cfd5dbb851c48735b6c4e06b7
 tags:
   - stuff

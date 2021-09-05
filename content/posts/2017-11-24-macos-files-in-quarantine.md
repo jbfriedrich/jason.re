@@ -1,6 +1,6 @@
 ---
 title: "macOS: Video files in Quarantine"
-date: 2017-11-24T15:31:49.000Z
+date: 2017-11-24T15:31:49
 feature_image: https://images.unsplash.com/photo-1536240478700-b869070f9279?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=4334a0d339cd4f31582c32eeaf4f582a
 tags:
   - apple

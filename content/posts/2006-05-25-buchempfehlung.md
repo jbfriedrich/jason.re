@@ -1,6 +1,6 @@
 ---
 title: Buchempfehlung
-date: 2006-05-25T17:30:23.000Z
+date: 2006-05-25T17:30:23
 feature_image: https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=f77a56d958e4c43b4a0bad627feb927f
 tags:
   - books

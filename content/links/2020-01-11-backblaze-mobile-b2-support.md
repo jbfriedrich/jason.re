@@ -1,5 +1,5 @@
 ---
-date: 2020-01-11T17:24:05.661Z  
+date: 2020-01-11T17:24:05  
 linkurl: https://www.backblaze.com/blog/introducing-backblaze-mobile-5-0-with-b2-support/
 tags:
   - storage

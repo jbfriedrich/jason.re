@@ -1,6 +1,6 @@
 ---
 title: Back to Github Free
-date: 2019-08-04T18:44:06.000Z
+date: 2019-08-04T18:44:06
 feature_image: https://rmbr.eu/file/dstore/19/8/Screen-Shot-2019-08-04-at-19.59.48.png
 tags:
   - development

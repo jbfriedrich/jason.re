@@ -1,6 +1,6 @@
 ---
 title: Ansible Tower now Open-Source
-date: 2017-09-11T02:03:33.000Z
+date: 2017-09-11T02:03:33
 feature_image: https://images.unsplash.com/photo-1512403754473-27835f7b9984?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=ee49f38f92b75ec378c1b10ea03a46c7
 tags:
   - automation

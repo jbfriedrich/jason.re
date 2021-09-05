@@ -1,6 +1,6 @@
 ---
 title: "Linux Kernel: Kein Zugriff für Non-GPL Treiber"
-date: 2008-04-17T20:12:00.000Z
+date: 2008-04-17T20:12:00
 feature_image: https://images.unsplash.com/photo-1540761352041-7d28666d4e37?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=9ba969312e42ff647351076948c84b01
 tags:
   - linux

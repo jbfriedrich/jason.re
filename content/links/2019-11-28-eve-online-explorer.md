@@ -1,5 +1,5 @@
 ---
-date: 2019-11-28T18:08:39.012Z
+date: 2019-11-28T18:08:39
 linkurl: https://www.pcgamer.com/the-9-year-journey-to-explore-each-of-eve-onlines-7805-solar-systems
 tags:
   - gaming

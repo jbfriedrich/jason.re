@@ -1,6 +1,6 @@
 ---
 title: iPhone 8 Plus
-date: 2017-09-15T12:05:33.000Z
+date: 2017-09-15T12:05:33
 feature_image: https://images.unsplash.com/photo-1531312267124-cd1f431feb1e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=92a8bd465d96124b333acde13af758d6
 tags:
   - apple

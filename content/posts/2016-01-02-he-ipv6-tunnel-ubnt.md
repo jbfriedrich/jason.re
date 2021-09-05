@@ -1,6 +1,6 @@
 ---
 title: HE IPv6 tunnel with Ubnt EdgeMax Lite router
-date: 2016-01-02T21:26:15.000Z
+date: 2016-01-02T21:26:15
 feature_image: https://images.unsplash.com/photo-1528845922818-cc5462be9a63?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=070a3027c856334de5b5432d83226cc7
 tags:
   - ipv6

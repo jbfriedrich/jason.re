@@ -1,6 +1,6 @@
 ---
 title: The disadvantages of digital goods
-date: 2011-09-04T23:39:59.000Z
+date: 2011-09-04T23:39:59
 feature_image: https://images.unsplash.com/photo-1516295904088-1ff1398c9596?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=32ca35ce0ad0d80983208ab55975fa52
 tags:
   - society

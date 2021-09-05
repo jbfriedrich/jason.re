@@ -1,6 +1,6 @@
 ---
 title: Portierungswahnsinn mit O2
-date: 2012-05-30T21:25:46.000Z
+date: 2012-05-30T21:25:46
 feature_image: https://images.unsplash.com/photo-1525598912003-663126343e1f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=80539e5c2265317e866c660bdc7a3c45
 tags:
   - customer-service

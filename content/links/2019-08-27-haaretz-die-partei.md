@@ -1,5 +1,5 @@
 ---
-date: 2019-08-27T03:44:50.000Z
+date: 2019-08-27T03:44:50
 type: link
 tags:
   - politics

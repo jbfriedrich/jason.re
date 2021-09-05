@@ -1,6 +1,6 @@
 ---
 title: VPS Provider VULTR
-date: 2017-07-21T09:36:16.000Z
+date: 2017-07-21T09:36:16
 feature_image: https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=2ac2a0ba9c4b41180fa2038665684948
 tags:
   - hosting

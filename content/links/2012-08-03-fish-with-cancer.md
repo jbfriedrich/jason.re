@@ -1,5 +1,5 @@
 ---
-date: 2012-08-03T19:05:00.000Z
+date: 2012-08-03T19:05:00
 type: link
 tags:
   - science

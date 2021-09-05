@@ -1,6 +1,6 @@
 ---
 title: Evernote Spotlight Indexing
-date: 2016-01-02T22:02:01.000Z
+date: 2016-01-02T22:02:01
 feature_image: https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=7c871730e09afec7cf2cc0bb04115397
 tags:
   - apple

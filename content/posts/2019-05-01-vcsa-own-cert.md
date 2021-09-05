@@ -1,6 +1,6 @@
 ---
 title: Use your own certificates with vCenter 6.7
-date: 2019-05-01T02:24:15.000Z
+date: 2019-05-01T02:24:15
 feature_image: https://images.unsplash.com/photo-1553991562-9f24b119ff51?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
 tags:
   - vmware
@@ -229,7 +229,7 @@ Get service c7dd3576-dd91-4a82-8337-884ca8a53338
 Update service c7dd3576-dd91-4a82-8337-884ca8a53338; spec: /tmp/svcspec_b3f34v4c
 Updated 33 service(s)
 Status : 60% Completed [Replace vpxd-extension Cert...]
-2019-05-01T04:49:20.322Z  Updating certificate for "com.vmware.imagebuilder" extension
+2019-05-01T04:49:20  Updating certificate for "com.vmware.imagebuilder" extension
 
 Status : 100% Completed [All tasks completed successfully]
 ```

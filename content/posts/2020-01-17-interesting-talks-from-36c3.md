@@ -1,6 +1,6 @@
 ---
 title: Interessante Vortraege vom 36C3
-date: 2020-01-17T13:02:51.954Z
+date: 2020-01-17T13:02:51
 tags:
   - 36c3
   - ccc

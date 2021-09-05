@@ -1,7 +1,7 @@
 ---
 title: "Watched: Dark Phoenix"
 summary: "One of the worst movies that I have ever seen. Without a soul, without substance. Just great actors without a good script and CGI bombast."
-date: 2019-12-09T04:54:13+000Z
+date: 2019-12-09T04:54:13
 type: post
 tags: [de,entertainment,movies]
 ---

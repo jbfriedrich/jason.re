@@ -1,6 +1,6 @@
 ---
 title: iMac on the Fritz
-date: 2017-09-25T08:00:35.000Z
+date: 2017-09-25T08:00:35
 feature_image: https://rmbr.eu/file/dstore/18/8/hon8h9dvtbm.jpg
 tags:
   - apple

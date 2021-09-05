@@ -1,6 +1,6 @@
 ---
 title: VPN with Wireguard on macOS & iOS
-date: 2019-02-28T03:04:34.000Z
+date: 2019-02-28T03:04:34
 feature_image: https://images.unsplash.com/photo-1535191042502-e6a9a3d407e7?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
 tags:
   - networking

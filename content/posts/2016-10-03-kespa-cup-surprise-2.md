@@ -1,6 +1,6 @@
 ---
 title: KeSPA CUP Surprise
-date: 2016-10-03T23:37:04.000Z
+date: 2016-10-03T23:37:04
 feature_image: https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=9cc18a6f3ed9ebf05b550144c9003f5d
 tags:
   - esports

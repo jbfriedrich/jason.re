@@ -1,5 +1,5 @@
 ---
-date: 2019-11-28T17:58:28.171Z
+date: 2019-11-28T17:58:28
 linkurl: https://www.golem.de/news/surface-laptop-3-15-zoll-im-test-das-15-zoll-macbook-mit-windows-10-und-ryzen-1911-144837.html
 tags:
   - tech

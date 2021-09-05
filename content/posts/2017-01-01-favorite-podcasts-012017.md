@@ -1,6 +1,6 @@
 ---
 title: Favorite Podcasts 2017
-date: 2017-01-01T01:29:31.000Z
+date: 2017-01-01T01:29:31
 feature_image: https://images.unsplash.com/photo-1527150122806-f682d2fd8b09?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=4e3a5c35dd6d69ecf64167e706a500bc
 tags:
   - media

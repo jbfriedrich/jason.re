@@ -1,5 +1,5 @@
 ---
-date: 2019-12-19T09:32:33.553Z  
+date: 2019-12-19T09:32:33  
 linkurl: https://www.spiegel.de/netzwelt/web/greta-thunberg-twittert-advent-advent-das-internet-brennt-a-1301876.html
 tags:
   - umwelt

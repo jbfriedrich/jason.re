@@ -1,6 +1,6 @@
 ---
 title: Windows Server 2016 VPS at VultR
-date: 2017-07-21T12:01:24.000Z
+date: 2017-07-21T12:01:24
 feature_image: https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=50d27f3c17bcb1b8102f17b64668b092
 tags:
   - tech

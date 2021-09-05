@@ -1,5 +1,5 @@
 ---
-date: 2019-05-27T11:46:35.000Z
+date: 2019-05-27T11:46:35
 type: link
 tags:
   - brexit

@@ -1,6 +1,6 @@
 ---
 title: Fediverse Link Bot
-date: 2018-08-26T23:05:50.000Z
+date: 2018-08-26T23:05:50
 feature_image: https://images.unsplash.com/photo-1527168027773-0cc890c4f42e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=b8967a215ee951c7f2b2eb367042858f
 tags:
   - automation

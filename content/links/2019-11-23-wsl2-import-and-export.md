@@ -1,5 +1,5 @@
 ---
-date: 2019-11-23T15:39:45.114Z
+date: 2019-11-23T15:39:45
 linkurl: https://www.hanselman.com/blog/EasilyMoveWSLDistributionsBetweenWindows10MachinesWithImportAndExport.aspx
 tags:
   - windows

@@ -1,6 +1,6 @@
 ---
 title: We love surveillance
-date: 2015-01-04T06:19:54.000Z
+date: 2015-01-04T06:19:54
 feature_image: https://images.unsplash.com/photo-1512066944209-fbd762175570?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=e40fab58a1fe156133bbf73263a714e9
 tags:
   - society

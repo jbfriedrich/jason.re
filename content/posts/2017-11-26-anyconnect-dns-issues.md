@@ -1,6 +1,6 @@
 ---
 title: Cisco AnyConnect Client DNS issues
-date: 2017-11-26T15:01:50.000Z
+date: 2017-11-26T15:01:50
 feature_image: https://images.unsplash.com/photo-1532339848923-c4beffa7abcb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=24a4e38bb8b9e913fcc7bc041dd2ed2b
 tags:
   - apple

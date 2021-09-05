@@ -1,6 +1,6 @@
 ---
 title: The big games rip-off
-date: 2016-10-06T23:12:41.000Z
+date: 2016-10-06T23:12:41
 feature_image: https://images.unsplash.com/photo-1532219600601-8494408a4a2c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=e889f0f47e8c178a8ccc92d53b2ff2d3
 tags:
   - gaming

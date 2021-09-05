@@ -1,6 +1,6 @@
 ---
 title: Age of Empires - Disaster Edition
-date: 2018-04-24T00:19:46.000Z
+date: 2018-04-24T00:19:46
 draft: true
 tags:
   - gaming

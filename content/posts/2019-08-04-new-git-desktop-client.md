@@ -1,6 +1,6 @@
 ---
 title: A New Git Desktop Client
-date: 2019-08-04T17:07:07.000Z
+date: 2019-08-04T17:07:07
 feature_image: https://rmbr.eu/file/dstore/19/8/Screen-Shot-2019-08-04-at-17.43.48.png
 tags:
   - development

@@ -1,5 +1,5 @@
 ---
-date: 2016-10-05T21:50:02.000Z
+date: 2016-10-05T21:50:02
 type: link
 tags:
   - apple

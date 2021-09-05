@@ -1,6 +1,6 @@
 ---
 title: Raubtierzähmung
-date: 2007-10-31T06:36:21.000Z
+date: 2007-10-31T06:36:21
 feature_image: https://images.unsplash.com/photo-1489395370383-6c971aad30db?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=b905cb3eafc87db2e20cd00c92ac4679
 tags:
   - apple

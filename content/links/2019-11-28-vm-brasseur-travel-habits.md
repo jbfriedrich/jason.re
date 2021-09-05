@@ -1,5 +1,5 @@
 ---
-date: 2019-11-28T03:40:10.797Z  
+date: 2019-11-28T03:40:10  
 linkurl: 'https://anonymoushash.vmbrasseur.com/2019/11/25/my-travel-habits/'
 tags:
   - travel

@@ -1,5 +1,5 @@
 ---
-date: 2020-01-03T14:10:35+01:00
+date: 2020-01-03T14:10:35
 type: link
 linkurl: https://feeding.cloud.geek.nz/posts/encoding-wifi-access-point-passwords-qr-code/
 tags:
