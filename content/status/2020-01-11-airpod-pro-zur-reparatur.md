@@ -1,6 +1,5 @@
 ---
-identifier: AirPod Pro zur Reparatur
-date: 2020-01-11T17:12:36.054Z
+date: 2020-01-11T17:12:36
 tags:
   - apple
   - airpods

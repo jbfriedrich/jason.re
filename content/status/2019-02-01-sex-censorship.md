@@ -1,6 +1,5 @@
 ---
-identifier: Sex Censorship
-date: 2019-02-01T13:26:08.000Z
+date: 2019-02-01T13:26:08
 type: status
 tags:
   - society

@@ -1,6 +1,5 @@
 ---
-identifier: New Trine Game
-date: 2019-08-08T22:47:59.000Z
+date: 2019-08-08T22:47:58
 type: status
 tags:
   - gaming

@@ -1,6 +1,5 @@
 ---
-identifier: 'New music artist: Zaz'
-date: 2019-11-26T09:48:00.813Z
+date: 2019-11-26T09:48:00
 tags:
   - music
   - entertainment

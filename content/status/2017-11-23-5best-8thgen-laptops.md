@@ -1,6 +1,5 @@
 ---
-identifier: 5 Best 8th Gen Laptops
-date: 2017-11-23T11:06:04.000Z
+date: 2017-11-23T11:06:04
 type: status
 tags:
   - hardware

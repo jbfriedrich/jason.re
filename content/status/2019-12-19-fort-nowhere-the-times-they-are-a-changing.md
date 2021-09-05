@@ -1,6 +1,5 @@
 ---
-identifier: 'Fort Nowhere: The Times They Are A-Changing'
-date: 2019-12-19T09:45:20.844Z
+date: 2019-12-19T09:45:20
 tags:
   - entertainment
   - music

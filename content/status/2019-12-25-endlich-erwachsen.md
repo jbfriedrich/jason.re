@@ -1,6 +1,5 @@
 ---
-identifier: Endlich erwachsen
-date: 2019-12-25T06:22:37.938Z
+date: 2019-12-25T06:22:37
 tags:
   - personal
 type: status

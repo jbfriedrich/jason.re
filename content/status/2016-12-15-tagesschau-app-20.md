@@ -1,6 +1,5 @@
 ---
-identifier: Tagesschau App
-date: 2016-12-15T18:54:26.000Z
+date: 2016-12-15T18:54:26
 type: status
 tags:
   - media

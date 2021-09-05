@@ -1,6 +1,5 @@
 ---
-identifier: Apple Earnings Call Q1 FY2019
-date: 2019-01-29T23:11:14.000Z
+date: 2019-01-29T23:11:14
 type: status
 tags:
   - apple

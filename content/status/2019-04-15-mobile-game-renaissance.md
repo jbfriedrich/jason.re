@@ -1,6 +1,5 @@
 ---
-identifier: Mobile Game Renaissance
-date: 2019-04-15T19:15:57.000Z
+date: 2019-04-15T19:15:57
 type: status
 tags:
   - gaming

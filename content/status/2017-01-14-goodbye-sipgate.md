@@ -1,6 +1,5 @@
 ---
-identifier: Goodbye Sipgate
-date: 2017-01-14T14:58:45.000Z
+date: 2017-01-14T14:58:45
 type: status
 tags:
   - tech

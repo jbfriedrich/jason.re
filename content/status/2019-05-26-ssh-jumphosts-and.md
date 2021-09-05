@@ -1,6 +1,5 @@
 ---
-identifier: SSH Jumphosts
-date: 2019-05-26T19:48:38.000Z
+date: 2019-05-26T19:48:38
 type: status
 tags:
   - tech

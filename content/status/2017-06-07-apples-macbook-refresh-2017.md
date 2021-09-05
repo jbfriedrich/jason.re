@@ -1,6 +1,5 @@
 ---
-identifier: Apples Macbook Refresh 2017
-date: 2017-06-07T13:06:01.000Z
+date: 2017-06-07T13:06:01
 type: status
 tags:
   - apple

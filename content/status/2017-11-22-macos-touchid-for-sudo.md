@@ -1,6 +1,5 @@
 ---
-identifier: macOS TouchID for Sudo
-date: 2017-11-22T19:50:25.000Z
+date: 2017-11-22T19:50:25
 type: status
 tags:
   - apple

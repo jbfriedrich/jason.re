@@ -1,6 +1,5 @@
 ---
-identifier: Europas Leyen
-date: 2019-07-16T11:12:57.000Z
+date: 2019-07-16T11:12:57
 type: status
 tags:
   - politics

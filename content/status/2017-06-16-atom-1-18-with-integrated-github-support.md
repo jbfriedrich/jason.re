@@ -1,6 +1,5 @@
 ---
-identifier: Atom 1.18 with Integrated Github Support
-date: 2017-06-16T04:57:35.000Z
+date: 2017-06-16T04:57:35
 type: status
 tags:
   - tech

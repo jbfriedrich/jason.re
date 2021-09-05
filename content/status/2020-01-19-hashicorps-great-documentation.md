@@ -1,6 +1,5 @@
 ---
-identifier: Hashicorp's great documentation
-date: 2020-01-19T21:34:55.472Z
+date: 2020-01-19T21:34:55
 tags:
   - tech
 type: status

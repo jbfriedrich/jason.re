@@ -1,6 +1,5 @@
 ---
-date: 2019-11-22T17:14:23.942Z
-identifier: Pizza in a cup
+date: 2019-11-22T17:14:23
 tags:
   - food
   - recipe

@@ -1,6 +1,5 @@
 ---
-identifier: Fugly Tesla truck
-date: 2019-11-22T13:00:23.942Z
+date: 2019-11-22T13:00:23
 tags:
   - cars
 type: status

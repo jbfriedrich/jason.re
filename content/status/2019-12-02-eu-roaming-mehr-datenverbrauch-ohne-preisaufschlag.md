@@ -1,6 +1,5 @@
 ---
-identifier: 'EU Roaming: Mehr Datenverbrauch ohne Preisaufschlag'
-date: 2019-12-02T11:36:03.905Z
+date: 2019-12-02T11:36:03
 tags:
   - neuland
   - mobilfunk

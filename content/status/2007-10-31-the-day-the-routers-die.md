@@ -1,6 +1,5 @@
 ---
-identifier: The Day the Routers Died
-date: 2007-10-31T12:47:11.000Z
+date: 2007-10-31T12:47:11
 type: status
 tags:
   - internet

@@ -1,6 +1,5 @@
 ---
-identifier:  ATP Locked Down
-date: 2019-04-24T15:37:06.000Z
+date: 2019-04-24T15:37:06
 type: status
 tags:
   - apple

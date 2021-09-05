@@ -1,6 +1,5 @@
 ---
-identifier: Goodbye Azeroth
-date: 2009-07-23T02:54:56.000Z
+date: 2009-07-23T02:54:56
 type: status
 tags:
   - gaming

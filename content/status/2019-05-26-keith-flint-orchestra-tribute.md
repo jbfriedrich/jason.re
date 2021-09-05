@@ -1,6 +1,5 @@
 ---
-identifier: Keith Flint Orchestra Tribute
-date: 2019-05-26T23:19:26.000Z
+date: 2019-05-26T23:19:26
 type: status
 tags:
   - music

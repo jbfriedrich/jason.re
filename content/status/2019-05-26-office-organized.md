@@ -1,6 +1,5 @@
 ---
-identifier: Office reorganized
-date: 2019-05-26T19:23:26.000Z
+date: 2019-05-26T19:23:26
 type: status
 tags:
   - picture

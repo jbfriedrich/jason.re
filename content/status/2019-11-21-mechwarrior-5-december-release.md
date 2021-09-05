@@ -1,6 +1,5 @@
 ---
-identifier: Mechwarrior 5 Dec Release
-date: 2019-11-21T17:38:59.686Z
+date: 2019-11-21T17:38:59
 tags:
   - gaming
   - en

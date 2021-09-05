@@ -1,6 +1,5 @@
 ---
-identifier: 'iTerm2: Move windows back to panes'
-date: 2020-01-03T13:01:55+01:00
+date: 2020-01-03T13:01:55
 type: status
 language: en
 tags: [mac,iterm2,terminal,tech]

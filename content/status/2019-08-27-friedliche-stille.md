@@ -1,6 +1,5 @@
 ---
-identifier: Friedliche Stille
-date: 2019-08-27T03:56:57.000Z
+date: 2019-08-27T03:56:57
 type: status
 tags:
   - de

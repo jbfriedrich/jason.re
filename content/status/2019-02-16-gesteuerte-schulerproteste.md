@@ -1,6 +1,5 @@
 ---
-identifier: Gesteuerte Schulproteste
-date: 2019-02-16T22:12:23.000Z
+date: 2019-02-16T22:12:23
 type: status
 tags:
   - politics

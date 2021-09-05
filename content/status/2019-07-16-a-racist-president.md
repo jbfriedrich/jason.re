@@ -1,6 +1,5 @@
 ---
-identifier: A racist president
-date: 2019-07-16T10:58:16.000Z
+date: 2019-07-16T10:58:16
 type: status
 tags:
   - politics

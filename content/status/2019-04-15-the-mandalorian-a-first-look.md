@@ -1,6 +1,5 @@
 ---
-identifier: "The Mandalorian: A First Look"
-date: 2019-04-15T03:43:39.000Z
+date: 2019-04-15T03:43:39
 type: status
 tags:
   - entertainment

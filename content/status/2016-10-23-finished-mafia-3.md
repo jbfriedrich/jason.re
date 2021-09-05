@@ -1,6 +1,5 @@
 ---
-identifier: Finished Mafia 3
-date: 2016-10-23T19:26:36.000Z
+date: 2016-10-23T19:26:36
 type: status
 tags:
   - gaming

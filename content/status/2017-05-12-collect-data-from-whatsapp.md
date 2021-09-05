@@ -1,6 +1,5 @@
 ---
-identifier: Collect Data from Whatsapp
-date: 2017-05-12T16:06:56.000Z
+date: 2017-05-12T16:06:56
 type: status
 tags:
   - security

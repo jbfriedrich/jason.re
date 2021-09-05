@@ -1,6 +1,5 @@
 ---
-identifier: The science of Dubstep
-date: 2019-05-26T23:20:26.000Z
+date: 2019-05-26T23:20:26
 type: status
 tags:
   - music

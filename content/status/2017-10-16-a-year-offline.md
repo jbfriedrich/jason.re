@@ -1,6 +1,5 @@
 ---
-identifier: A Year Offline
-date: 2017-10-16T21:22:58.000Z
+date: 2017-10-16T21:22:58
 type: status
 tags:
   - internet

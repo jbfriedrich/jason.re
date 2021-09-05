@@ -1,6 +1,5 @@
 ---
-identifier: 'Kitematic not deprecated'
-date: 2020-01-03T13:50:15+01:00
+date: 2020-01-03T13:50:15
 type: status
 language: en
 tags: [mac,docker,container,tech]
