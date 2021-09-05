@@ -22,6 +22,7 @@ taxonomies:
   type: type
   language: lang
 
+timeZone: Europe/Berlin
 frontmatter:
   date:
     - "date"
