@@ -1,15 +1,10 @@
 ---
-title: VM Brasseur travel habits
-date: 2019-11-28T03:40:10.797Z
-link_comment: >-
-  Very interesting summary of travel habits and tips. Highly recommend it if you
-  have to travel a lot for work – or plan to.
-link_url: 'https://anonymoushash.vmbrasseur.com/2019/11/25/my-travel-habits/'
-link_title: Vicky Brasseur's travel habits and tips
+date: 2019-11-28T03:40:10.797Z  
+linkurl: 'https://anonymoushash.vmbrasseur.com/2019/11/25/my-travel-habits/'
 tags:
   - travel
   - workplace
+  - en
 type: link
-language: en
 ---
-
+Very interesting summary of Vicky Brasseur's travel habits and tips. Highly recommend it if you have to travel a lot for work – or plan to.

@@ -1,19 +1,22 @@
 baseURL: "https://jason.re"
 languageCode: "en-us"
-title: "The Tech Curmudgeon"
+title: "Thoughts, Links & Moods"
 theme: "hemingway"
 #publishDir: docs
 summaryLength: 50
-paginate: 5
+paginate: 6
 canonifyURLs: false
 footnoteReturnLinkContents: "↩"
 plainIDAnchors: true
 autolink: false
+assetDir: "static"
+# Date String Format: Mon Jan 2 15:04:05 MST 2006
+#sectionPagesMenu: main
 permalinks:
-  posts: /:slug
-  micros: /micro/:year:month:day/:slug
-  links: /:section/:slug
-  pictures: /:section/:slug
+  posts: /post/:title
+  status: /status/:2006:01:02:150405
+  links: /:section/:2006:01:02:150405
+  pictures: /:section/:title
 taxonomies:
   tag: tags
   type: type
@@ -34,29 +37,32 @@ frontmatter:
     - "publishDate"
     - "date"
 
+markup:
+  goldmark:
+    renderer:
+      hardWraps: true
 # if you want markdown WYSIWYG line break
-blackfriday:
+#blackfriday:
 #  extensions:
 #    - "hardLineBreak"
 
 # main menu
 menu:
   main:
-  - identifier: about
-    name: "About"
-    url: "/about/"
-    weight: 1
   - identifier: posts
-    name: "Blog Posts"
+    name: "Posts"
+    title: "Posts"
     url: "/posts/"
     weight: 2
-  - identifier: micros
-    name: "Micro Posts"
-    url: "/micros/"
+  - identifier: status
+    name: "Status"
+    url: "/status/"
+    title: "Status Posts"
     weight: 3
   - identifier: links
     name: "Links"
     url: "/links/"
+    title: "Links"
     weight: 4
 
 params:
@@ -67,13 +73,14 @@ params:
     thumbnail: "https://www.gravatar.com/avatar/3c4b5f09f9e988618881f349516028ab"
     image: "https://www.gravatar.com/avatar/3c4b5f09f9e988618881f349516028ab?s=250&d=mm&r=x"
     short_bio: "Just another left-handed, binge-watching tech geek who enjoys drinking coffee, playing video games and writing on the Internet."
-    bio: "Just another left-handed, binge-watching tech geek who enjoys drinking coffee, playing video games and writing on the Internet."
+    bio: "My name is Jason Friedrich. I am just another left-handed, binge-watching, tech geek who enjoys drinking coffee, playing video games and writing on the Internet. I've got my head stuck in the clouds for a living."
+    about: "This is my chalkboard where I make up my mind and utter my opinion. Here I gather my tech related documentation, write about my experiences and try new stuff. I am located in the Ruhrgebiet area and write in English and native German."
     social:
       github: "https://github.com/jbfriedrich"
       twitter: "https://twitter.com/jbfriedrich"
       mastodon: "https://mastodon.social/@jbf"
   email: "blog@jason.re"
-  copyright: © 2019 Jason Friedrich
+  copyright: © 2021 Jason Friedrich
   friendly_url: jason.re
 
 mediaTypes:
@@ -111,7 +118,7 @@ privacy:
     disable: false
     enableDNT: true
     simple: false
-    disableInlineCSS: false
+    disableInlineCSS: true
   vimeo:
     disable: false
     simple: false

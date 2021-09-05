@@ -2,6 +2,7 @@
 layout: post
 title: New Blogging Engine
 date: 2019-11-21T15:24:49.028Z
+summary: "I have used a lot of blogging solutions in the past, and went through quite a few applications. From Wordpress to Octopress, to Ghost and back. None of them had all the features I wanted. Now I might have found what I was looking for. Maybe..."
 feature_image: >-
   https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&q=80
 tags:
