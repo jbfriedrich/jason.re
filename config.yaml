@@ -50,6 +50,11 @@ markup:
 # main menu
 menu:
   main:
+  - identifier: home
+    name: "Home"
+    title: "Home"
+    url: "/"
+    weight: 1
   - identifier: posts
     name: "Posts"
     title: "Posts"
@@ -64,6 +69,12 @@ menu:
     name: "Links"
     url: "/links/"
     title: "Links"
+    weight: 4
+  footer:
+  - identifier: website
+    name: "Website"
+    url: "https://friedrich.uk"
+    title: "Website"
     weight: 4
 
 params:
