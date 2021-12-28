@@ -65,19 +65,11 @@ menu:
     url: "/status/"
     title: "Status Posts"
     weight: 3
-  - identifier: links
-    name: "Links"
-    url: "/links/"
-    title: "Links"
-    weight: 4
-  footer:
-  - identifier: website
-    name: "Website"
-    url: "https://friedrich.uk"
-    title: "Website"
-    weight: 4
 
 params:
+  mainSections:
+  - posts
+  - status
   author:
     given_name: "Jason"
     family_name: "Friedrich"
@@ -87,6 +79,7 @@ params:
     short_bio: "Just another left-handed, binge-watching tech geek who enjoys drinking coffee, playing video games and writing on the Internet."
     bio: "My name is Jason Friedrich. I am just another left-handed, binge-watching, tech geek who enjoys drinking coffee, playing video games and writing on the Internet. I've got my head stuck in the clouds for a living."
     about: "This is my chalkboard where I make up my mind and utter my opinion. Here I gather my tech related documentation, write about my experiences and try new stuff. I am located in the Ruhrgebiet area and write in English and native German."
+    website: "https://friedrich.uk"
     social:
       github: "https://github.com/jbfriedrich"
       twitter: "https://twitter.com/jbfriedrich"
