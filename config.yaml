@@ -55,16 +55,19 @@ menu:
     title: "Home"
     url: "/"
     weight: 1
-  - identifier: posts
-    name: "Posts"
-    title: "Posts"
-    url: "/posts/"
+    pre: '<i role="img" class="bi bi-house-fill"></i>'
+  - identifier: about
+    name: "About"
+    title: "About"
+    url: "/about/"
     weight: 2
-  - identifier: status
-    name: "Status"
-    url: "/status/"
-    title: "Status Posts"
-    weight: 3
+    pre: '<i role="img" class="bi bi-person-fill"></i>'
+  - identifier: twitter
+    name: "Twitter"
+    title: "Twitter"
+    url: "https://twitter.com/jbfriedrich"
+    weight: 5
+    pre: '<i role="img" class="bi bi-twitter"></i>'
 
 params:
   mainSections:
@@ -76,16 +79,9 @@ params:
     display_name: "Jason Friedrich"
     thumbnail: "https://www.gravatar.com/avatar/3c4b5f09f9e988618881f349516028ab"
     image: "https://www.gravatar.com/avatar/3c4b5f09f9e988618881f349516028ab?s=250&d=mm&r=x"
-    short_bio: "Just another left-handed, binge-watching tech geek who enjoys drinking coffee, playing video games and writing on the Internet."
-    bio: "My name is Jason Friedrich. I am just another left-handed, binge-watching, tech geek who enjoys drinking coffee, playing video games and writing on the Internet. I've got my head stuck in the clouds for a living."
-    about: "This is my chalkboard where I make up my mind and utter my opinion. Here I gather my tech related documentation, write about my experiences and try new stuff. I am located in the Ruhrgebiet area and write in English and native German."
     website: "https://friedrich.uk"
-    social:
-      github: "https://github.com/jbfriedrich"
-      twitter: "https://twitter.com/jbfriedrich"
-      mastodon: "https://mastodon.social/@jbf"
   email: "blog@jason.re"
-  copyright: © 2021 Jason Friedrich
+  copyright: © 2022 Jason Friedrich
   friendly_url: jason.re
 
 mediaTypes:
