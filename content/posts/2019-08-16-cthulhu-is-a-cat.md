@@ -10,7 +10,14 @@ tags:
 When I saw "[Gibbous - A Cthulhu Adventure](https://gibbousgame.com/)", I immediately liked the premise of the story, and the fact that it was a 90's-style Adventure Game! A leopard cannot change its spots, and I am a sucker for these type of games. In addition, it is a small, independent studio from Transylvania, that used a [Kickstarter](https://www.kickstarter.com/projects/stuckinattic/gibbous-a-cthulhu-adventure) campaign to finance their very first own game? "Shut up and take my money!" 
 
 The puzzles are easy when you have an "Adventure Game" background - with a couple of exceptions of the rule. Especially to the end of the game, at the end of chapter six, there are some pretty hard, almost unfair puzzles. All in all I would say it is a nice balance, especially for newcomers to the genre.
-{{< img src="https://rmbr.eu/file/dstore/19/8/_Gibbous01.PNG" >}}{{< img src="https://rmbr.eu/file/dstore/19/8/_Gibbous05.PNG" >}}{{< img src="https://rmbr.eu/file/dstore/19/8/_Gibbous12.PNG" >}}{{< img src="https://rmbr.eu/file/dstore/19/8/_Gibbous02.PNG" >}}
+
+{{< img src="https://rmbr.eu/file/dstore/19/8/_Gibbous01.PNG" >}}
+
+{{< img src="https://rmbr.eu/file/dstore/19/8/_Gibbous05.PNG" >}}
+
+{{< img src="https://rmbr.eu/file/dstore/19/8/_Gibbous12.PNG" >}}
+
+{{< img src="https://rmbr.eu/file/dstore/19/8/_Gibbous02.PNG" >}}
 
 I loved every minute of this game, every reference and every little hint. Up until I reached the ending. I will not spoil anything here, but the ending left me deeply unsatisfied and confused. It also leaves the door open for a sequel. I really hope they make enough money of this game to go back, and maybe change the ending a little bit. Explain a little more and do not rely on the player of turning every stone, looking at every item and reading every in-game book. 
 

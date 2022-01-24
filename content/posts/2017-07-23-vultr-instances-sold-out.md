@@ -20,7 +20,7 @@ I immediately had the feeling that they want to artificially limit the creation 
 I was curious, so I reached out to their Support Team and quickly got a reply:
 
 > Thank you for your interest in our $2.50 ‘sandbox’ plan. The plan is currently available in limited quantities in our Miami and New York/New Jersey locations. **Why is this awesome plan available in select locations?** It boils down to supply and demand. In order to maintain the high performance you’ve come to know and love at Vultr we limit the number of sandbox plans on each physical host node. This helps ensure the absolute best performance for our production-ready instances. **Will this inventory be replenished in other locations?**  
->  Yes. We expect additional sandbox capacity will come online soon. Please visit <https://my.vultr.com/deploy> periodically and consider following us on Twitter for updates and other breaking news.
+> Yes. We expect additional sandbox capacity will come online soon. Please visit <https://my.vultr.com/deploy> periodically and consider following us on Twitter for updates and other breaking news.
 
 That answer did not feel very satisfying, so I contacted them again and wrote about my thoughts what the reason behind this limitation could be. I received the following additional message:
 
