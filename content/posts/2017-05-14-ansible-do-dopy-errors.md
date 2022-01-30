@@ -17,4 +17,6 @@ This was weird, as I was sure I had installed dopy via pip (and pip via Homebrew
 
 `localhost ansible_connection=local ansible_python_interpreter=python`
 
-to the hosts file, [or](https://github.com/ansible/ansible-modules-core/issues/360) run `/usr/local/Cellar/ansible/2.3.0.0_2/libexec/bin/pip install dopy==0.3.7a`.
+to the hosts file, [or](https://github.com/ansible/ansible-modules-core/issues/360) run
+
+`/usr/local/Cellar/ansible/2.3.0.0_2/libexec/bin/pip install dopy==0.3.7a`.
