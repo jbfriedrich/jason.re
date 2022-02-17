@@ -17,7 +17,7 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Read .env
+      - name: Get Hugo version from .env
         id: hugo-version
         run: |
           . ./.env
@@ -26,22 +26,29 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.91.2'
+          hugo-version: '${{ steps.hugo-version.outputs.HUGO_VERSION }}'
           # extended: true
 
-      - uses: actions/cache@v2
+      - name: Cache Hugo modules
+        uses: actions/cache@v2
         with:
           path: /tmp/hugo_cache
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
 
-      - name: Build
+      - name: Build with Hugo
         run: hugo --minify
 
-      - name: Deploy
+      - name: Deploy content
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
+
+      - name: Purge Cloudflare cache
+        uses: jakejarvis/cloudflare-purge-action@v0.3.0
+        env:
+          CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
+          CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
