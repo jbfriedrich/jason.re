@@ -1,0 +1,115 @@
+<!doctype html><html lang=en>
+<head>
+<title>
+HE & DigitalOcean - Blocked IPv6 ports | Thoughts, Links & Moods
+</title>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=HandheldFriendly content="True">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="jason.re • Thoughts, Links & Moods">
+<meta name=author content="Jason Friedrich">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="HE & DigitalOcean - Blocked IPv6 ports">
+<meta name=twitter:description content="I recently created several Virtual Machines on my new Hetzner server as part of my migration efforts from DigitalOcean to my self-hosted ESXi hypervisor. I don’t migrate my VMs and services away from DigitalOcean because I am not satisfied with their service, quite the contrary in fact. I am doing it because my own self-hosted hypervisor allows more flexibility for my learning and testing efforts.">
+<meta property="og:title" content="HE & DigitalOcean - Blocked IPv6 ports">
+<meta property="og:description" content="I recently created several Virtual Machines on my new Hetzner server as part of my migration efforts from DigitalOcean to my self-hosted ESXi hypervisor. I don’t migrate my VMs and services away from DigitalOcean because I am not satisfied with their service, quite the contrary in fact. I am doing it because my own self-hosted hypervisor allows more flexibility for my learning and testing efforts.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://jason.re/post/he-digitalocean-blocked-ipv6-ports/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2016-02-21T00:44:24+01:00">
+<meta property="article:modified_time" content="2022-02-17T21:39:26+00:00">
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap" rel=stylesheet>
+<link rel=preconnect href=https://cdn.jsdelivr.net>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css>
+<link rel=stylesheet type=text/css href=/css/highlightjs/tomorrow-night.css>
+<link rel=stylesheet href=/css/style.min.css>
+<link rel="shortcut icon" href=/favicon.ico>
+<script src=/js/highlight.pack.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</head>
+<body id=top class=main>
+<header class=header>
+<div class=header-logo>
+<img class=logo title=About srcset="/images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_122x0_resize_box_3.png, /images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_244x0_resize_box_3.png 2x" alt="Blog Logo" src=/images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_244x0_resize_box_3.png>
+</div>
+<h1 class=blog-title>Thoughts, Links & Moods</h1>
+<nav class=header-nav>
+<div class=grid-canvas>
+<div class=primary-nav>
+<a class=header-nav-entry title=Home href=/><i role=img class="bi bi-house-fill"></i><span>Home</span></a>
+<a class=header-nav-entry title=About href=/about/><i role=img class="bi bi-person-fill"></i><span>About</span></a>
+<a class=header-nav-entry title=Twitter href=https://twitter.com/jbfriedrich><i role=img class="bi bi-twitter"></i><span>Twitter</span></a>
+</div>
+</div>
+</nav>
+</header>
+<main class=content>
+<article class="full-post type-post">
+<header class="post-header grid-canvas">
+<h2 class=post-date>February 21, 2016</h2>
+<h1 class="post-title has-feature-image">HE & DigitalOcean - Blocked IPv6 ports</h1>
+<figure class="figure feature-figure">
+<img alt="Page Feature Image" class=feature-image src="https://images.unsplash.com/photo-1517373116369-9bdb8cdc9f62?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=1477902d871f75ce35d69ab0dc5631c0">
+</figure>
+</header>
+<main class="post-content grid-canvas">
+<p>I recently created several Virtual Machines on my new <a href=https://www.hetzner.de/us/hosting/produkte_rootserver/ex51>Hetzner</a> server as part of my migration efforts from <a href=https://m.do.co/c/8469d730e168>DigitalOcean</a> to my self-hosted ESXi hypervisor. I don’t migrate my VMs and services away from <a href=https://m.do.co/c/8469d730e168>DigitalOcean</a> because I am not satisfied with their service, quite the contrary in fact. I am doing it because my own self-hosted hypervisor allows more flexibility for my learning and testing efforts.</p>
+<p>While double-checking the VMs for running services and open ports, I noticed that my Hurricane Electric IPv6 address has some filtered ports that I did not notice before:</p>
+<figure class="figure image-figure">
+<img class=image src=https://rmbr.eu/file/dstore/16/2/Screen-Shot-2016-02-20-at-22-24-25.png alt=Nmap>
+<figcaption class="figure-caption image-figure-caption">Nmap</figcaption>
+</figure>
+<p>I looked at the <a href=https://ipv6.he.net/certification/faq.php>Hurricane Electric FAQ</a> and it explains why these ports are filtered and how to get these ports un-blocked:</p>
+<blockquote>
+<p><strong>Why can I not connect to IRC?</strong><br>
+Due to a high and persistent amount of abuse, we’ve had to filter IRC access by default. If you need IRC access, complete the Sage level of the free IPv6 certification and then please send an email to <a href=mailto:ipv6@he.net>ipv6@he.net</a> explaining your situation. Approvals will be handled on a case-by-case basis. <strong>I can’t send email via IPv6. What’s wrong?</strong><br>
+Due to a high and persistent amount of abuse, we had to filter SMTP (tcp/25) connections by default. If you’re not providing email service yourself, you should be able to use port 587 instead to your provider’s email server. If you are providing email services over your tunnel and need port 25 opened, please send an email to <a href=mailto:ipv6@he.net>ipv6@he.net</a> explaining your situation. NOTE: this filtering does not affect the SMTP-related tests on the IPv6 certification program.</p>
+</blockquote>
+<p>Pretty straight-forward and well-explained. Knowing that these ports are blocked, I wanted to use one of my IPv6-enabled DigitalOcean droplets as this should not filter anything and give me an unaltered list of open ports:</p>
+<figure class="figure image-figure">
+<img class=image src=https://rmbr.eu/file/dstore/16/2/Screen-Shot-2016-02-20-at-22-27-26.png alt=Nmap>
+<figcaption class="figure-caption image-figure-caption">Nmap</figcaption>
+</figure>
+<p>Man, I was so wrong! It looks like DigitalOcean is blocking ports as well, though their blocking made much less sense to me. I could not find anything in the <a href=https://www.digitalocean.com/help/>help section on their homepage</a>, but was able to find an article in their ‘Support Center’ that is accessible once you log in:</p>
+<blockquote>
+<p><strong>How to send emails with IPv6 enabled</strong><br>
+We currently do not allow SMTP traffic over IPv6 as a side effect of how email black lists treat IPv6 addresses.You can give priority to IPv4 addresses over IPv6 so that you can continue to send out email without disabling IPv6. You would do that by editing the Droplet’s <em>/etc/gai.conf</em> file and removing the comment (#) from the following line:<br>
+Default Configuration:<br>
+#precedence ::ffff:0:0/96 100<br>
+Configuration with Priority to IPv4:<br>
+precedence ::ffff:0:0/96 100</p>
+</blockquote>
+<p>As mentioned in a <a href="https://www.digitalocean.com/community/tutorials/how-to-enable-ipv6-for-digitalocean-droplets?comment=15503">comment</a> on their “<a href=https://www.digitalocean.com/community/tutorials/how-to-enable-ipv6-for-digitalocean-droplets>How To Enable IPv6 for DigitalOcean Droplets</a>” site, there seems to be no way of getting rid of these restrictions. Even when you <a href=https://warrenguy.me/blog/ipv6-digital-ocean-crippled>contact their support</a> on this specific issue.</p>
+<p>I can understand the blocking of <a href=https://en.wikipedia.org/wiki/Internet_Relay_Chat>IRC ports</a> and <a href=https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>port 25</a> for the reasons Hurricane Electric is giving in their FAQ. However I cannot understand the blocking of the <a href=https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>ports 587, 465</a>, <a href=https://en.wikipedia.org/wiki/Post_Office_Protocol>110, 995</a> and <a href=https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol>143</a>.</p>
+<p><strong>Lesson learned:</strong> Always use additional external tools — like <a href=http://mxtoolbox.com/NetworkTools.aspx>MXTools</a> — to verify your VM’s open ports, if your source IPv6 address is from DigitalOcean or Hurricane Electric!</p>
+</main>
+<aside class="tags grid-canvas">
+<ul class=taglist>
+<li class=tag><a class=tag-link href=/tags/ipv6 title="Posts tagged with ipv6"><i class="bi bi-tag"></i>ipv6</a></li>
+<li class=tag><a class=tag-link href=/tags/networking title="Posts tagged with networking"><i class="bi bi-tag"></i>networking</a></li>
+<li class=tag><a class=tag-link href=/tags/tech title="Posts tagged with tech"><i class="bi bi-tag"></i>tech</a></li>
+<li class=tag><a class=tag-link href=/tags/en title="Posts tagged with en"><i class="bi bi-tag"></i>en</a></li>
+</ul>
+</aside>
+</article>
+</main>
+<div class=footer>
+<div class=grid-canvas>
+<div class=footer-nav>
+<div class=notice>© 2022 Jason Friedrich</div>
+<nav class=header-nav>
+<div class=secondary-nav>
+<a class="header-nav-entry desktop-nav-entry" title=Home href=/><i role=img class="bi bi-house-fill"></i><span>Home</span></a>
+<a class="header-nav-entry desktop-nav-entry" title=About href=/about/><i role=img class="bi bi-person-fill"></i><span>About</span></a>
+<a class="header-nav-entry desktop-nav-entry" title=Twitter href=https://twitter.com/jbfriedrich><i role=img class="bi bi-twitter"></i><span>Twitter</span></a>
+<a class=header-nav-entry title="Top " href=#top>&#8593; Top &#8593;</a>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</body>
+</html>

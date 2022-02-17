@@ -1,0 +1,117 @@
+<!doctype html><html lang=en>
+<head>
+<title>
+Just tried to search for some Django modules in pip and got … | Thoughts, Links & Moods
+</title>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=HandheldFriendly content="True">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="jason.re • Thoughts, Links & Moods">
+<meta name=author content="Jason Friedrich">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="PyPi Service Degradation">
+<meta name=twitter:description content="Just tried to search for some Django modules in pip and got a very nasty surprise.
+ERROR: Exception: Traceback (most recent call last): File &#34;/usr/local/lib/python3.8/site-packages/pip/_internal/cli/base_command.py&#34;, line 224, in _main status = self.run(options, args) File &#34;/usr/local/lib/python3.8/site-packages/pip/_internal/commands/search.py&#34;, line 62, in run pypi_hits = self.search(query, options) File &#34;/usr/local/lib/python3.8/site-packages/pip/_internal/commands/search.py&#34;, line 82, in search hits = pypi.">
+<meta property="og:title" content="PyPi Service Degradation">
+<meta property="og:description" content="Just tried to search for some Django modules in pip and got a very nasty surprise.
+ERROR: Exception: Traceback (most recent call last): File &#34;/usr/local/lib/python3.8/site-packages/pip/_internal/cli/base_command.py&#34;, line 224, in _main status = self.run(options, args) File &#34;/usr/local/lib/python3.8/site-packages/pip/_internal/commands/search.py&#34;, line 62, in run pypi_hits = self.search(query, options) File &#34;/usr/local/lib/python3.8/site-packages/pip/_internal/commands/search.py&#34;, line 82, in search hits = pypi.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://jason.re/status/20201222190000/"><meta property="article:section" content="status">
+<meta property="article:published_time" content="2020-12-22T19:00:00+01:00">
+<meta property="article:modified_time" content="2022-02-17T21:39:26+00:00">
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap" rel=stylesheet>
+<link rel=preconnect href=https://cdn.jsdelivr.net>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css>
+<link rel=stylesheet type=text/css href=/css/highlightjs/tomorrow-night.css>
+<link rel=stylesheet href=/css/style.min.css>
+<link rel="shortcut icon" href=/favicon.ico>
+<script src=/js/highlight.pack.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</head>
+<body id=top class=main>
+<header class=header>
+<div class=header-logo>
+<img class=logo title=About srcset="/images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_122x0_resize_box_3.png, /images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_244x0_resize_box_3.png 2x" alt="Blog Logo" src=/images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_244x0_resize_box_3.png>
+</div>
+<h1 class=blog-title>Thoughts, Links & Moods</h1>
+<nav class=header-nav>
+<div class=grid-canvas>
+<div class=primary-nav>
+<a class=header-nav-entry title=Home href=/><i role=img class="bi bi-house-fill"></i><span>Home</span></a>
+<a class=header-nav-entry title=About href=/about/><i role=img class="bi bi-person-fill"></i><span>About</span></a>
+<a class=header-nav-entry title=Twitter href=https://twitter.com/jbfriedrich><i role=img class="bi bi-twitter"></i><span>Twitter</span></a>
+</div>
+</div>
+</nav>
+</header>
+<main class=content>
+<article class="full-post type-post">
+<header class="post-header grid-canvas">
+<h1 class="post-date status-date">December 22, 2020</h1>
+</header>
+<main class="post-content grid-canvas">
+<p>Just tried to search for some Django modules in <code>pip</code> and got a very nasty surprise.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>ERROR: <span style=color:#a6e22e>Exception</span>:
+Traceback (most recent call last):
+  File <span style=color:#e6db74>&#34;/usr/local/lib/python3.8/site-packages/pip/_internal/cli/base_command.py&#34;</span>, line <span style=color:#ae81ff>224</span>, <span style=color:#f92672>in</span> _main
+    status <span style=color:#f92672>=</span> self<span style=color:#f92672>.</span>run(options, args)
+  File <span style=color:#e6db74>&#34;/usr/local/lib/python3.8/site-packages/pip/_internal/commands/search.py&#34;</span>, line <span style=color:#ae81ff>62</span>, <span style=color:#f92672>in</span> run
+    pypi_hits <span style=color:#f92672>=</span> self<span style=color:#f92672>.</span>search(query, options)
+  File <span style=color:#e6db74>&#34;/usr/local/lib/python3.8/site-packages/pip/_internal/commands/search.py&#34;</span>, line <span style=color:#ae81ff>82</span>, <span style=color:#f92672>in</span> search
+    hits <span style=color:#f92672>=</span> pypi<span style=color:#f92672>.</span>search({<span style=color:#e6db74>&#39;name&#39;</span>: query, <span style=color:#e6db74>&#39;summary&#39;</span>: query}, <span style=color:#e6db74>&#39;or&#39;</span>)
+  File <span style=color:#e6db74>&#34;/usr/local/lib/python3.8/xmlrpc/client.py&#34;</span>, line <span style=color:#ae81ff>1109</span>, <span style=color:#f92672>in</span> __call__
+    <span style=color:#66d9ef>return</span> self<span style=color:#f92672>.</span>__send(self<span style=color:#f92672>.</span>__name, args)
+  File <span style=color:#e6db74>&#34;/usr/local/lib/python3.8/xmlrpc/client.py&#34;</span>, line <span style=color:#ae81ff>1450</span>, <span style=color:#f92672>in</span> __request
+    response <span style=color:#f92672>=</span> self<span style=color:#f92672>.</span>__transport<span style=color:#f92672>.</span>request(
+  File <span style=color:#e6db74>&#34;/usr/local/lib/python3.8/site-packages/pip/_internal/network/xmlrpc.py&#34;</span>, line <span style=color:#ae81ff>46</span>, <span style=color:#f92672>in</span> request
+    <span style=color:#66d9ef>return</span> self<span style=color:#f92672>.</span>parse_response(response<span style=color:#f92672>.</span>raw)
+  File <span style=color:#e6db74>&#34;/usr/local/lib/python3.8/xmlrpc/client.py&#34;</span>, line <span style=color:#ae81ff>1341</span>, <span style=color:#f92672>in</span> parse_response
+    <span style=color:#66d9ef>return</span> u<span style=color:#f92672>.</span>close()
+  File <span style=color:#e6db74>&#34;/usr/local/lib/python3.8/xmlrpc/client.py&#34;</span>, line <span style=color:#ae81ff>655</span>, <span style=color:#f92672>in</span> close
+    <span style=color:#66d9ef>raise</span> Fault(<span style=color:#f92672>**</span>self<span style=color:#f92672>.</span>_stack[<span style=color:#ae81ff>0</span>])
+xmlrpc<span style=color:#f92672>.</span>client<span style=color:#f92672>.</span>Fault: <span style=color:#f92672>&lt;</span>Fault <span style=color:#f92672>-</span><span style=color:#ae81ff>32500</span>: <span style=color:#e6db74>&#34;RuntimeError: PyPI&#39;s XMLRPC API has been temporarily disabled due to unmanageable load and will be deprecated in the near future. See https://status.python.org/ for more information.&#34;</span><span style=color:#f92672>&gt;</span>
+</code></pre></div><p><a href=https://status.python.org>Python&rsquo;s status site</a> has more nasty details:</p>
+<blockquote>
+<p><strong>Update</strong> — Dec 15, 20:59 UTC<br>
+The XMLRPC Search endpoint is still disabled due to ongoing request volume. As of this update, there has been no reduction in inbound traffic to the endpoint from abusive IPs and we are unable to re-enable the endpoint, as it would immediately cause PyPI service to degrade again. We are working with the abuse contact at the owner of the IPs and trying to make contact with the maintainers of whatever tool is flooding us via other channels.<br>
+<strong>Monitoring</strong> — Dec 14, 17:46 UTC<br>
+With the temporary disabling of XMLRPC we are hoping that the mass consumer that is causing us trouble will make contact. Due to the huge swath of IPs we were unable to make a more targeted block without risking more severe disruption, and were not able to receive a response from their abuse contact or direct outreach in an actionable time frame.<br>
+<strong>Update</strong> — Dec 14, 17:30 UTC<br>
+Due to the overwhelming surges of inbound XMLRPC search requests (and growing) we will be temporarily disabling the XMLRPC search endpoint until further notice.<br>
+<strong>Identified</strong> — Dec 14, 15:09 UTC<br>
+We&rsquo;ve identified that the issue is with excess volume to our XLMRPC search endpoint that powers <code>pip search</code> among other tools. We are working to try to identify patterns and prohibit abusive clients to retain service health.<br>
+<strong>Investigating</strong> — Dec 14, 09:41 UTC<br>
+PyPI&rsquo;s search backends are experiencing an outage causing the backends to timeout and fail, leading to degradation of service for the web app. Uploads and installs are currently unaffected but logged in actions and search via the web app and API access via XMLRPC are currently experiencing partial outages.</p>
+</blockquote>
+<p>Damn, had to happen one day I guess. Single point of failure, infrastructure provided by volunteers and goodwill. Hope they can resolve this soon.</p>
+</main>
+<aside class="tags grid-canvas">
+<ul class=taglist>
+<li class=tag><a class=tag-link href=/tags/python title="Posts tagged with python"><i class="bi bi-tag"></i>python</a></li>
+<li class=tag><a class=tag-link href=/tags/development title="Posts tagged with development"><i class="bi bi-tag"></i>development</a></li>
+<li class=tag><a class=tag-link href=/tags/en title="Posts tagged with en"><i class="bi bi-tag"></i>en</a></li>
+</ul>
+</aside>
+</article>
+</main>
+<div class=footer>
+<div class=grid-canvas>
+<div class=footer-nav>
+<div class=notice>© 2022 Jason Friedrich</div>
+<nav class=header-nav>
+<div class=secondary-nav>
+<a class="header-nav-entry desktop-nav-entry" title=Home href=/><i role=img class="bi bi-house-fill"></i><span>Home</span></a>
+<a class="header-nav-entry desktop-nav-entry" title=About href=/about/><i role=img class="bi bi-person-fill"></i><span>About</span></a>
+<a class="header-nav-entry desktop-nav-entry" title=Twitter href=https://twitter.com/jbfriedrich><i role=img class="bi bi-twitter"></i><span>Twitter</span></a>
+<a class=header-nav-entry title="Top " href=#top>&#8593; Top &#8593;</a>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</body>
+</html>

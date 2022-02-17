@@ -1,0 +1,112 @@
+<!doctype html><html lang=en>
+<head>
+<title>
+Let's Encrypt - Beta Impressions | Thoughts, Links & Moods
+</title>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=HandheldFriendly content="True">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="jason.re • Thoughts, Links & Moods">
+<meta name=author content="Jason Friedrich">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Let's Encrypt - Beta Impressions">
+<meta name=twitter:description content="The Let’s Encrypt Beta has finally started. I registered a couple of weeks ago and the domains I use regularly got white-listed. Just a few impressions so far:
+ The client ist still pretty basic, it comes with a little wrapper that builds a virtual environment for all the required python modules (which is very nice and comfortable) The plugin to automatically configure Apache is still in alpha The plugin to automatically configure Nginx is buggy and what seems pre-alpha (I think it is not delivered/used currently at all) Don’t manually mess with /etc/letsencrypt as in never ever!">
+<meta property="og:title" content="Let's Encrypt - Beta Impressions">
+<meta property="og:description" content="The Let’s Encrypt Beta has finally started. I registered a couple of weeks ago and the domains I use regularly got white-listed. Just a few impressions so far:
+ The client ist still pretty basic, it comes with a little wrapper that builds a virtual environment for all the required python modules (which is very nice and comfortable) The plugin to automatically configure Apache is still in alpha The plugin to automatically configure Nginx is buggy and what seems pre-alpha (I think it is not delivered/used currently at all) Don’t manually mess with /etc/letsencrypt as in never ever!">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://jason.re/post/lets-encrypt-beta-impressions/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2015-11-06T17:19:05+01:00">
+<meta property="article:modified_time" content="2022-02-17T21:39:26+00:00">
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap" rel=stylesheet>
+<link rel=preconnect href=https://cdn.jsdelivr.net>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css>
+<link rel=stylesheet type=text/css href=/css/highlightjs/tomorrow-night.css>
+<link rel=stylesheet href=/css/style.min.css>
+<link rel="shortcut icon" href=/favicon.ico>
+<script src=/js/highlight.pack.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</head>
+<body id=top class=main>
+<header class=header>
+<div class=header-logo>
+<img class=logo title=About srcset="/images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_122x0_resize_box_3.png, /images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_244x0_resize_box_3.png 2x" alt="Blog Logo" src=/images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_244x0_resize_box_3.png>
+</div>
+<h1 class=blog-title>Thoughts, Links & Moods</h1>
+<nav class=header-nav>
+<div class=grid-canvas>
+<div class=primary-nav>
+<a class=header-nav-entry title=Home href=/><i role=img class="bi bi-house-fill"></i><span>Home</span></a>
+<a class=header-nav-entry title=About href=/about/><i role=img class="bi bi-person-fill"></i><span>About</span></a>
+<a class=header-nav-entry title=Twitter href=https://twitter.com/jbfriedrich><i role=img class="bi bi-twitter"></i><span>Twitter</span></a>
+</div>
+</div>
+</nav>
+</header>
+<main class=content>
+<article class="full-post type-post">
+<header class="post-header grid-canvas">
+<h2 class=post-date>November 6, 2015</h2>
+<h1 class="post-title has-feature-image">Let's Encrypt - Beta Impressions</h1>
+<figure class="figure feature-figure">
+<img alt="Page Feature Image" class=feature-image src="https://images.unsplash.com/photo-1485761954900-f9a29f318567?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=aaab19590fcc9502b5195bc6006249c4">
+</figure>
+</header>
+<main class="post-content grid-canvas">
+<p>The <a href=https://letsencrypt.org>Let’s Encrypt Beta</a> has finally started. I registered a couple of weeks ago and the domains I use regularly got white-listed. Just a few impressions so far:</p>
+<ul>
+<li>The client ist still pretty basic, it comes with a little wrapper that builds a virtual environment for all the required python modules (which is very nice and comfortable)</li>
+<li>The plugin to automatically configure Apache is still in alpha</li>
+<li>The plugin to automatically configure Nginx is buggy and what seems pre-alpha (I think it is not delivered/used currently at all)</li>
+<li>Don’t manually mess with <code>/etc/letsencrypt</code> as in <strong>never ever!</strong></li>
+</ul>
+<figure class="figure image-figure">
+<img class=image src=https://rmbr.eu/file/dstore/15/11/Screen-Shot-2015-11-06-at-16-01-50.png alt="Let's Encrypt Certificate">
+<figcaption class="figure-caption image-figure-caption">Let's Encrypt Certificate</figcaption>
+</figure>
+<p>It is already comfortable to use — if you compare it to the manual process you had to undergo before. Once it is finished and all the bugs are ironed out, this thing will kick ass.</p>
+<p>The certificates are already deployed on all my major sites, now I just have some maintenance work to do (remove unsafe ciphers etc). I started with <a href=https://pixelschatten.net>my blog</a> and the <a href=https://www.ssllabs.com/ssltest/analyze.html>SSL Labs test</a> looks pretty good.</p>
+<figure class="figure image-figure">
+<img class=image src=https://rmbr.eu/file/dstore/15/11/Screen-Shot-2015-11-06-at-16-05-03.png alt="SSL Labs Rating">
+<figcaption class="figure-caption image-figure-caption">SSL Labs Rating</figcaption>
+</figure>
+<p>I will try to do more with it in the upcoming days and weeks, but between work and university I currently don’t have that much time for personal projects.</p>
+<p>If you are not part of the beta program but want to support the Let’s Encrypt initiative and go bug hunting, or simply want to try how it works, just grab <a href=https://github.com/letsencrypt/letsencrypt>the client from GitHub</a> and use the testing infrastructure they provide (the testing CA is called “Happy Hacker CA”). News and announcements about the beta can be found <a href=https://community.letsencrypt.org/t/beta-program-announcements/1631>here</a>, there are also configuration examples for <a href=https://community.letsencrypt.org/t/nginx-configuration-sample/2173>Nginx</a> and Apache.</p>
+<p>Last but not least, <a href=https://twitter.com/kennwhite/status/662520849979674624>Kenn White</a> published a little <a href=https://github.com/kennwhite/install-letsencrypt>script suite on Github</a> that downloads the official client and runs it to generate a certificate. It helps a lot to run the client on older Linux distributions or AWS instances — but on newer distributions a bit redundant in my opinion. Everything is in the early stages, and as the Let’s Encrypt initiative matures, I am sure the scripts will grow and be a great resource in the future! Kenn mentions other available clients on the page, make sure to check them out:</p>
+<ul>
+<li>A <a href=https://github.com/unixcharles/acme-client>Ruby Gem</a></li>
+<li>A single cross-plattform <a href=https://github.com/xenolf/lego>Go application</a></li>
+<li>A single <a href=https://github.com/diafygi/letsencrypt-nosudo>Python script</a> (without sudo requirement)</li>
+</ul>
+</main>
+<aside class="tags grid-canvas">
+<ul class=taglist>
+<li class=tag><a class=tag-link href=/tags/linux title="Posts tagged with linux"><i class="bi bi-tag"></i>linux</a></li>
+<li class=tag><a class=tag-link href=/tags/security title="Posts tagged with security"><i class="bi bi-tag"></i>security</a></li>
+<li class=tag><a class=tag-link href=/tags/en title="Posts tagged with en"><i class="bi bi-tag"></i>en</a></li>
+</ul>
+</aside>
+</article>
+</main>
+<div class=footer>
+<div class=grid-canvas>
+<div class=footer-nav>
+<div class=notice>© 2022 Jason Friedrich</div>
+<nav class=header-nav>
+<div class=secondary-nav>
+<a class="header-nav-entry desktop-nav-entry" title=Home href=/><i role=img class="bi bi-house-fill"></i><span>Home</span></a>
+<a class="header-nav-entry desktop-nav-entry" title=About href=/about/><i role=img class="bi bi-person-fill"></i><span>About</span></a>
+<a class="header-nav-entry desktop-nav-entry" title=Twitter href=https://twitter.com/jbfriedrich><i role=img class="bi bi-twitter"></i><span>Twitter</span></a>
+<a class=header-nav-entry title="Top " href=#top>&#8593; Top &#8593;</a>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</body>
+</html>

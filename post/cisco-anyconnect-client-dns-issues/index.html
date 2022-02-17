@@ -1,0 +1,93 @@
+<!doctype html><html lang=en>
+<head>
+<title>
+Cisco AnyConnect Client DNS issues | Thoughts, Links & Moods
+</title>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=HandheldFriendly content="True">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="jason.re • Thoughts, Links & Moods">
+<meta name=author content="Jason Friedrich">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Cisco AnyConnect Client DNS issues">
+<meta name=twitter:description content="Since I started using the Cisco AnyConnect VPN Client, I had DNS issues. I could not fully figure out why this happens on my system, but all signs lead to an issue with scoped DNS queries on macOS.">
+<meta property="og:title" content="Cisco AnyConnect Client DNS issues">
+<meta property="og:description" content="Since I started using the Cisco AnyConnect VPN Client, I had DNS issues. I could not fully figure out why this happens on my system, but all signs lead to an issue with scoped DNS queries on macOS.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://jason.re/post/cisco-anyconnect-client-dns-issues/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2017-11-26T15:01:50+01:00">
+<meta property="article:modified_time" content="2022-02-17T21:39:26+00:00">
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap" rel=stylesheet>
+<link rel=preconnect href=https://cdn.jsdelivr.net>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css>
+<link rel=stylesheet type=text/css href=/css/highlightjs/tomorrow-night.css>
+<link rel=stylesheet href=/css/style.min.css>
+<link rel="shortcut icon" href=/favicon.ico>
+<script src=/js/highlight.pack.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</head>
+<body id=top class=main>
+<header class=header>
+<div class=header-logo>
+<img class=logo title=About srcset="/images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_122x0_resize_box_3.png, /images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_244x0_resize_box_3.png 2x" alt="Blog Logo" src=/images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_244x0_resize_box_3.png>
+</div>
+<h1 class=blog-title>Thoughts, Links & Moods</h1>
+<nav class=header-nav>
+<div class=grid-canvas>
+<div class=primary-nav>
+<a class=header-nav-entry title=Home href=/><i role=img class="bi bi-house-fill"></i><span>Home</span></a>
+<a class=header-nav-entry title=About href=/about/><i role=img class="bi bi-person-fill"></i><span>About</span></a>
+<a class=header-nav-entry title=Twitter href=https://twitter.com/jbfriedrich><i role=img class="bi bi-twitter"></i><span>Twitter</span></a>
+</div>
+</div>
+</nav>
+</header>
+<main class=content>
+<article class="full-post type-post">
+<header class="post-header grid-canvas">
+<h2 class=post-date>November 26, 2017</h2>
+<h1 class="post-title has-summary has-feature-image">Cisco AnyConnect Client DNS issues</h1>
+<div class="post-summary has-feature-image">Since I started using the Cisco AnyConnect VPN Client, I had DNS issues. I could not fully figure out why this happens on my system, but all signs lead to an issue with scoped DNS queries on macOS.</div>
+<figure class="figure feature-figure">
+<img alt="Page Feature Image" class=feature-image src="https://images.unsplash.com/photo-1532339848923-c4beffa7abcb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=24a4e38bb8b9e913fcc7bc041dd2ed2b">
+</figure>
+</header>
+<main class="post-content grid-canvas">
+<p>Whenever the VPN is established, macOS uses the wrong order to resolve DNS entries. This leads to DNS query timeouts, but under certain circumstances to complete DNS failures, as the system insists on using the unreachable DNS server.</p>
+<p>The problem exists for a long time now, at least since <a href=https://apple.stackexchange.com/questions/73076/mac-os-x-mountain-lion-dns-resolving-uses-wrong-order-on-vpn-via-dial-up-conne>macOS Mountain Lion</a>. For a long time I had to live with this annoyance, as the issue persisted with every new version of the AnyConnect client. But now I found a workaround, maybe even a long-term solution. It is possible to tell the macOS resolver to use certain DNS servers for certain domains. Setting this up is rather easy:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>sudo mkdir /etc/resolver
+echo <span style=color:#e6db74>&#39;nameserver 10.8.0.1&#39;</span> &gt; /etc/resolver/domain.com
+sudo killall -9 mDNSResponder <span style=color:#f92672>&amp;&amp;</span> dscacheutil -flushcache
+</code></pre></div><p>After restarting the mDNSResponder daemon and flushing the DNS cache, I was all set. I hope this will become a long-term solution for this issue, that plagued me for so long.</p>
+</main>
+<aside class="tags grid-canvas">
+<ul class=taglist>
+<li class=tag><a class=tag-link href=/tags/apple title="Posts tagged with apple"><i class="bi bi-tag"></i>apple</a></li>
+<li class=tag><a class=tag-link href=/tags/networking title="Posts tagged with networking"><i class="bi bi-tag"></i>networking</a></li>
+<li class=tag><a class=tag-link href=/tags/tech title="Posts tagged with tech"><i class="bi bi-tag"></i>tech</a></li>
+<li class=tag><a class=tag-link href=/tags/en title="Posts tagged with en"><i class="bi bi-tag"></i>en</a></li>
+</ul>
+</aside>
+</article>
+</main>
+<div class=footer>
+<div class=grid-canvas>
+<div class=footer-nav>
+<div class=notice>© 2022 Jason Friedrich</div>
+<nav class=header-nav>
+<div class=secondary-nav>
+<a class="header-nav-entry desktop-nav-entry" title=Home href=/><i role=img class="bi bi-house-fill"></i><span>Home</span></a>
+<a class="header-nav-entry desktop-nav-entry" title=About href=/about/><i role=img class="bi bi-person-fill"></i><span>About</span></a>
+<a class="header-nav-entry desktop-nav-entry" title=Twitter href=https://twitter.com/jbfriedrich><i role=img class="bi bi-twitter"></i><span>Twitter</span></a>
+<a class=header-nav-entry title="Top " href=#top>&#8593; Top &#8593;</a>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</body>
+</html>

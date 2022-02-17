@@ -1,0 +1,90 @@
+<!doctype html><html lang=en>
+<head>
+<title>
+Linux Kernel: Kein Zugriff für Non-GPL Treiber | Thoughts, Links & Moods
+</title>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=HandheldFriendly content="True">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="jason.re • Thoughts, Links & Moods">
+<meta name=author content="Jason Friedrich">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Linux Kernel: Kein Zugriff für Non-GPL Treiber">
+<meta name=twitter:description content="Kernel 2.6.25 wurde kürzlich veröffentlicht. Leider geht dieser meiner Meinung nach einen falschen Weg und zeigt (mal wieder) wieso sich Linux nie wirklich beim “gemeinen Anwender” etablieren wird. Das man nun mittels Patch Non-GPL Treibern den Zugriff auf Kernelschnittstellen verbietet ist ein kleiner , meiner Meinung nach aber sehr bedeutender, Rückschritt in die Steinzeit.">
+<meta property="og:title" content="Linux Kernel: Kein Zugriff für Non-GPL Treiber">
+<meta property="og:description" content="Kernel 2.6.25 wurde kürzlich veröffentlicht. Leider geht dieser meiner Meinung nach einen falschen Weg und zeigt (mal wieder) wieso sich Linux nie wirklich beim “gemeinen Anwender” etablieren wird. Das man nun mittels Patch Non-GPL Treibern den Zugriff auf Kernelschnittstellen verbietet ist ein kleiner , meiner Meinung nach aber sehr bedeutender, Rückschritt in die Steinzeit.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://jason.re/post/linux-kernel-kein-zugriff-f%C3%BCr-non-gpl-treiber/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2008-04-17T20:12:00+02:00">
+<meta property="article:modified_time" content="2022-02-17T21:39:26+00:00">
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap" rel=stylesheet>
+<link rel=preconnect href=https://cdn.jsdelivr.net>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css>
+<link rel=stylesheet type=text/css href=/css/highlightjs/tomorrow-night.css>
+<link rel=stylesheet href=/css/style.min.css>
+<link rel="shortcut icon" href=/favicon.ico>
+<script src=/js/highlight.pack.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</head>
+<body id=top class=main>
+<header class=header>
+<div class=header-logo>
+<img class=logo title=About srcset="/images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_122x0_resize_box_3.png, /images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_244x0_resize_box_3.png 2x" alt="Blog Logo" src=/images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_244x0_resize_box_3.png>
+</div>
+<h1 class=blog-title>Thoughts, Links & Moods</h1>
+<nav class=header-nav>
+<div class=grid-canvas>
+<div class=primary-nav>
+<a class=header-nav-entry title=Home href=/><i role=img class="bi bi-house-fill"></i><span>Home</span></a>
+<a class=header-nav-entry title=About href=/about/><i role=img class="bi bi-person-fill"></i><span>About</span></a>
+<a class=header-nav-entry title=Twitter href=https://twitter.com/jbfriedrich><i role=img class="bi bi-twitter"></i><span>Twitter</span></a>
+</div>
+</div>
+</nav>
+</header>
+<main class=content>
+<article class="full-post type-post">
+<header class="post-header grid-canvas">
+<h2 class=post-date>April 17, 2008</h2>
+<h1 class="post-title has-feature-image">Linux Kernel: Kein Zugriff für Non-GPL Treiber</h1>
+<figure class="figure feature-figure">
+<img alt="Page Feature Image" class=feature-image src="https://images.unsplash.com/photo-1540761352041-7d28666d4e37?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=9ba969312e42ff647351076948c84b01">
+</figure>
+</header>
+<main class="post-content grid-canvas">
+<p>Kernel 2.6.25 wurde kürzlich veröffentlicht. Leider geht dieser meiner Meinung nach einen falschen Weg und zeigt (mal wieder) wieso sich Linux nie wirklich beim “gemeinen Anwender” etablieren wird. Das man nun mittels Patch Non-GPL Treibern den Zugriff auf Kernelschnittstellen verbietet ist ein kleiner , meiner Meinung nach aber sehr bedeutender, Rückschritt in die Steinzeit.</p>
+<p>Natürlich würde auch ich freie Treiber für alle Geräte bevorzugen, wenn wir allerdings für einen Augenblick in die Realität zurückkehren, sollte jedem der bei Verstand ist klar werden das dieses Unterfangen von vorne herein zum Scheitern verurteilt ist.<br>
+Für die meisten Firmen sind genaue Informationen darüber, wie ihre Hardware funktioniert, nun mal essentiell wichtig. Sie bauen ganze Geschäftsmodelle, oder Teile davon auf diesem Wissen auf. Nicht selten ist es eine Grundlage für finanziellen Erfolg eines Unternehmens, meist ein Unterscheidungs- und Alleinstellungs-Merkmal gegenüber anderen Unternehmen.</p>
+<p>Wenn Unternehmen schon bereit sind überhaupt Treiber für Linux bereit zu stellen, sollte man durch solche Aktionen nicht noch aktiv verhindern das diese Treiber auch genutzt werden können. Für den “gemeinen Benutzer” ist das unverständlich und umständlich. So vergrault man Firmen die bereit sind Treiber zu schreiben, man vergrault Benutzer die diese Hardware unter Linux nutzen wollen und schadet im Endeffekt dem Betriebssystem selbst und schränkt die Verbreitung ein. Das kann eigentlich nicht in “unserem” Sinne sein. Man sollte endlich mit dem Versuch aufhören Leute zu “zwingen” freie Software zu schreiben. Freie Software ist schön, ich präferiere sie wo ich nur kann, allerdings verwende ich als Benutzer Soft- und Hardware die “einfach funktioniert” und das am Besten “out of the box”. Ubuntu macht einen Anfang, aber generell sind wir bei Linux noch weit davon entfernt.</p>
+<p><em>Schade eigentlich…</em></p>
+</main>
+<aside class="tags grid-canvas">
+<ul class=taglist>
+<li class=tag><a class=tag-link href=/tags/linux title="Posts tagged with linux"><i class="bi bi-tag"></i>linux</a></li>
+<li class=tag><a class=tag-link href=/tags/tech title="Posts tagged with tech"><i class="bi bi-tag"></i>tech</a></li>
+<li class=tag><a class=tag-link href=/tags/de title="Posts tagged with de"><i class="bi bi-tag"></i>de</a></li>
+</ul>
+</aside>
+</article>
+</main>
+<div class=footer>
+<div class=grid-canvas>
+<div class=footer-nav>
+<div class=notice>© 2022 Jason Friedrich</div>
+<nav class=header-nav>
+<div class=secondary-nav>
+<a class="header-nav-entry desktop-nav-entry" title=Home href=/><i role=img class="bi bi-house-fill"></i><span>Home</span></a>
+<a class="header-nav-entry desktop-nav-entry" title=About href=/about/><i role=img class="bi bi-person-fill"></i><span>About</span></a>
+<a class="header-nav-entry desktop-nav-entry" title=Twitter href=https://twitter.com/jbfriedrich><i role=img class="bi bi-twitter"></i><span>Twitter</span></a>
+<a class=header-nav-entry title="Top " href=#top>&#8593; Top &#8593;</a>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!doctype html><html lang=en>
+<head>
+<title>
+Let's Encrypt Wildcard Certificates with Docker | Thoughts, Links & Moods
+</title>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=HandheldFriendly content="True">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="jason.re • Thoughts, Links & Moods">
+<meta name=author content="Jason Friedrich">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Let's Encrypt Wildcard Certificates with Docker">
+<meta name=twitter:description content="In the past I used a self-built Docker container that was running easy-rsa with a customized openssl.cnf file. This got very annoying, very quickly, as I needed to import my private CA to all systems I wanted to use it on.
+A couple of weeks back I decided to use one of my domains, frdr.">
+<meta property="og:title" content="Let's Encrypt Wildcard Certificates with Docker">
+<meta property="og:description" content="In the past I used a self-built Docker container that was running easy-rsa with a customized openssl.cnf file. This got very annoying, very quickly, as I needed to import my private CA to all systems I wanted to use it on.
+A couple of weeks back I decided to use one of my domains, frdr.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://jason.re/post/lets-encrypt-wildcard-certificates-with-docker/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2019-07-07T10:58:53+02:00">
+<meta property="article:modified_time" content="2022-02-17T21:39:26+00:00">
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap" rel=stylesheet>
+<link rel=preconnect href=https://cdn.jsdelivr.net>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css>
+<link rel=stylesheet type=text/css href=/css/highlightjs/tomorrow-night.css>
+<link rel=stylesheet href=/css/style.min.css>
+<link rel="shortcut icon" href=/favicon.ico>
+<script src=/js/highlight.pack.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</head>
+<body id=top class=main>
+<header class=header>
+<div class=header-logo>
+<img class=logo title=About srcset="/images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_122x0_resize_box_3.png, /images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_244x0_resize_box_3.png 2x" alt="Blog Logo" src=/images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_244x0_resize_box_3.png>
+</div>
+<h1 class=blog-title>Thoughts, Links & Moods</h1>
+<nav class=header-nav>
+<div class=grid-canvas>
+<div class=primary-nav>
+<a class=header-nav-entry title=Home href=/><i role=img class="bi bi-house-fill"></i><span>Home</span></a>
+<a class=header-nav-entry title=About href=/about/><i role=img class="bi bi-person-fill"></i><span>About</span></a>
+<a class=header-nav-entry title=Twitter href=https://twitter.com/jbfriedrich><i role=img class="bi bi-twitter"></i><span>Twitter</span></a>
+</div>
+</div>
+</nav>
+</header>
+<main class=content>
+<article class="full-post type-post">
+<header class="post-header grid-canvas">
+<h2 class=post-date>July 7, 2019</h2>
+<h1 class="post-title has-feature-image">Let's Encrypt Wildcard Certificates with Docker</h1>
+<figure class="figure feature-figure">
+<img alt="Page Feature Image" class=feature-image src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ">
+</figure>
+</header>
+<main class="post-content grid-canvas">
+<p>In the past I used a self-built Docker container that was running easy-rsa with a customized openssl.cnf file. This got very annoying, very quickly, as I needed to import my private CA to all systems I wanted to use it on.</p>
+<p>A couple of weeks back I decided to use one of my domains, <em>frdr.ch</em> , to use for my internal systems. This means, only the main domain <em>frdr.ch</em> will be exposed to the outside word, all other entries will only be available on the internal DNS server that overrides the required local entries.</p>
+<p>Since the domain itself is public, and <a href=https://letsencrypt.org/>Let&rsquo;s Encrypt</a> offers <a href=https://community.letsencrypt.org/t/acme-v2-and-wildcard-certificate-support-is-live/55579>Wildcard Certificates</a> for a while now, I decided to go that route and finally ditch my <a href=https://github.com/OpenVPN/easy-rsa>easy-rsa</a> solution. This also would allow me to automate the certificate creation/renewal with <a href=https://certbot.eff.org/>Certbot</a> and keep the operational overhead to a minimum.</p>
+<p>Before I roll my own solution, I wanted to see if someone already came up with a good solution. And I was lucky. I found <a href=https://github.com/adferrand>Adrien Ferrand&rsquo;s</a> <a href=https://github.com/adferrand/docker-letsencrypt-dns>solution</a> that is using Docker, Certbot and <a href=https://github.com/AnalogJ/lexicon>Lexicon</a>.</p>
+<h2 id=creating-the-required-configuration-files>Creating the required configuration files</h2>
+<p>For easier backups, my Docker servers use bind volumes whenever possible. This makes deploying my configuration files rather easy.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ mkdir /opt/docker-sync/le-dns
+$ cd /opt/docker-sync/le-dns
+$ vim domains.conf
+  *.frdr.ch frdr.ch
+$ vim lexicon.yml
+  <span style=color:#75715e># Content of /etc/letsencrypt/lexicon.yml</span>
+  delegated: frdr.ch
+  inwx:
+    auth_username: username
+    auth_password: super_secret_password
+</code></pre></div><h2 id=building-your-own-docker-image-optional>Building your own Docker Image (optional)</h2>
+<p>To be as independent as possible, I like to fork projects and build my own Docker Images. This is not required though, it can work out-of-the-box with Adrien&rsquo;s repository.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ docker build --no-cache --force-rm -t &lt;redacted&gt;.dkr.ecr.eu-central-1.amazonaws.com/le-dns:latest -t &lt;redacted&gt;.dkr.ecr.eu-central-1.amazonaws.com/le-dns:1.3 .
+Sending build context to Docker daemon  35.84kB
+Step 1/18 : FROM python:alpine3.9
+ ---&gt; fe3ef29c73f3
+Step 2/18 : LABEL maintainer<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;Jason Friedrich &lt;jason@friedrich&gt;&#34;</span>
+ ---&gt; Running in 1839c18d6113
+Removing intermediate container 1839c18d6113
+ ---&gt; d7183496d232
+Step 3/18 : ENV PATH /scripts:$PATH
+ ---&gt; Running in 87820e865295
+Removing intermediate container 87820e865295
+ ---&gt; 7ee5ecb6c396
+Step 4/18 : ENV LEXICON_VERSION 3.2.7
+ ---&gt; Running in ac8fbc70df37
+Removing intermediate container ac8fbc70df37
+ ---&gt; 4d4a2d4cabc9
+Step 5/18 : ENV CERTBOT_VERSION 0.35.1
+ ---&gt; Running in 0f940bccc60e
+Removing intermediate container 0f940bccc60e
+ ---&gt; 742ee43407f7
+Step 6/18 : RUN apk --no-cache --update add rsyslog git libffi libxml2 libxslt libstdc++ openssl docker ethtool tzdata bash  <span style=color:#f92672>&amp;&amp;</span> apk --no-cache --update --virtual build-dependencies add libffi-dev libxml2-dev libxslt-dev openssl-dev build-base linux-headers  <span style=color:#f92672>&amp;&amp;</span> pip install --no-cache-dir <span style=color:#e6db74>&#34;certbot==</span>$CERTBOT_VERSION<span style=color:#e6db74>&#34;</span>  <span style=color:#f92672>&amp;&amp;</span> pip install --no-cache-dir <span style=color:#e6db74>&#34;dns-lexicon[full]==</span>$LEXICON_VERSION<span style=color:#e6db74>&#34;</span>  <span style=color:#f92672>&amp;&amp;</span> pip install --no-cache-dir circus  <span style=color:#f92672>&amp;&amp;</span> mkdir -p /var/lib/letsencrypt/hooks  <span style=color:#f92672>&amp;&amp;</span> mkdir -p /etc/circus.d  <span style=color:#f92672>&amp;&amp;</span> apk del build-dependencies
+ ---&gt; Running in 303e1b43f573
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.9/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.9/community/x86_64/APKINDEX.tar.gz
+<span style=color:#f92672>(</span>1/28<span style=color:#f92672>)</span> Installing bash <span style=color:#f92672>(</span>4.4.19-r1<span style=color:#f92672>)</span>
+Executing bash-4.4.19-r1.post-install
+<span style=color:#f92672>(</span>2/28<span style=color:#f92672>)</span> Installing libseccomp <span style=color:#f92672>(</span>2.3.3-r1<span style=color:#f92672>)</span>
+<span style=color:#f92672>(</span>3/28<span style=color:#f92672>)</span> Installing runc <span style=color:#f92672>(</span>1.0.0_rc8-r0<span style=color:#f92672>)</span>
+<span style=color:#f92672>(</span>4/28<span style=color:#f92672>)</span> Installing containerd <span style=color:#f92672>(</span>1.2.7-r0<span style=color:#f92672>)</span>
+<span style=color:#f92672>[</span>...<span style=color:#f92672>]</span>
+Step 16/18 : VOLUME <span style=color:#f92672>[</span><span style=color:#e6db74>&#34;/etc/letsencrypt&#34;</span><span style=color:#f92672>]</span>
+ ---&gt; Running in 3dda9d00bc18
+Removing intermediate container 3dda9d00bc18
+ ---&gt; 0cec67ab7143
+Step 17/18 : COPY files/lexicon.yml /etc/letsencrypt/lexicon.yml
+ ---&gt; 8a17a1cf7880
+Step 18/18 : CMD <span style=color:#f92672>[</span><span style=color:#e6db74>&#34;/scripts/run.sh&#34;</span><span style=color:#f92672>]</span>
+ ---&gt; Running in aaebb4dfd276
+Removing intermediate container aaebb4dfd276
+ ---&gt; d7f84f270f34
+Successfully built d7f84f270f34
+Successfully tagged &lt;redacted&gt;.dkr.ecr.eu-central-1.amazonaws.com/le-dns:latest
+Successfully tagged &lt;redacted&gt;.dkr.ecr.eu-central-1.amazonaws.com/le-dns:1.3
+</code></pre></div><h2 id=run-your-docker-container>Run your Docker container</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ docker run --rm --name le-dns --volume /opt/docker-sync/le-dns:/etc/letsencrypt &lt;redacted&gt;.dkr.ecr.eu-central-1.amazonaws.com/le-dns:latest
+2019-07-07 09:31:32 circus<span style=color:#f92672>[</span>1<span style=color:#f92672>]</span> <span style=color:#f92672>[</span>INFO<span style=color:#f92672>]</span> Starting master on pid <span style=color:#ae81ff>1</span>
+2019-07-07 09:31:32 circus<span style=color:#f92672>[</span>1<span style=color:#f92672>]</span> <span style=color:#f92672>[</span>INFO<span style=color:#f92672>]</span> Arbiter now waiting <span style=color:#66d9ef>for</span> commands
+2019-07-07 09:31:32 circus<span style=color:#f92672>[</span>1<span style=color:#f92672>]</span> <span style=color:#f92672>[</span>INFO<span style=color:#f92672>]</span> crond started
+2019-07-07 09:31:32 circus<span style=color:#f92672>[</span>1<span style=color:#f92672>]</span> <span style=color:#f92672>[</span>INFO<span style=color:#f92672>]</span> watch-domains started
+2019-07-07 09:31:32 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | <span style=color:#75715e>#### Registering Let&#39;s Encrypt account if needed ####</span>
+2019-07-07 09:31:33 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | Saving debug log to /etc/letsencrypt/logs/letsencrypt.log
+2019-07-07 09:31:33 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | There is an existing account; registration of a duplicate account with this command is currently unsupported.
+2019-07-07 09:31:33 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | <span style=color:#75715e>#### Clean autorestart/autocmd jobs</span>
+2019-07-07 09:31:33 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | <span style=color:#75715e>#### Creating missing certificates if needed (~1min for each) ####</span>
+2019-07-07 09:31:33 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | &gt;&gt;&gt; Creating a certificate <span style=color:#66d9ef>for</span> domain<span style=color:#f92672>(</span>s<span style=color:#f92672>)</span>: -d *.frdr.ch -d frdr.ch
+2019-07-07 09:31:34 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | Saving debug log to /etc/letsencrypt/logs/letsencrypt.log
+2019-07-07 09:31:34 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | Plugins selected: Authenticator manual, Installer None
+2019-07-07 09:31:34 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | Obtaining a new certificate
+2019-07-07 09:31:35 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | Performing the following challenges:
+2019-07-07 09:31:35 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | dns-01 challenge <span style=color:#66d9ef>for</span> frdr.ch
+2019-07-07 09:31:35 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | dns-01 challenge <span style=color:#66d9ef>for</span> frdr.ch
+2019-07-07 09:31:35 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | Running manual-auth-hook command: /var/lib/letsencrypt/hooks/authenticator.sh
+2019-07-07 09:32:08 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | Output from manual-auth-hook command authenticator.sh:
+2019-07-07 09:32:08 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | RESULT
+2019-07-07 09:32:08 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | ------
+2019-07-07 09:32:08 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | True
+2019-07-07 09:32:41 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | Waiting <span style=color:#66d9ef>for</span> verification...
+2019-07-07 09:32:42 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | Cleaning up challenges
+2019-07-07 09:32:42 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | Running manual-cleanup-hook command: /var/lib/letsencrypt/hooks/cleanup.sh
+2019-07-07 09:32:45 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | Output from manual-cleanup-hook command cleanup.sh:
+2019-07-07 09:32:45 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | RESULT
+2019-07-07 09:32:45 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | ------
+2019-07-07 09:32:45 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | True
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | Non-standard path<span style=color:#f92672>(</span>s<span style=color:#f92672>)</span>, might not work with crontab installed by your operating system package manager
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | Running deploy-hook command: deploy-hook.sh
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | IMPORTANT NOTES:
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> |  - Congratulations! Your certificate and chain have been saved at:
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> |    /etc/letsencrypt/live/frdr.ch/fullchain.pem
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> |    Your key file has been saved at:
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> |    /etc/letsencrypt/live/frdr.ch/privkey.pem
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> |    Your cert will expire on 2019-10-05. To obtain a new or tweaked
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> |    version of this certificate in the future, simply run certbot
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> |    again. To non-interactively renew *all* of your certificates, run
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> |    <span style=color:#e6db74>&#34;certbot renew&#34;</span>
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> |  - If you like Certbot, please consider supporting our work by:
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> |    Donating to ISRG / Let<span style=color:#960050;background-color:#1e0010>&#39;</span>s Encrypt:   https://letsencrypt.org/donate
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> |    Donating to EFF:                    https://eff.org/donate-le
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | <span style=color:#75715e>### Revoke and delete certificates if needed ####</span>
+2019-07-07 09:32:50 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | <span style=color:#75715e>### Reloading circusd configuration ###</span>
+2019-07-07 09:32:51 <span style=color:#f92672>[</span>19<span style=color:#f92672>]</span> | ok
+</code></pre></div><p>If you leave the container running, it will check twice a month with <em>Let&rsquo;s Encrypt</em> and renew the certificate if required. Should you need a PFX export of your certificate, set the <code>PFX_EXPORT=true</code> and the <code>PFX_EXPORT_PASSPHRASE="super secret password"</code> environment variables.</p>
+<h2 id=certificate-renewal>Certificate Renewal</h2>
+<p>Since the certificate changes every 3 months with each renewal, I need to find a way to distribute that new certificate to all the places that need it. I am not 100% how to deal with that yet, but I already have some ideas.</p>
+</main>
+<aside class="tags grid-canvas">
+<ul class=taglist>
+<li class=tag><a class=tag-link href=/tags/tech title="Posts tagged with tech"><i class="bi bi-tag"></i>tech</a></li>
+<li class=tag><a class=tag-link href=/tags/security title="Posts tagged with security"><i class="bi bi-tag"></i>security</a></li>
+<li class=tag><a class=tag-link href=/tags/virtualization title="Posts tagged with virtualization"><i class="bi bi-tag"></i>virtualization</a></li>
+<li class=tag><a class=tag-link href=/tags/containers title="Posts tagged with containers"><i class="bi bi-tag"></i>containers</a></li>
+<li class=tag><a class=tag-link href=/tags/en title="Posts tagged with en"><i class="bi bi-tag"></i>en</a></li>
+</ul>
+</aside>
+</article>
+</main>
+<div class=footer>
+<div class=grid-canvas>
+<div class=footer-nav>
+<div class=notice>© 2022 Jason Friedrich</div>
+<nav class=header-nav>
+<div class=secondary-nav>
+<a class="header-nav-entry desktop-nav-entry" title=Home href=/><i role=img class="bi bi-house-fill"></i><span>Home</span></a>
+<a class="header-nav-entry desktop-nav-entry" title=About href=/about/><i role=img class="bi bi-person-fill"></i><span>About</span></a>
+<a class="header-nav-entry desktop-nav-entry" title=Twitter href=https://twitter.com/jbfriedrich><i role=img class="bi bi-twitter"></i><span>Twitter</span></a>
+<a class=header-nav-entry title="Top " href=#top>&#8593; Top &#8593;</a>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!doctype html><html lang=en>
+<head>
+<title>
+Running your own mail server in 2015 | Thoughts, Links & Moods
+</title>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=HandheldFriendly content="True">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="jason.re • Thoughts, Links & Moods">
+<meta name=author content="Jason Friedrich">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Running your own mail server in 2015">
+<meta name=twitter:description content="Running your own mail server always was a pain in the ass. But the pain got bigger in most recent years.">
+<meta property="og:title" content="Running your own mail server in 2015">
+<meta property="og:description" content="Running your own mail server always was a pain in the ass. But the pain got bigger in most recent years.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://jason.re/post/running-your-own-mail-server-in-2015/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2015-07-22T20:46:28+02:00">
+<meta property="article:modified_time" content="2022-02-17T21:39:26+00:00">
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap" rel=stylesheet>
+<link rel=preconnect href=https://cdn.jsdelivr.net>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css>
+<link rel=stylesheet type=text/css href=/css/highlightjs/tomorrow-night.css>
+<link rel=stylesheet href=/css/style.min.css>
+<link rel="shortcut icon" href=/favicon.ico>
+<script src=/js/highlight.pack.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</head>
+<body id=top class=main>
+<header class=header>
+<div class=header-logo>
+<img class=logo title=About srcset="/images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_122x0_resize_box_3.png, /images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_244x0_resize_box_3.png 2x" alt="Blog Logo" src=/images/author_hu737cdb9bf67d3c24ce670e322a5be00e_255619_244x0_resize_box_3.png>
+</div>
+<h1 class=blog-title>Thoughts, Links & Moods</h1>
+<nav class=header-nav>
+<div class=grid-canvas>
+<div class=primary-nav>
+<a class=header-nav-entry title=Home href=/><i role=img class="bi bi-house-fill"></i><span>Home</span></a>
+<a class=header-nav-entry title=About href=/about/><i role=img class="bi bi-person-fill"></i><span>About</span></a>
+<a class=header-nav-entry title=Twitter href=https://twitter.com/jbfriedrich><i role=img class="bi bi-twitter"></i><span>Twitter</span></a>
+</div>
+</div>
+</nav>
+</header>
+<main class=content>
+<article class="full-post type-post">
+<header class="post-header grid-canvas">
+<h2 class=post-date>July 22, 2015</h2>
+<h1 class="post-title has-summary has-feature-image">Running your own mail server in 2015</h1>
+<div class="post-summary has-feature-image">Running your own mail server always was a pain in the ass. But the pain got bigger in most recent years.</div>
+<figure class="figure feature-figure">
+<img alt="Page Feature Image" class=feature-image src="https://images.unsplash.com/photo-1529066576253-91dff6dbeba3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=c3e8ddad317aad0fc61579a98a3a8824">
+</figure>
+</header>
+<main class="post-content grid-canvas">
+<p>Ever since I started to become involved with IT, operating your own mail server was a lot of work. You always had to tweak something here or update something there, because you wanted it to be safe and secure. In my early days it was even possible to use <a href=http://dyn.com/dns>DynDNS</a> and run your mail server behind a dial-up modem or ISDN line. It started to change even then, but it was still possible.</p>
+<p>Nowadays this is neither recommended nor possible, as all major email service providers are blocking dial-up IP ranges. It became a necessity with all the zombies out there trying to push their spam to the masses. Even though it got a lot easier to have your own server “on the Internet”, with a public non-dial-up IP, it also became even harder to operate your own mail server. Cloud providers like <a href=http://aws.amazon.com>Amazon Web Services</a> or <a href="https://www.digitalocean.com/?refcode=8469d730e168">DigitalOcean</a> make it easy for you to deploy your own <a href=https://en.wikipedia.org/wiki/Virtual_private_server>virtual private server</a> within minutes. Unfortunately it is as easy for the spammers and scammers as it is for you. This means many email service providers started to block whole IP ranges from cloud providers or automatically assign a higher “<a href=https://en.wikipedia.org/wiki/SpamBayes>score</a>” to the email originating from these IPs — which makes them to disappear more often into the “digital abyss” of the junk or spam folder. Most of the time this can only be remedied by using a 3rd-party provider like <a href=http://www.mailgun.com/>Mailgun</a>, specialised in email services and taking very good care of the reputation of their servers and IPs.</p>
+<p>But that is not all. If you are like me and have several domains with even more mailboxes, aliases and domain aliases, the configuration can get quite complicated. You might want to have a backend database and — to keep maintenance as low as possible — some sort of configuration utility (usually a web interface of some kind). If you decide against a 3rd-party provider, you will have to configure <a href=https://en.wikipedia.org/wiki/Sender_Policy_Framework>SPF</a> and <a href=https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail>DKIM</a> yourself. This configuration requires extra attention, but without it many of the larger email providers will put your email almost directly into the junk folder. Besides all this, the system has also to be kept up-to-date at all times and logs need to be watched for stray emails, break-in attempts and spammers who try a <a href=https://en.wikipedia.org/wiki/Denial-of-service_attack>DOS or even a DDOS attack</a>. You see that operating your own mail server is not a good idea if you are inexperienced or cannot spare the time for all the design decisions, configuration and the debugging involved.</p>
+<p>Currently I am using <a href=http://www.dovecot.org/>Dovecot</a>, <a href=http://www.postfix.org>Postfix</a>, a <a href=http://dev.mysql.com/>MySQL database</a> as backend and <a href=http://postfixadmin.sourceforge.net/>PostfixAdmin</a> for administration. But i am currently looking for another solution that requires less time. I tried <a href=https://www.google.com/work/apps/business/>Google Apps for Business</a>, which was not for me, and also several other solutions. At the moment I am trying to get into the <a href=http://aws.amazon.com/workmail/>Amazon WorkMail preview</a>, which could be exactly what I am looking for. <a href="https://www.digitalocean.com/?refcode=8469d730e168">DigitalOcean</a> recently wrote an article about <a href=https://mailinabox.email/>Mail-in-a-Box</a>, which I wanted to take a closer look at as well.</p>
+<p>Of course there are other important topics I have not covered in this post. For example data security and surveillance. But this is subject for another article, which will describe my thoughts on email in general and what implications the different solutions can have.</p>
+</main>
+<aside class="tags grid-canvas">
+<ul class=taglist>
+<li class=tag><a class=tag-link href=/tags/linux title="Posts tagged with linux"><i class="bi bi-tag"></i>linux</a></li>
+<li class=tag><a class=tag-link href=/tags/mail title="Posts tagged with mail"><i class="bi bi-tag"></i>mail</a></li>
+<li class=tag><a class=tag-link href=/tags/tech title="Posts tagged with tech"><i class="bi bi-tag"></i>tech</a></li>
+<li class=tag><a class=tag-link href=/tags/en title="Posts tagged with en"><i class="bi bi-tag"></i>en</a></li>
+</ul>
+</aside>
+</article>
+</main>
+<div class=footer>
+<div class=grid-canvas>
+<div class=footer-nav>
+<div class=notice>© 2022 Jason Friedrich</div>
+<nav class=header-nav>
+<div class=secondary-nav>
+<a class="header-nav-entry desktop-nav-entry" title=Home href=/><i role=img class="bi bi-house-fill"></i><span>Home</span></a>
+<a class="header-nav-entry desktop-nav-entry" title=About href=/about/><i role=img class="bi bi-person-fill"></i><span>About</span></a>
+<a class="header-nav-entry desktop-nav-entry" title=Twitter href=https://twitter.com/jbfriedrich><i role=img class="bi bi-twitter"></i><span>Twitter</span></a>
+<a class=header-nav-entry title="Top " href=#top>&#8593; Top &#8593;</a>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</body>
+</html>
