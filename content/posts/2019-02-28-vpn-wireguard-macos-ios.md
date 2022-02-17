@@ -19,7 +19,7 @@ I expected some kind of "Piped Bash Script" installer, but Wireguard has prepare
 
 As underlying OS for the VPN server, I used the latest version of [Ubuntu LTS](https://www.ubuntu.com/download/server). The well-known simple command triplet starts the installation of the required components:
 
-```
+```shell
 # Adding the reposistory from PPA
 $ sudo add-apt-repository ppa:wireguard/wireguard
 
@@ -38,7 +38,7 @@ $ sysctl -p /etc/sysctl.conf
 
 For iOS I just downloaded the app from the app store. For macOS I did not use the app, but decided to install all required components via [brew](https://brew.sh), so that could start and stop the VPN from my Fish console:
 
-```
+```shell
 $ brew install wireguard-tools qrencode
 ```
 
@@ -46,7 +46,7 @@ $ brew install wireguard-tools qrencode
 
 This was the second surprise. After a very painless and easy installation, the configuration was also straightforward. Most of the steps are identical, no matter if it is the client or the server. So lets start with generating all the required keys:
 
-```
+```shell
 for device in server client ios
 do
     wg genkey > ${device}.privkey &&
@@ -58,7 +58,7 @@ done
 
 Now that we have generated the required private and public key files for all parties involved, we can create the config files. The VPN server first:
 
-```
+```shell
 # /etc/wireguard/wg0.conf
 
 # The internal IP address of the VPN server that is used over the VPN
@@ -90,14 +90,14 @@ AllowedIPs = 10.0.0.3/32, fd86:ea04:1115::2/128
 
 All that is left is to enable and start the wireguard service via systemctl:
 
-```
+```shell
 $ systemctl enable wg-quick@wg0.service
 $ systemctl start wg-quick@wg0.service
 ```
 
 If everything went according to plan, the service will be started and a new network interface `wg0` should be visible via `ip link show`. For the macOS client, the configuration file needs to look like this:
 
-```
+```shell
 # ~/.config/wireguard/client.conf
 
 [Interface]
@@ -121,7 +121,7 @@ After the configuration is created, we bring up the tunnel via `sudo wg-quick up
 
 To make our lives easier, we are preparing the iOS configuration on the Mac and create a QR code that we can use to configure the Wireguard app on the iPhone. But first the configuration file:
 
-```
+```shell
 # ~/.config/wireguard/ios.conf
 
 [Interface]

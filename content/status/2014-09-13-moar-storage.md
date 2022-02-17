@@ -1,14 +1,13 @@
 ---
 title: More iCloud storage
 date: 2014-09-13T13:32:11
-feature_image: https://images.unsplash.com/photo-1470173274384-c4e8e2f9ea4c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=7779b521f2047d20269300fc192bd19e
+type: status
 tags:
   - apple
   - tech
   - cloud
   - storage
   - en
-language: en
 ---
 
 Apple recently changed their prices for the [Apple iCloud storage](http://support.apple.com/kb/HT5879). 5 GB are free, as usual. For just 0,99 EUR per month you can upgrade to 20 GB.

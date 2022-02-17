@@ -6,6 +6,7 @@ tags:
   - neuland
   - en
 ---
+
 Whenever I say that I would love to have Gigabit Internet, or at least 500 Mbit up- and downstream, people tend to ask me "What in the world would you do with such a high bandwidth?!" Let me play you the song of my people...
 
 {{< img src="https://rmbr.eu/file/dstore/19/2/oliver-twist-bandwidth.jpg" >}}
@@ -16,7 +17,7 @@ Well... not quite...
 
 I have an [upstream](https://en.wikipedia.org/wiki/Upstream_\(networking\)) bandwidth of 20 [Mbit](https://en.wikipedia.org/wiki/Megabit), which is generally about 2 [MB](https://en.wikipedia.org/wiki/Megabyte) per second. This means that I can back up 120 MB per minute, 7200 MB per hour and a whopping 172800 MB – or around 172 [GB](https://en.wikipedia.org/wiki/Gigabyte) – per day.
 
-This means, even if I was to upload constantly without doing anything else – which is quite theoretical, as you always need some bandwidth when you use the Internet – it would take about **116,5 days** of straight uploading. That number[1] is fucking ridiculous.
+This means, even if I was to upload constantly without doing anything else – which is quite theoretical, as you always need some bandwidth when you use the Internet – it would take about **116,5 days** of straight uploading. That number[^1] is fucking ridiculous.
 
 This is why _we_ need Gigabit Internet, upstream **and** downstream! Not only one direction!
 

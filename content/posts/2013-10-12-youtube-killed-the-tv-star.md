@@ -2,6 +2,7 @@
 title: Youtube killed the TV Star
 date: 2013-10-12T16:14:30
 feature_image: https://images.unsplash.com/photo-1480359014333-3935abd88252?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=71d8a06ea48b7e20e046d9cbe023e866
+summary: "Das sich die Fernseh- & Medienlandschaft in den naechsten Jahren und Jahrzehnten aendern wird, ist mir bereits seit einigen Jahren klar."
 tags:
   - entertainment
   - society
@@ -9,7 +10,7 @@ tags:
   - de
 ---
 
-Das sich die Fernseh- & Medienlandschaft in den naechsten Jahren und Jahrzehnten aendern wird, ist mir bereits seit einigen Jahren klar. Seit Aufkommen des Internets und der Digitalisierung von Inhalten Anfang der 2000er Jahre ist mir klar, dass der Verbreitungsweg in der Zukunft nur noch zweitrangig sein wird.
+Seit Aufkommen des Internets und der Digitalisierung von Inhalten, Anfang der 2000er Jahre, wird offensichtlich das der Verbreitungsweg in der Zukunft nur noch zweitrangig sein wird.
 
 Die klassischen TV-Sender wird es irgendwann meiner Meinung nach nicht mehr geben, und wenn es sie geben wird, dann nur ein einer sehr stark verkleinerten, abgespeckten Form. Sie werden vermutlich nicht mehr viel eigene Infrastruktur benoetigen, nur so viel um die verschiedenen Sendewege bedienen zu koennen. Ich glaube sie werden viele vorproduzierte Sendungen einkaufen, oder selbst welche bei Produktionsfirmen in Auftrag geben. Ein paar Redaktionen werden Sie weiterhin beschaeftigen, fuer selbst produzierte “Journalistische Inhalte”. Im Grossen und Ganzen werden sich die etablierten, riesigen Sender sehr stark verkleinern und sich hauptsaechlich auf die Distribution und Aggregation von Inhalten spezialisieren. Die Arbeit wird sich verlagern hin zu Selbststaendigen und zu kleinen bis mittleren (vielleicht auch wenige grosse) Produktionsfirmen.
 

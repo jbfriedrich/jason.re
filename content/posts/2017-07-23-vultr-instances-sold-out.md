@@ -2,13 +2,12 @@
 title: "VULTR: Instances sold out"
 date: 2017-07-23T21:12:32
 feature_image: https://images.unsplash.com/photo-1443159805125-50ae78d2d00d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=9864fbc130fb3e5cce9803e540796d15
+summary: 'While taking a closer look at VULTR I became very interested in their "$2.50 plan", as it is half as much as you would have to pay for the same performance at similar providers.'
 tags:
   - hosting
   - tech
   - en
 ---
-
-While [taking a closer look at VULTR](https://jason.re/vps-provider-vultr/), I became very interested in their "$2.50 plan", as it is half as much as you would have to pay for the same performance at [similar](https://amazonlightsail.com/pricing/) [providers.](https://www.digitalocean.com/pricing/)
 
 Now I wanted to deploy my permanent test and development VPS and was surprised to see that they were "sold out" in almost all regions. It astonished and confused me that a virtual instance could be sold out, even though I was able to choose every other, even bigger instance type.
 

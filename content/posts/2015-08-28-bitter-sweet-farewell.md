@@ -6,7 +6,6 @@ tags:
   - workplace
   - personal
   - en
-language: en
 ---
 
 I am very sad today. As I always am in these bitter-sweet moments when I see smart, passionate and very talented people leave my team or even leave the company. You share a lot of memories with them, the good and the bad. I am not sure in which category the “12-hour customer upgrades” or the “huge outage at 3am in the morning” fall. Probably in both…

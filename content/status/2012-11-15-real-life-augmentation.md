@@ -1,7 +1,7 @@
 ---
 title: Real life augmentation
 date: 2012-11-15T02:34:36
-feature_image: https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=3d95aea79d76fd5fb2d86ffd06feedee
+type: status
 tags:
   - medicine
   - science

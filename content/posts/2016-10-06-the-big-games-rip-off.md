@@ -2,25 +2,26 @@
 title: The big games rip-off
 date: 2016-10-06T23:12:41
 feature_image: https://images.unsplash.com/photo-1532219600601-8494408a4a2c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=e889f0f47e8c178a8ccc92d53b2ff2d3
+summary: "I am talking a lot with my US colleagues and friends about video games, video game prices, special deals and upcoming sales. Every time that topic comes up, I realize how much we pay for games in Germany."
 tags:
   - gaming
   - en
 ---
 
-I am talking a lot with my US colleagues and friends about games. We are also talking a lot about game prices, special deals and upcoming sales. Every time that topic comes up, it astonishes me how much we pay for games in Germany. I don’t know why, but game prices do not budge at all, no special deals and no sales. Even though in the US special deals are very common and game sales are quite often. Some examples:
+I don’t know why, but game prices do not budge at all, no special deals and no sales. Even though in the US special deals are very common and game sales are quite often. Some examples:
 
 The Last of Us Remastered was released in 2014, more than 2 years ago. It was several times on sale, both on the [US PlayStation Store](https://store.playstation.com) and online retailers like [Amazon.com](http://amazon.com)
 
-{{< img src="https://rmbr.eu/file/dstore/16/10/amazoncom-lastofus-1024x379.png" >}}
+{{< img src="https://rmbr.eu/file/dstore/16/10/amazoncom-lastofus.png" >}}
 
 Uncharted 4 was released in May 2016 and was well received. In the US it was on sale during the summer, multiple times. Again on the US Playstation Store and on Amazon.com. It’s also quite common to get an even better deal in most of the local US retail stores like Best Buy.
 
-{{< img src="https://rmbr.eu/file/dstore/16/10/amazoncom-uncharted4-1024x363.png" >}}
+{{< img src="https://rmbr.eu/file/dstore/16/10/amazoncom-uncharted4.png" >}}
 
 And over in Germany? No special deals, no sale in sight. The prices are pretty much the same, all year long. For example on [Amazon.de](http://amazon.de):
 
-{{< img src="https://rmbr.eu/file/dstore/16/10/amazonde-lastofus-1024x321.png" >}}
-{{< img src="https://rmbr.eu/file/dstore/16/10/amazonde-uncharted4-1024x364.png" >}}
+{{< img src="https://rmbr.eu/file/dstore/16/10/amazonde-lastofus.png" >}}
+{{< img src="https://rmbr.eu/file/dstore/16/10/amazonde-uncharted4.png" >}}
 
 High prices not only on Amazon, same picture for the DE Playstation Store or local DE retail stores. We rarely see any game sales – if there are any at all. And [Amazon Prime Games](https://www.amazon.com/b?node=13584215011), a 20% price reduction for pre-orders and new games, is not available in Germany.
 
@@ -30,7 +31,7 @@ It is a total mystery to me why the physical copy, although more expensive due t
 
 In the US it is one price for all platforms:
 
-{{< img src="https://rmbr.eu/file/dstore/16/10/image_2016-10-06_15-09-46-1024x433.png" >}}
+{{< img src="https://rmbr.eu/file/dstore/16/10/image_2016-10-06_15-09-46.png" >}}
 
 While it seems expensive at first, one can use [Amazon Prime](https://www.amazon.com/b?node=13584215011) or [Best Buy Gamers Club Unlocked](http://www.bestbuy.com/site/my-best-buy/gamers-club/pcmcat338600050004.c?id=pcmcat338600050004) to get a 20% discount right from the start. It is also a given that there will be a Halloween sale, a Black Friday sale on Thanksgiving and last but not least a Christmas sale where you will be able to get all kinds of deals and rebates. The big local retail chains will do everything to be cheaper than the online retailers and vice versa.
 

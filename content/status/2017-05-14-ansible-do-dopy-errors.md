@@ -1,7 +1,7 @@
 ---
 title: "Ansible: Misleading dopy errors"
 date: 2017-05-14T19:33:25
-feature_image: https://images.unsplash.com/photo-1503252947848-7338d3f92f31?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=01ac2b385a2b44489d14e52a26d15022
+type: status
 tags:
   - linux
   - tech

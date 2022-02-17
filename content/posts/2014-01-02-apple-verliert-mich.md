@@ -10,7 +10,7 @@ tags:
 
 Als ich Hendriks [Tweet](https://twitter.com/hmans/status/418464555271217152) las, dachte ich mir schon das da noch mehr kommen würde. Ich wurde nicht enttäuscht, kurze Zeit später hat er einen [Blogpost](http://sloblog.io/~hmans/-r0F07qhObU/apple-verliert-mich) nachgeschoben. Was er dort schreibt deckt sich leider in grossen Teilen mit meinen Eindrücken und Erfahrungen in der letzten Zeit. Zum Glück nicht vollständig, sonst wäre dieser Post ja überflüssig.
 
-## Klassische Hardware
+# Klassische Hardware
 
 Apple ‘verliert’ mich auch. Der Prozess begann schleichend, als sie die Macbook Airs und die ‘vollverklebten’, nicht mehr selbst mit eigener Hardware bestückbaren Macbook Pros heraus gebracht haben (SSD, aufgelöteter Arbeitsspeicher usw.). Zu dem Zeitpunkt habe ich mich dazu entschlossen mein 2009er Macbook Pro nicht mehr zu erneuern. Apple’s Hardware entwickelt sich immer mehr zum sehr, sehr teuren ‘Wegwerfmüll’ der, sobald es Apple für nötig hält, komplett erneuert werden muss.
 
@@ -18,13 +18,13 @@ Bei Desktop-Computern verhält es sich ähnlich. Sieben Jahre habe ich einen Mac
 
 Aus der Not heraus habe ich jetzt einen 2011er 27″ iMac mit damals dickster Grafikkarte — ich will ja auch noch ein bisschen was unter Windows 7 (BootCamp) spielen. Auch aus diesem Grund möchte der eigentlich bald erneuert werden.
 
-## Mobilgeräte
+# Mobilgeräte
 
 Was Mobiltelefone angeht war ich lange Jahre meinem [Nokia E61](http://de.wikipedia.org/wiki/Nokia_E71#Nokia_E61_.2F_Nokia_E62) treu, bevor ich auf ein Apple iPhone 3G gewechselt bin. Später dann auf ein iPhone 4, welches ich immer noch benutze. Gerne würde ich mir ein neues Mobiltelefon kaufen, gerade weil iOS7 auf der 4er Hardware ein Bug-verseuchtes, zäh wie Gummi agierendes, stinkendes Moloch ist. Allerdings bin ich nicht dazu bereit 800 EUR für ein Mobiltelefon mit 32 GB Speicher auszugeben. Das ist für Manchen mehr als die Hälfte seines Monatsgehaltes…
 
 Auch bei Tablets habe ich den Trend ausgesessen und mich lange gewehrt. Ich fand sie immer überflüssig und empfinde digitalen Content dem analogen Gegenstück [fast immer unterlegen](http://pixelschatten.net/the-disadvantages-of-digital-goods/). Dennoch habe ich mir zu Weihnachten ein iPad Air gekauft und bin damit eigentlich zufrieden, auch wenn es für seinen Einsatzzweck etwas teuer ist.
 
-## Software
+# Software
 
 Neben der Hardware gibt es natürlich noch die andere riesige Baustelle: Das Betriebssystem!
 
@@ -38,11 +38,11 @@ iOS 7 ist nicht gerade der große Wurf, hoffe aber immer noch das 7.1 oder 7.2 e
 
 Auf dem (betagten) iPhone 4 ist die Erfahrung leider eine ganz andere: Bugs wo man nur hinschaut und so langsam das es kaum erträglich ist. Ich hätte es hier konsequenter gefunden, wenn Apple das Update auf dem 4er ausgelassen hätte. Mittlerweile ist die Frustration bereits so hoch, das ich fast alle Apps gelöscht habe und es hauptsächlich nur noch als Telefon nutze.
 
-## Zäune! Zäune überall!
+# Zäune! Zäune überall!
 
 Für die Firmen ein lukratives Geschäftsmodell und die Möglichkeit Kunden an sich zu binden, für den Anwender oft ein Ärgernis da die ‘fenced gardens’ nicht miteinander kompatibel sind. Amazon hat seinen Kindle Garten, Apple seine iCloud, Google seine Google-Dienste. Bei iOS schaffe ich es bisher ganz gut die Cloud nicht zu nutzen. Wie lange das noch andauert, und wann die iCloud ‘mandatory’ wird, bleibt abzuwarten. Ich denke aber das es früher oder später bei allen großen Anbietern dazu kommen wird.
 
-## Alternativen?
+# Alternativen?
 
 In Sachen Hardware kommt für mich derzeit _keine_ Firma an Apple heran, was vermutlich der immer noch hochwertigen Verarbeitung und dem Aluminium zuzuschreiben ist. Bisher hatte ich noch nie Probleme mit meiner Apple Hardware, weder mit Mac Pro, noch mit Macbook Pro oder iMac. Dazu hat der Mac Pro auch nach sieben Jahren noch einen hohen Wiederverkaufswert erzielt. Ich sehe derzeit — vielleicht bis auf Lenovo im Laptop-Bereich abgesehen — keine ernsthafte Alternative was Verarbeitung und Langlebigkeit angeht.
 

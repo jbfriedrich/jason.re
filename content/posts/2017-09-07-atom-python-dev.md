@@ -8,7 +8,8 @@ tags:
   - en
 ---
 
-Over the years my Development Environments have changed quite a lot. When I started writing scripts in Bash and Perl, I used [VIM](https://vim.sourceforge.io/). As I used Linux on the Desktop, and my scripts were not that complex, it worked great at the time. After that, I tried [Komodo](https://www.activestate.com/komodo-ide) and ended up using [Eclipse](http://www.eclipse.org/) with the Perl plugins. Eclipse always felt a bit bloated and oversized and I was always happy when I did not have to use it.  
+Over the years my Development Environments have changed quite a lot. When I started writing scripts in Bash and Perl, I used [VIM](https://vim.sourceforge.io/). As I used Linux on the Desktop, and my scripts were not that complex, it worked great at the time. After that, I tried [Komodo](https://www.activestate.com/komodo-ide) and ended up using [Eclipse](http://www.eclipse.org/) with the Perl plugins. Eclipse always felt a bit bloated and oversized and I was always happy when I did not have to use it.
+
 For a long time I stuck to VIM and had one or two Terminal windows open on the side to run scripts and a browser to look up the documentation. Now that my scripts and modules get more complex, I wanted to take another look and see if anything has changed in the world of IDEs in the last couple of years.
 
 This coincided with my switch from VIM to [Atom](https://atom.io/) as my default editor, so naturally I looked at Atom’s plugins first. And I liked what I found! I decided to start with the following packages:
@@ -23,24 +24,26 @@ Since it is never a good idea to install multiple [Python](https://www.python.or
 
 Python on Mac OS X is quite old, and I do not want to mess it up by accident, so I always install Python and [pip](https://pypi.python.org/pypi/pip) via [Homebrew](https://brew.sh/).
 
-* Use pip to install virtualenv and the wrapper
+#### Use pip to install virtualenv and the wrapper
 
-`# pip install virtualenv virtualenvwrapper`
-
-* Export Python and VirtualEnv settings (.bashrc)
-
+```shell
+pip install virtualenv virtualenvwrapper
 ```
+
+#### Export Python and VirtualEnv settings (.bashrc)
+
+```bash
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3.5
 export WORKON_HOME="${HOME}/venv"
 export PROJECT_HOME="${HOME}/devel"
 source /usr/local/bin/virtualenvwrapper.sh
 ```
 
-* Install Atom packages with all requirements
+#### Install Atom packages with all requirements
 
-```
-# pip install pep8 flake8 jedi flake8-docstrings
-# apm install linter-flake8 linter-python-pep8 autocomplete-python django-templates python-debugger
+```shell
+$ pip install pep8 flake8 jedi flake8-docstrings
+$ apm install linter-flake8 linter-python-pep8 autocomplete-python django-templates python-debugger
 ```
 
 It is great to have a style guide directly in Atom! It is also awesome to be able to use the Python Debugger and go step by step through the code, or auto-complete functions, arguments and variables. All these little packages are a tremendous help. I think, I will stick to this for a while.
