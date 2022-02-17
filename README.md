@@ -5,3 +5,5 @@ The blog content for [jason.re](https://jason.re), to be used with [Hugo](https:
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fe21cc81-1bba-4ff8-abc3-e6edc76b18e3/deploy-status)](https://app.netlify.com/sites/trusting-stonebraker-f55fa2/deploys)
+
+[![GitHub Pages](https://github.com/jbfriedrich/jason.re/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/jbfriedrich/jason.re/actions/workflows/gh-pages.yml)
