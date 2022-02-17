@@ -11,15 +11,15 @@ tags:
 
 Managing your own CA is usually very tedious and time consuming, so I decided to partly automate it using a Docker container and easy-rsa. The container generates my CA and server/client certificates for all my devices in my home office and the test lab.
 
-VMware vSphere always offered the possibility to use your own certificates, but importing and managing them for all your devices in vCenter was a bit of a horrible experience in version 5.x. With version 6, 6.5 and 6.7 ,the process saw major improvements and the new certificate manager looks very promising. I decided to give it another try! 
+VMware vSphere always offered the possibility to use your own certificates, but importing and managing them for all your devices in vCenter was a bit of a horrible experience in version 5.x. With version 6, 6.5 and 6.7 ,the process saw major improvements and the new certificate manager looks very promising. I decided to give it another try!
 
 ## Enabling SCP on the vCSA
 
 I always disliked the Windows vCenter, so I was very happy when VMware decided to sunset the Windows version and declared the fairly new vCenter Server Appliance (based on Photon OS) the new standard!
 
-The long-term goal of the appliance is to strip down dead weight, hide everything that is not required for managing your vSphere environment and to use the vCenter API whenever possible. But this also means we need to temporarily enable `scp` and the `bash` shell first: 
+The long-term goal of the appliance is to strip down dead weight, hide everything that is not required for managing your vSphere environment and to use the vCenter API whenever possible. But this also means we need to temporarily enable `scp` and the `bash` shell first:
 
-```
+```shell
 » ssh root@vcsa.frdr.ch
 
 VMware vCenter Server Appliance 6.7.0.30000
@@ -48,7 +48,7 @@ Connection to vcsa.frdr.ch closed.
 
 Now with `bash` and `scp` available, we can transfer the CA certificate and key to the appliance:
 
-```
+```shell
 » scp ca.* root@vcsa.frdr.ch:                                             
 
 VMware vCenter Server Appliance 6.7.0.30000
@@ -62,7 +62,7 @@ ca.key                                                                         1
 
 Now with all required files in place, we can re-enable `appliancesh`:
 
-```
+```shell
 » ssh root@vcsa.frdr.ch
 
 VMware vCenter Server Appliance 6.7.0.30000
@@ -81,34 +81,34 @@ Connection to vcsa.frdr.ch closed.
 
 After cert and key are copied, and the appliance shell is reactivated, we can start the certificate-manager and replace the machine certificate:
 
-```
+```shell
 root@vcsa [ ~ ]# /usr/lib/vmware-vmca/bin/certificate-manager
-		 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-		|                                                                     |
-		|      *** Welcome to the vSphere 6.7 Certificate Manager  ***        |
-		|                                                                     |
-		|                   -- Select Operation --                            |
-		|                                                                     |
-		|      1. Replace Machine SSL certificate with Custom Certificate     |
-		|                                                                     |
-		|      2. Replace VMCA Root certificate with Custom Signing           |
-		|         Certificate and replace all Certificates                    |
-		|                                                                     |
-		|      3. Replace Machine SSL certificate with VMCA Certificate       |
-		|                                                                     |
-		|      4. Regenerate a new VMCA Root Certificate and                  |
-		|         replace all certificates                                    |
-		|                                                                     |
-		|      5. Replace Solution user certificates with                     |
-		|         Custom Certificate                                          |
-		|                                                                     |
-		|      6. Replace Solution user certificates with VMCA certificates   |
-		|                                                                     |
-		|      7. Revert last performed operation by re-publishing old        |
-		|         certificates                                                |
-		|                                                                     |
-		|      8. Reset all Certificates                                      |
-		|_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+|                                                                     |
+|      *** Welcome to the vSphere 6.7 Certificate Manager  ***        |
+|                                                                     |
+|                   -- Select Operation --                            |
+|                                                                     |
+|      1. Replace Machine SSL certificate with Custom Certificate     |
+|                                                                     |
+|      2. Replace VMCA Root certificate with Custom Signing           |
+|         Certificate and replace all Certificates                    |
+|                                                                     |
+|      3. Replace Machine SSL certificate with VMCA Certificate       |
+|                                                                     |
+|      4. Regenerate a new VMCA Root Certificate and                  |
+|         replace all certificates                                    |
+|                                                                     |
+|      5. Replace Solution user certificates with                     |
+|         Custom Certificate                                          |
+|                                                                     |
+|      6. Replace Solution user certificates with VMCA certificates   |
+|                                                                     |
+|      7. Revert last performed operation by re-publishing old        |
+|         certificates                                                |
+|                                                                     |
+|      8. Reset all Certificates                                      |
+|_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|
 Note : Use Ctrl-D to exit.
 Option[1 to 8]: 2
 Do you wish to generate all certificates using configuration file : Option[Y/N] ? : y
@@ -140,9 +140,9 @@ Enter proper value for 'Email' [Default value : email@acme.com] : ops@probytes.e
 Enter proper value for 'Hostname' (Provide comma separated values for multiple Hostname entries) [Enter valid Fully Qualified Domain Name(FQDN), For Example : example.domain.com] : vcsa.frdr.ch
 
 Enter proper value for VMCA 'Name' :progressivebytes
-	 1. Generate Certificate Signing Request(s) and Key(s) for VMCA Root Signing certificate
+    1. Generate Certificate Signing Request(s) and Key(s) for VMCA Root Signing certificate
 
-	 2. Import custom certificate(s) and key(s) to replace existing VMCA Root Signing certificate
+    2. Import custom certificate(s) and key(s) to replace existing VMCA Root Signing certificate
 
 Option [1 or 2]: 2
 

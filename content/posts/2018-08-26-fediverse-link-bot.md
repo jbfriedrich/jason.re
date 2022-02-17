@@ -2,6 +2,7 @@
 title: Fediverse Link Bot
 date: 2018-08-26T23:05:50
 feature_image: https://images.unsplash.com/photo-1527168027773-0cc890c4f42e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=b8967a215ee951c7f2b2eb367042858f
+summary: 'In the past it was easy to share interesting, or funny finds on the Internet. It was this magical place which was called “cyberspace” by the uninitiated.'
 tags:
   - automation
   - social-media
@@ -9,17 +10,17 @@ tags:
   - en
 ---
 
-In the past it was easy to share interesting, or funny finds on the Internet. First of all, the Internet was this magical place which was called “cyberspace” by the “common folk”. Only people who were really interested in this new medium were able to use it properly, as it was not that easy to get “online” at the time. Secondly, the only way to reach people was plain text emails. No social media, no messengers, maybe an IRC channel if you were lucky.
+Only people who were really interested in this new medium were able to use it properly, as it was not that easy to get “online” at the time. The only way to reach people was plain text emails. No social media, no messengers, maybe an IRC channel if you were lucky.
 
-## The era of the messengers
+# The era of the messengers
 
 The more people “got online”, the more the communication got fragmented and compartmentalised. It started with the messengers in the 90s. First [ICQ](https://en.wikipedia.org/wiki/ICQ), [AIM](https://en.wikipedia.org/wiki/AIM_\(software\)), then [MSN](https://en.wikipedia.org/wiki/Windows_Live_Messenger) and [Yahoo](https://en.wikipedia.org/wiki/Yahoo!_Messenger). For a long time, whenever I dialled in via modem or ISDN card (or later, with a 768 kilobit DSL connection), I had to use three different messenger services to reach people.
 
-## Digital communication nowadays
+# Digital communication nowadays
 
 Nowadays the landscape is even more fragmented. There is [SMS](https://en.wikipedia.org/wiki/SMS), [MMS](https://en.wikipedia.org/wiki/Multimedia_Messaging_Service), [WhatsApp](https://en.wikipedia.org/wiki/WhatsApp), [Telegram](https://en.wikipedia.org/wiki/Telegram_\(service\)), [Signal](https://en.wikipedia.org/wiki/Signal_\(software\)), [Facebook Messenger](https://en.wikipedia.org/wiki/Facebook_Messenger), [Facebook](https://en.wikipedia.org/wiki/Facebook), [Twitter](https://en.wikipedia.org/wiki/Twitter), [Discord](https://en.wikipedia.org/wiki/Discord_\(software\)), email… you name it! It got a lot harder to reach people, and it has become a lot of work to send an interesting story or a funny link to the right “audience”. And sometimes it even happens that you gravely annoy people with your links, maybe even to an extent where they mute you or unfollow you. Most of the time they just suffer quietly and politely, with the only hope that your “link storm” ends sooner rather than later.
 
-## A different approach
+# A different approach
 
 I thought about this predicament for quite some time and was not sure what to do. After a while it dawned on me that I might need to change the approach that I used to share content. In 2018, people are used to be able to choose. Most of the intelligent people do not want to get force fed something, they want to be able to choose something, based on topics of interest.
 
@@ -27,11 +28,11 @@ Then I decided to built a “link portal”. A kind of “micro blog”, but for
 
 Shortly after I started – and after I saw that I totally underestimated the scope of this project – [Mastodon](https://en.wikipedia.org/wiki/Mastodon_\(software\)) became the topic of conversation again. People were fed up once more with Twitter and threatened to leave in tropes[^1] because of some [changes to their public API](https://9to5mac.com/2018/08/07/twitter-api-change-tweetbot-twitterrific/), which would result in rendering 3rd party clients useless. Of course I tested it, and it turns out, it was exactly what I was looking for.
 
-## Make use of open standards
+# Make use of open standards
 
 Mastodon uses [ActivityPub](https://en.wikipedia.org/wiki/ActivityPub) to create the [Fediverse](https://en.wikipedia.org/wiki/Fediverse). You can imagine it as Twitter on a community level, i.e. every community has its own Twitter, but you can also follow and communicate between these communities[^2]. So I created a new single user [Mastodon instance](https://click.ba.it/@links), which now can be followed by any Mastodon user in the Fediverse. It is, of course, not only limited to Mastodon users. You can use the web browser and look through the posts, or subscribe to new entries via [RSS](https://en.wikipedia.org/wiki/RSS) or [Atom](https://en.wikipedia.org/wiki/Atom_\(Web_standard\)).
 
-## Embedded into a workflow
+# Embedded into a workflow
 
 I want to share my findings, if possible, without much effort. If it becomes too much of an hassle to do something, you do it less or stop doing it altogether (blogging, exercising, anything really, it is human nature I guess). So I needed a workflow that was not unintrusive and not noticeable. And I think I found the perfect workflow for me.
 

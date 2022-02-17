@@ -16,7 +16,7 @@ One evening two weeks ago then I was debugging a VPN problem I encountered a mas
 
 This really looked weird. I contacted [Ubnt support](http://www.ubnt.com/support/). I was told to press the famous ‘any key’ during boot, before the kernel was loaded, and then run some tests. First of all a memory test:
 
-```
+```shell
 Octeon ubnt_e100# mtest
 Testing 80100000 ... 80ffffff:
 Iteration: 6040

@@ -2,19 +2,18 @@
 title: Favorite Podcasts 2017
 date: 2017-01-01T01:29:31
 feature_image: https://images.unsplash.com/photo-1527150122806-f682d2fd8b09?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=4e3a5c35dd6d69ecf64167e706a500bc
+summary: "I am an avid podcast listener. My favorite English and German podcasts categorized as “regular” and “other”, sorted in alphabetical order."
 tags:
   - media
   - en
   - podcasts
 ---
 
-I am an avid podcast listener. My favorite English and German podcasts categorized as “regular” and “other”, sorted in alphabetical order.
+# Regular Podcasts
 
-## Regular podcasts
+Podcasts I listen to regularly. I usually don’t miss an episode (I might skip one, if it bores me or the topic doesn’t interest me at all):
 
-Podcasts I listen to regularly. I usually don’t miss an episode (I might skip one, if it bores me or the topic doesn’t interest me at all).
-
-### German
+## German
 
 * [Aufwachen!](http://aufwachen-podcast.de/)  
 * [Alternativlos](http://alternativlos.org/)  
@@ -29,16 +28,17 @@ Podcasts I listen to regularly. I usually don’t miss an episode (I might skip 
 * [Viva Britannia](http://www.vivabritannia.de/)  
 * [Young in the 80s](http://younginthe80s.de/)
 
-### English
+## English
 
 * [This Week in Tech (TWiT)](https://twit.tv/shows/this-week-in-tech)  
 * [Accidental Tech Podcast](http://atp.fm/)
 
-## Other podcasts
 
-Other podcasts I that I am listening to very selectively or just follow loosely:
+# One-off & irregular Podcasts
 
-### German
+Other podcasts that I am listening to very selectively or just follow loosely:
+
+## German
 
 * [Fokus Europa](http://fokus-europa.de/)  
 * [Hintergrund – Deutschlandfunk](http://www.deutschlandfunk.de/hintergrund.723.de.html)  
@@ -51,7 +51,7 @@ Other podcasts I that I am listening to very selectively or just follow loosely:
 * [Sendungsbewusstsein](http://sendungsbewusstsein.info/)  
 * [WDR Zeitzeichen](http://www1.wdr.de/radio/podcasts/wdr3/zeitzeichen244.html)
 
-### English
+## English
 
 * [Debug](https://player.fm/series/debug-11576)  
 * [StartUp Podcast](https://gimletmedia.com/show/startup/)  

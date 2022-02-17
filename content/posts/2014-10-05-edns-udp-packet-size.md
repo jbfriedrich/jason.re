@@ -11,9 +11,9 @@ tags:
 
 A couple of weeks ago I set up a local BIND in a CentOS 6.5 VM to have an internal DNS server for my VMs to use. After creating several local zone files and successful initial tests, everything worked fine. Some domains had high query times, and SSH logins sometimes took a bit longer than expected, but I did not have enough time to investigate further.
 
-Today I had some free time on my hands and decided to re-visit the issue. The DNS server works fine, but whenever the cache is empty, it takes up to 3098ms for a DNS query. Once the result is in cache, everything works as expected. To get a better overview I started with enabling debug logging in _named.conf_ :
+Today I had some free time on my hands and decided to re-visit the issue. The DNS server works fine, but whenever the cache is empty, it takes up to 3098ms for a DNS query. Once the result is in cache, everything works as expected. To get a better overview I started with enabling debug logging in ´named.conf´:
 
-```    
+```less
 logging {
     channel default_debug {
         file "data/named.run";
@@ -36,7 +36,7 @@ I then remembered something a friend of mine told me a couple of months ago. Het
 
 To be on the safe side, I edited the _named.conf_ and set the values for "edns-udp-size" and "max-udp-size" to 512 bytes:
 
-```
+```less
 edns-udp-size           512;
 max-udp-size            512;
 ```

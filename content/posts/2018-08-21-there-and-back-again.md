@@ -2,6 +2,7 @@
 title: There and back again
 date: 2018-08-21T02:36:55
 feature_image: https://images.unsplash.com/photo-1511485910951-f7a707918e93?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=d1ceb5a99bfd7225bf1a999f3ff068cd
+summary: '"What, you changed your blog? Again?!". That is something I hear very often these days. And they are right, every single one of them.'
 tags:
   - blogging
   - tech
@@ -9,7 +10,7 @@ tags:
   - en
 ---
 
-"What, you changed your blog? **Again?!** ". That is something I hear very often these days. And they are right, every single one of them. For a while it seemed that I was changing blogging software and blog themes more often than my underwear. But that is all over now, for sure. Maybe… I think…
+For a while it seemed that I was changing blogging software and blog themes more often than my underwear. But that is all over now, for sure. Maybe… I think…
 
 What happened? Well, I was unhappy with my current blogging software, [Ghost](https://ghost.org), and I was looking for an alternative. I was looking for something easy to use, but it should look good. It should be simple, but have enough "bells and whistles" to be convenient. So I started to try a lot of things...
 
@@ -41,4 +42,4 @@ For regular blogging, I would have to build a complete workflow that either uses
 
 Ghost 2.0 is expected to be released this week. It will have a [new editor](https://forum.ghost.org/t/koenig-editor-beta-release/1284). Even though I rather use my [favorite Markdown Editor](https://ulysses.app/) to write my posts, I am very curious to see the new editor in action. We will see what the team will focus on after the release. I really hope it is the public API, as creating posts remotely would be big win for the platform.
 
-For now, I think I will stick with WordPress. As much as it pains me, but I think that it is the most convenient solution. I can use Ulysses to [publish my posts](https://ulysses.app/tutorials/wordpress) to WordPress and I have a theme and plugin eco system. It is not a perfect fit, but I think it is the solution that **currently** works _best_ for _me_.
+For now, I think I will stick with WordPress. As much as it pains me, but I think that it is the most convenient solution. I can use Ulysses to [publish my posts](https://ulysses.app/tutorials/wordpress) to WordPress and I have a theme and plugin eco system. It is not a perfect fit, but I think it is the solution that _currently_ works best for me.

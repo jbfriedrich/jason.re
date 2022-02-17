@@ -1,7 +1,7 @@
 ---
 title: Symantec and Comodo revoke certs without proper private key
 date: 2017-07-21T13:45:06
-feature_image: https://images.unsplash.com/photo-1516643622707-2052983d5f08?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=c292a2c0aa35058e6b8715d8e57d2b1d
+type: status
 tags:
   - security
   - tech

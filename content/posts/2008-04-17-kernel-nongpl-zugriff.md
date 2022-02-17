@@ -15,4 +15,4 @@ Für die meisten Firmen sind genaue Informationen darüber, wie ihre Hardware fu
 
 Wenn Unternehmen schon bereit sind überhaupt Treiber für Linux bereit zu stellen, sollte man durch solche Aktionen nicht noch aktiv verhindern das diese Treiber auch genutzt werden können. Für den “gemeinen Benutzer” ist das unverständlich und umständlich. So vergrault man Firmen die bereit sind Treiber zu schreiben, man vergrault Benutzer die diese Hardware unter Linux nutzen wollen und schadet im Endeffekt dem Betriebssystem selbst und schränkt die Verbreitung ein. Das kann eigentlich nicht in “unserem” Sinne sein. Man sollte endlich mit dem Versuch aufhören Leute zu “zwingen” freie Software zu schreiben. Freie Software ist schön, ich präferiere sie wo ich nur kann, allerdings verwende ich als Benutzer Soft- und Hardware die “einfach funktioniert” und das am Besten “out of the box”. Ubuntu macht einen Anfang, aber generell sind wir bei Linux noch weit davon entfernt.
 
- _Schade eigentlich…_
+_Schade eigentlich…_

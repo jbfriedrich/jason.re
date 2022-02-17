@@ -8,9 +8,9 @@ tags:
   - podcasts
 ---
 
-{{< tweet 1159752500330868736 >}}
+Ich denke man kann die Länge von Podcasts nicht pauschalisieren, aber ich lehne mich mal aus dem Fenster und sage, dass _kein_ Podcast der 10 oder 15 Minuten lang ist den Namen verdient. Es ist dann nur ein „Wortbeitrag“, ein Segment, eingebettet in ein größeres Ganzes. So wie man es aus dem jetzigen, kaputten Radio kennt.
 
-‪Ich denke man kann die Länge von Podcasts nicht pauschalisieren, aber ich lehne mich mal aus dem Fenster und sage, dass _kein_ Podcast der 10 oder 15 Minuten lang ist den Namen verdient. Es ist dann nur ein „Wortbeitrag“, ein Segment, eingebettet in ein größeres Ganzes. So wie man es aus dem jetzigen, kaputten Radio kennt.
+{{< tweet 1159752500330868736 >}}
 
 Ich mache keinen Hehl daraus, ich hasse die immer kleiner werdenden Beiträge im Radio die ohne, oder mit viel zu stark verkürzten Hintergrund auskommen müssen. Bei „CosmoPunktEU“ bin ich immer traurig das er nicht 2 Stunden lang ist. [Samuel Jakisch](https://twitter.com/samuel_ja) macht einen fantastischen Job. So viel Wissen, vor allen Dingen Hintergrundwissen bekomme ich leider sonst nirgendwo, was gerade in unserem öffentlich-rechtlichen System eine Schande ist. Aber ich schweife ab.
 

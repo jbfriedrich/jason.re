@@ -7,7 +7,7 @@ tags:
   - en
 ---
 
-When I saw "[Gibbous - A Cthulhu Adventure](https://gibbousgame.com/)", I immediately liked the premise of the story, and the fact that it was a 90's-style Adventure Game! A leopard cannot change its spots, and I am a sucker for these type of games. In addition, it is a small, independent studio from Transylvania, that used a [Kickstarter](https://www.kickstarter.com/projects/stuckinattic/gibbous-a-cthulhu-adventure) campaign to finance their very first own game? "Shut up and take my money!" 
+When I saw "[Gibbous - A Cthulhu Adventure](https://gibbousgame.com/)", I immediately liked the premise of the story, and the fact that it was a 90's-style Adventure Game! A leopard cannot change its spots, and I am a sucker for these type of games. In addition, it is a small, independent studio from Transylvania, that used a [Kickstarter](https://www.kickstarter.com/projects/stuckinattic/gibbous-a-cthulhu-adventure) campaign to finance their very first own game? "Shut up and take my money!"
 
 The puzzles are easy when you have an "Adventure Game" background - with a couple of exceptions of the rule. Especially to the end of the game, at the end of chapter six, there are some pretty hard, almost unfair puzzles. All in all I would say it is a nice balance, especially for newcomers to the genre.
 

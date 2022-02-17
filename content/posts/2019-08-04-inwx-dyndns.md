@@ -8,9 +8,9 @@ tags:
   - en
 ---
 
-I have not used [dynamic DNS](https://en.wikipedia.org/wiki/Dynamic_DNS) in a very, very long time. I think the last time was back at the end of the 90's or the beginning 00's. Most (if not all) of the services I used at the time do not exist anymore. I happily noticed that my DNS and domain provider offers a [DynDNS service](https://www.inwx.de/en/offer/dyndns). My new [EdgeRouter 4](https://www.ui.com/edgemax/edgerouter-4/) has a built-in DynDNS client, supporting multiple protocols. 
+I have not used [dynamic DNS](https://en.wikipedia.org/wiki/Dynamic_DNS) in a very, very long time. I think the last time was back at the end of the 90's or the beginning 00's. Most (if not all) of the services I used at the time do not exist anymore. I happily noticed that my DNS and domain provider offers a [DynDNS service](https://www.inwx.de/en/offer/dyndns). My new [EdgeRouter 4](https://www.ui.com/edgemax/edgerouter-4/) has a built-in DynDNS client, supporting multiple protocols.
 
-```
+```shell
 $ ssh jfriedrich@192.168.1.1                        
 Welcome to EdgeOS
 

@@ -1,12 +1,11 @@
 ---
 title: Lootbox madness
 date: 2017-11-22T10:41:13
-feature_image: https://images.unsplash.com/photo-1554104365-0338ddaf81f4
+type: status
 tags:
   - gaming
   - media
   - en
-language: en
 ---
 
 A couple of days ago the [Washington Post](https://www.washingtonpost.com/news/comic-riffs/wp/2017/11/18/how-a-star-wars-video-game-faced-charges-that-it-was-promoting-gambling/) wrote an article about EA’s Battlefront 2. It was the first time I read something this thorough and detailed about a game and its mechanics in a general media publication — and not in a gaming blog or podcast.

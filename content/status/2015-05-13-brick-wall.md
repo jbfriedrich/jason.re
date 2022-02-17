@@ -1,7 +1,7 @@
 ---
 title: Brick wall
 date: 2015-05-13T19:55:00
-feature_image: https://images.unsplash.com/photo-1501967539894-fc5b4464c400?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=48bde26658d9637dbda62b729b19366b
+type: status
 tags:
   - firewall
   - tech

@@ -2,8 +2,10 @@
 title: "Watched: Dark Phoenix"
 summary: "One of the worst movies that I have ever seen. Without a soul, without substance. Just great actors without a good script and CGI bombast."
 date: 2019-12-09T04:54:13
-type: post
-tags: [de,entertainment,movies]
+tags:
+  - de
+  - entertainment
+  - movies
 ---
 
 From the first minute the movie feels very “constructed” and very “artificial” to me. As if they discovered the comic book story and then decided they want to build a movie around it – no matter how and if the elements fit together and in total disregard of the continuity they just created with the last movies.

@@ -2,16 +2,14 @@
 title: The disadvantages of digital goods
 date: 2011-09-04T23:39:59
 feature_image: https://images.unsplash.com/photo-1516295904088-1ff1398c9596?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=32ca35ce0ad0d80983208ab55975fa52
+summary: "A recent conversation on Twitter made me think about why I never purchased any movies or eBooks in the iTunes Store or at Amazon. The longer I think about it, the more disadvantages come to my mind. The answer is quite easy for me."
 tags:
-  - society
   - tech
-  - digitilization
+  - digitalization
   - en
 ---
 
-A recent conversation on Twitter made me think about why I never purchased any movies or eBooks in the iTunes Store or at Amazon. The longer I think about it, the more disadvantages come to my mind. The answer is quite easy for me:
-
-## Books
+# Books
 
 Let’s take a closer look at the eBook market. If you want to buy one, you will finally end up at either iTunes or Amazon because they are the biggest sellers of iBooks worldwide. Of course there are also some smaller, maybe independent distributors of eBooks, but they don’t have any significant role in the mass market today.
 
@@ -22,7 +20,7 @@ When we talk about availability, we have to think about different copyright laws
 
 The biggest problem of all to me is, that every system that is available at the moment is a closed system. With iBooks you have to use the iBook reader, for Kindle eBooks, you have to use the Kindle reader. They are not compatible to each other and I can’t use a common application to read the contents. Amazon or Apple have the right to delete books or magazines, even after you have purchased them! Amazon already used this ‘feature’ to delete all copies of 1984 from all Kindle devices. They later restored the copies, and apologized for it, but does that make it better? The possibility alone, that they can pull stunts like that is scary at least.
 
-## Videos
+# Videos
 
 Videos have quite the same limitations as eBooks. Let’s take iTunes as an example: If you download a movie from the iTunes store, the movie is downloaded and can be viewed with your iTunes. Of course, you have to log in with your Apple ID and the the copy of iTunes has to be activated. I can not watch it on my television (or I have to buy a overpriced, very expensive gadget called Apple TV or plug the television to my Mac/PC), nor can I watch it with my video player of choice which supports the codec. Let’s say Apple has a problem with the connectivity to the iTunes store and it can not validate that I am allowed to watch my movies? What then? Oh you say that can’t happen? Right we have seen what can happen or not when a group hacked Sony’s PS network, and they had to take it down for a couple of months.  
 So they sell you a video file, which you can watch — if they let you — until they think that you watched enough and delete them from your account (think about Amazon’s 1984 eBook incident).
@@ -30,7 +28,7 @@ So they sell you a video file, which you can watch — if they let you — until
 I will not talk much about streaming services like ‘Hulu’ or ‘Netflix’, because these services are not officially available in Germany (what sucks, and has to do with licensing issues which are the same as with the eBooks in the last paragraph). I think these kind of licensing prevents evolution and is a huge obstacle and disadvantage for media and IT companies in Germany.  
 But even if streaming services like ‘Hulu’ or ‘Netflix’ would be available here in Germany, I would not use them either. They don’t sell you the actual good, they only sell you the permission to watch their shows, films, whatever content, until the account is invalid. After that, you have paid a lot of money, but have nothing left for what you have paid for.
 
-## Conclusion
+# Conclusion
 
 My conclusion is that digital goods still have many disadvantages. Some of them are huge and will prevent many (like me) from buying. Unfortunately, I think the laziness, or to sugarcoat it, the ‘convenience’ will prevail over the common sense. Therefore the closed systems with all it’s disadvantages will be around for a while, and they will be used by the majority of the people and it will be a rapidly growing market.
 

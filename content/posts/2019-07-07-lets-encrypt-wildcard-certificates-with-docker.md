@@ -22,7 +22,7 @@ Before I roll my own solution, I wanted to see if someone already came up with a
 
 For easier backups, my Docker servers use bind volumes whenever possible. This makes deploying my configuration files rather easy.
 
-```
+```shell
 $ mkdir /opt/docker-sync/le-dns
 $ cd /opt/docker-sync/le-dns
 $ vim domains.conf
@@ -39,7 +39,7 @@ $ vim lexicon.yml
 
 To be as independent as possible, I like to fork projects and build my own Docker Images. This is not required though, it can work out-of-the-box with Adrien's repository.
 
-```
+```shell
 $ docker build --no-cache --force-rm -t <redacted>.dkr.ecr.eu-central-1.amazonaws.com/le-dns:latest -t <redacted>.dkr.ecr.eu-central-1.amazonaws.com/le-dns:1.3 .
 Sending build context to Docker daemon  35.84kB
 Step 1/18 : FROM python:alpine3.9
@@ -87,7 +87,7 @@ Successfully tagged <redacted>.dkr.ecr.eu-central-1.amazonaws.com/le-dns:1.3
 
 ## Run your Docker container
 
-```
+```shell
 $ docker run --rm --name le-dns --volume /opt/docker-sync/le-dns:/etc/letsencrypt <redacted>.dkr.ecr.eu-central-1.amazonaws.com/le-dns:latest
 2019-07-07 09:31:32 circus[1] [INFO] Starting master on pid 1
 2019-07-07 09:31:32 circus[1] [INFO] Arbiter now waiting for commands

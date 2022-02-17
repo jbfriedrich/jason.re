@@ -1,18 +1,17 @@
 ---
-layout: post
 title: New Blogging Engine
 date: 2019-11-21T15:24:49
-summary: "I have used a lot of blogging solutions in the past, and went through quite a few applications. From Wordpress to Octopress, to Ghost and back. None of them had all the features I wanted. Now I might have found what I was looking for. Maybe..."
-feature_image: >-
-  https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&q=80
+summary: "I have used a lot of blogging solutions in the past, and went through quite a few applications. I am trying something new... again."
+feature_image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&q=80
 tags:
   - blogging
   - tech
   - en
-type: post
-language: en
 ---
-I am trying something new. Again. I am not really happy with the blogging platforms out there. I went with [Wordpress](https://wordpress.org/) for a while, but its transition from a "blogging platform" into a general "web site platform" is almost completed. Too complex, too bloated for my little needs. It is not what I am looking for, nor what I need. 
+
+I have used a lot of blogging solutions in the past and went through quite a few applications. From Wordpress to Octopress, to Ghost and back. None of them had all the features I wanted. Now I might have found what I was looking for. Maybe...
+
+I am not really happy with the blogging platforms out there. I went with [Wordpress](https://wordpress.org/) for a while, but its transition from a "blogging platform" into a general "web site platform" is almost completed. Too complex, too bloated for my little needs. It is not what I am looking for, nor what I need.
 
 I also tried [Ghost](https://ghost.org/) for a while, but I really do not like the new editor and the underlying [Mobiledoc format](https://github.com/bustle/mobiledoc-kit). I still like the project, and version 3.0 is really nice. But also not what I am looking for.
 
