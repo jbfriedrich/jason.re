@@ -1,3 +1,4 @@
 [submodule "themes/hemingway"]
 	path = themes/hemingway
 	url = https://github.com/jbfriedrich/hemingway.git
+	update = rebase
