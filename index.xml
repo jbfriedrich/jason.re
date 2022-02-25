@@ -765,14 +765,9 @@ PersistentKeepalive <span style="color:#f92672">=</span> <span style="color:#ae8
 </div>
 <br>
 
-<figure class="kg-card kg-embed-card kg-video-card">
-    <div class="fluid-width-video-wrapper">
-        <video controls style="max-width: 100%; background: transparent url('https://rmbr.eu/file/dstore/static/video/brexit.png') no-repeat center center; background-size: cover;" poster="https://rmbr.eu/file/dstore/static/video/transparent.png">
-            <source src="https://rmbr.eu/file/dstore/19/2/jacobreesmogg-message-common-people.mp4" type="video/mp4">
-        </video>
-    </div>
-</figure>
-
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 1.5rem;">
+  <iframe src="https://www.youtube-nocookie.com/embed/V3TT1VE8Jq0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 <br>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 1.5rem;">
