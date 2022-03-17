@@ -42,6 +42,7 @@ markup:
   goldmark:
     renderer:
       hardWraps: true
+      unsafe: true
 # if you want markdown WYSIWYG line break
 #blackfriday:
 #  extensions:
