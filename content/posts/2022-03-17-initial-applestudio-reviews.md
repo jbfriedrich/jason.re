@@ -1,5 +1,6 @@
 ---
-title: Initial Apple Studio Reviews have arrived
+title: Initial Apple Studio Reviews Published
+slug: initial-applestudio-reviews
 date: 2022-03-17T19:14:00
 feature_image: "https://images.unsplash.com/photo-1547082299-de196ea013d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
 tags:
