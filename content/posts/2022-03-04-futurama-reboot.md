@@ -13,10 +13,10 @@ The original cast would reprise their roles, with one unfortunate exception: Joh
 
 I am very happy about that. Futurama is one of my most favorite shows. I think to celebrate its return, I need to finally get this [Bender model](https://cults3d.com/en/3d-model/gadget/bender-futurama-bigovereasy-2). 
 
-Futurama influenced Internet and pop culture in such a tremendous way, that it left a little bit of a void when it went off the air (even though it had one of the best series ending ever). 
+Futurama influenced Internet and pop culture in such a tremendous way, that it left a little bit of a void when it went off the air (even though it had one of the best series endings ever). 
 
 {{< youtube fGQfuvCd2Lc >}}
 
 > "Wanna go around again?" — "I do!"
 
-Right in the feels 🥲.
+Right in the feels 🥲
