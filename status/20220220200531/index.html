@@ -1,7 +1,7 @@
 <!doctype html><html lang=en>
 <head>
 <title>
-There will be a Trine 4, it will be released on October 8 … | Thoughts, Links & Moods
+Very interesting thread by Hector Martin, where he goes into … | Thoughts, Links & Moods
 </title>
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
@@ -11,12 +11,14 @@ There will be a Trine 4, it will be released on October 8 … | Thoughts, Links 
 <meta name=author content="Jason Friedrich">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content>
-<meta name=twitter:description content="There will be a Trine 4, it will be released on October 8 and it looks simply marvelous! I hope the multiplayer mode will be as much fun as in the last games!">
+<meta name=twitter:description content="Very interesting thread by Hector Martin, where he goes into more detail about the performance of Apple&rsquo;s NVMe drivers, explains how they work and what challenges he is facing under Asahi Linux.
+From the looks of it, under macOS, you can either have fast write speeds or data integrity when it comes to NVMe storage:">
 <meta property="og:title" content>
-<meta property="og:description" content="There will be a Trine 4, it will be released on October 8 and it looks simply marvelous! I hope the multiplayer mode will be as much fun as in the last games!">
+<meta property="og:description" content="Very interesting thread by Hector Martin, where he goes into more detail about the performance of Apple&rsquo;s NVMe drivers, explains how they work and what challenges he is facing under Asahi Linux.
+From the looks of it, under macOS, you can either have fast write speeds or data integrity when it comes to NVMe storage:">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://jason.re/status/20190808224758/"><meta property="article:section" content="status">
-<meta property="article:published_time" content="2019-08-08T22:47:58+02:00">
+<meta property="og:url" content="https://jason.re/status/20220220200531/"><meta property="article:section" content="status">
+<meta property="article:published_time" content="2022-02-20T20:05:31+01:00">
 <meta property="article:modified_time" content="2022-03-17T16:48:46+00:00">
 <link rel=preconnect href=https://fonts.googleapis.com>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
@@ -49,18 +51,28 @@ There will be a Trine 4, it will be released on October 8 … | Thoughts, Links 
 <main class=content>
 <article class="full-post type-post">
 <header class="post-header grid-canvas">
-<h1 class="post-date status-date">August 8, 2019</h1>
+<h1 class="post-date status-date">February 20, 2022</h1>
 </header>
 <main class="post-content grid-canvas">
-<div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-bottom:1.5rem>
-<iframe src=https://www.youtube-nocookie.com/embed/Yg9w4jRHX8A style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 allowfullscreen title="YouTube Video"></iframe>
-</div>
-<p>There will be a Trine 4, it will be released on October 8 and it looks simply marvelous! I hope the multiplayer mode will be as much fun as in the last games!</p>
+<p>Very interesting thread by Hector Martin, where he goes into more detail about the performance of Apple&rsquo;s NVMe drivers, explains how they work and what challenges he is facing under <a href=https://asahilinux.org/>Asahi Linux</a>.</p>
+<p>From the looks of it, under macOS, you can either have fast write speeds or data integrity when it comes to NVMe storage:</p>
+<blockquote>
+<p>As it turns out, macOS cheats. On Linux, fsync() will both flush writes to the drive, and ask it to flush its write cache to stable storage.</p>
+<p>So, effectively, Apple&rsquo;s drive is faster than all the others without cache flushes, but it is more than 3 times slower than a lowly SATA SSD at flushing its cache. Even if all you wrote is a couple of sectors. You pay a huge flush penalty if you do <em>any</em> writes.</p>
+<p>[&mldr;]</p>
+<p>macOS doesn&rsquo;t even seem to try to proactively issue syncs; you can write a file on macOS, fsync() it, wait 5 seconds, issue a hard reboot (e.g. via USB-PD command), and the data is gone. That&rsquo;s pretty bad.</p>
+<p>[&mldr;]</p>
+<p>Not flushing means we cannot guarantee ordering of writes, which means you could end up with actual data corruption in e.g. a database, not just data loss. There&rsquo;s no good way around this other than doing full flushes.</p>
+<p>[&mldr;]</p>
+</blockquote>
+<p>It is a very <a href=https://twitter.com/marcan42/status/1494213855387734019>long thread</a>, but its worth the read.</p>
+<p>{{ tweet 1494213855387734019 }}</p>
 </main>
 <aside class="tags grid-canvas">
 <ul class=taglist>
-<li class=tag><a class=tag-link href=/tags/gaming title="Posts tagged with gaming"><i class="bi bi-tag"></i>gaming</a></li>
-<li class=tag><a class=tag-link href=/tags/en title="Posts tagged with en"><i class="bi bi-tag"></i>en</a></li>
+<li class=tag><a class=tag-link href=/tags/macos title="Posts tagged with macos"><i class="bi bi-tag"></i>macos</a></li>
+<li class=tag><a class=tag-link href=/tags/hardware title="Posts tagged with hardware"><i class="bi bi-tag"></i>hardware</a></li>
+<li class=tag><a class=tag-link href=/tags/software title="Posts tagged with software"><i class="bi bi-tag"></i>software</a></li>
 </ul>
 </aside>
 </article>
