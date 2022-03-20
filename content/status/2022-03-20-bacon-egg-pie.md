@@ -8,7 +8,7 @@ tags:
   - en
 ---
 
-I have never heard of this dish before, but it contains pastry and eggs... and **bacon**. 🥓 is love, it is never wrong and always tasty. I think I need to try this soon 🤤.
+I have never heard of this dish before, but it is easy to make and it contains pastry and eggs... and **bacon** 🥓. Bacon is love, it is never wrong and always tasty. I think I need to try this soon 🤤.
 
 {{< tweet 1505612653762424833 >}}
 {{< tweet 1505606612978917376 >}}
