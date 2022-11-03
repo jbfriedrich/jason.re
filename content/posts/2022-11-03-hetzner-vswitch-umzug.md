@@ -1,7 +1,7 @@
 ---
 title: Kein IP-Umzug auf Hetzner vSwitches
-slug: hetzner-vswitches-ipnetz
-feature_image: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2834&q=80
+slug:hetzner-vswitches-ipnetz
+feature_image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2834&q=80"
 date: 2022-11-03T17:20:00
 tags:
   - tech
