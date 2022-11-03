@@ -1,9 +1,11 @@
 ---
 title: Kein IP-Netz-Umzug auf Hetzner vSwitches
+type: status
 date: 2022-11-03T17:20:00
 tags:
   - tech
   - network
+  - customer-service
   - de
 ---
 
