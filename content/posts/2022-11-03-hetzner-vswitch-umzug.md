@@ -19,3 +19,7 @@ Ich nutze den Server mit VMware vSphere und betreibe eine funktionierende, denno
 Nachdem Hetzner die monatliche Gebühr verdoppelt, und den Bereitstellungspreis für IPv4-Adressen und -Netze drastisch erhöht hat, würde ich ungern nur für einen Umzug auf den vSwitch den Bereitstellungspreis noch einmal bezahlen. Vielleicht gibt es dort ja ein Entgegenkommen, eventuell eine Gutschrift oder eine Anrechnung auf den Preis, oder so etwas. 
 
 Einen Telefonanruf später bin ich sehr ernüchtert. Klare Aussage vom Support: "Geht leider nicht – wurde von der Geschäftsleitung so entschieden". Ich müsste meine Netze kündigen und dann neue Netze für den vSwitch beantragen. Kostenpunkt: einmalig 180 € und dann monatlich 27 € statt 17 € für das "/29" IPv4-Netz 😞. Die monatlichen Kosten würden sich schnell amortisieren, schließlich kann die die IPv4 Adresse der Router-VM abbestellen. Aber die Bereitstellungskosten sind zu hoch. Ich glaube das ist es mir nicht wert.
+
+## Update Nov 7 2022
+
+Ich habe noch einmal den Hetzner Support via Email kontaktiert und die Situation geschildert. Herr S. aus der Hetzner Sales Abteilung schrieb mir, das die Setup Gebühr aus Kulanz erlassen wird. Ich soll ganz normal bestellen und werde dann eine Gutschrift erhalten. Chapeau Hetzner, guter Kundenservice. Vielen Dank dafür!
