@@ -63,6 +63,14 @@ menu:
     url: "/about/"
     weight: 2
     pre: '<i role="img" class="bi bi-person-fill"></i>'
+  - identified: mastodon
+    name: "Mastodon"
+    title: "Mastodon"
+    url: https://click.ba.it/@jason
+    weight: 3
+    pre: '<i role="img" class="bi bi-mastodon"></i>'
+    params:
+      rel: me
   - identifier: twitter
     name: "Twitter"
     title: "Twitter"
