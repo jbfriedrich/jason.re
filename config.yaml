@@ -63,7 +63,7 @@ menu:
     url: "/about/"
     weight: 2
     pre: '<i role="img" class="bi bi-person-fill"></i>'
-  - identified: mastodon
+  - identifier: mastodon
     name: "Mastodon"
     title: "Mastodon"
     url: https://click.ba.it/@jason
@@ -133,4 +133,5 @@ privacy:
   youtube:
     disable: false
     privacyEnhanced: true
+
 ignoreErrors: error-remote-getjson
