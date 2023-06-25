@@ -14,7 +14,7 @@ Ich bin gerade ein wenig von [Hetzner](https://www.hetzner.de) enttäuscht. Ich 
 
 Ich nutze den Server mit VMware vSphere und betreibe eine funktionierende, dennoch ein bisschen unschöne Router-VM Lösung, die ich gerne abschaffen würde. Ein [Hetzner vSwitch](https://docs.hetzner.com/de/robot/dedicated-server/network/vswitch/) wäre dafür eigentlich ideal! In der UI wird mir nur angeboten das ich neue IPv4- und IPv6-Netze für den vSwitch bestellen kann. Leider gibt es nirgendwo die Möglichkeit IP-Adressen oder Netze zu migrieren, oder in irgendeiner Weise zu importieren – schließlich habe ich ja schon zwei Netze. 
 
-![Hetzner vSwitch IP Preise](https://cloud.rmbr.eu/file/dstore/vswitch-preise.png)
+![Hetzner vSwitch IP Preise](https://cloud.media.jason.re/file/dstore/vswitch-preise.png)
 
 Nachdem Hetzner die monatliche Gebühr verdoppelt, und den Bereitstellungspreis für IPv4-Adressen und -Netze drastisch erhöht hat, würde ich ungern nur für einen Umzug auf den vSwitch den Bereitstellungspreis noch einmal bezahlen. Vielleicht gibt es dort ja ein Entgegenkommen, eventuell eine Gutschrift oder eine Anrechnung auf den Preis, oder so etwas. 
 

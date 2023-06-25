@@ -11,7 +11,7 @@ tags:
 
 When Apple first announced this year’s new phones, I immediately wanted to go for the [iPhone X](https://www.apple.com/iphone-x/). I was instantly sold on the idea of having an almost bezel-free OLED display, combined with the latest technology and one of the [best chipsets](http://www.androidauthority.com/apple-a10-fusion-chip-performance-723918/) on the market. And wireless charging? Please sign me up!
 
-{{< img src="https://rmbr.eu/file/dstore/17/9/giphy_orgjz2.gif" >}}
+{{< img src="https://media.jason.re/file/dstore/17/9/giphy_orgjz2.gif" >}}
 
 This morning though, I ordered an [iPhone 8 Plus](https://www.apple.com/iphone-8/) with 64 GB of memory.
 

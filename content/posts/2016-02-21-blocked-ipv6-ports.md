@@ -13,7 +13,7 @@ I recently created several Virtual Machines on my new [Hetzner](https://www.hetz
 
 While double-checking the VMs for running services and open ports, I noticed that my Hurricane Electric IPv6 address has some filtered ports that I did not notice before:
 
-{{< img caption="Nmap" src="https://rmbr.eu/file/dstore/16/2/Screen-Shot-2016-02-20-at-22-24-25.png" >}}
+{{< img caption="Nmap" src="https://media.jason.re/file/dstore/16/2/Screen-Shot-2016-02-20-at-22-24-25.png" >}}
 
 I looked at the [Hurricane Electric FAQ](https://ipv6.he.net/certification/faq.php) and it explains why these ports are filtered and how to get these ports un-blocked:
 
@@ -23,7 +23,7 @@ I looked at the [Hurricane Electric FAQ](https://ipv6.he.net/certification/faq.p
 
 Pretty straight-forward and well-explained. Knowing that these ports are blocked, I wanted to use one of my IPv6-enabled DigitalOcean droplets as this should not filter anything and give me an unaltered list of open ports:
 
-{{< img caption="Nmap" src="https://rmbr.eu/file/dstore/16/2/Screen-Shot-2016-02-20-at-22-27-26.png" >}}
+{{< img caption="Nmap" src="https://media.jason.re/file/dstore/16/2/Screen-Shot-2016-02-20-at-22-27-26.png" >}}
 
 Man, I was so wrong! It looks like DigitalOcean is blocking ports as well, though their blocking made much less sense to me. I could not find anything in the [help section on their homepage](https://www.digitalocean.com/help/), but was able to find an article in their ‘Support Center’ that is accessible once you log in:
 

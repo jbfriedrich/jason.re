@@ -1,7 +1,7 @@
 ---
 title: Cthulhu is a Cat
 date: 2019-08-16T02:24:29
-feature_image: https://rmbr.eu/file/dstore/19/8/Trio910x499.png
+feature_image: https://media.jason.re/file/dstore/19/8/Trio910x499.png
 tags:
   - gaming
   - en
@@ -11,13 +11,13 @@ When I saw "[Gibbous - A Cthulhu Adventure](https://gibbousgame.com/)", I immedi
 
 The puzzles are easy when you have an "Adventure Game" background - with a couple of exceptions of the rule. Especially to the end of the game, at the end of chapter six, there are some pretty hard, almost unfair puzzles. All in all I would say it is a nice balance, especially for newcomers to the genre.
 
-{{< img src="https://rmbr.eu/file/dstore/19/8/_Gibbous01.PNG" >}}
+{{< img src="https://media.jason.re/file/dstore/19/8/_Gibbous01.PNG" >}}
 
-{{< img src="https://rmbr.eu/file/dstore/19/8/_Gibbous05.PNG" >}}
+{{< img src="https://media.jason.re/file/dstore/19/8/_Gibbous05.PNG" >}}
 
-{{< img src="https://rmbr.eu/file/dstore/19/8/_Gibbous12.PNG" >}}
+{{< img src="https://media.jason.re/file/dstore/19/8/_Gibbous12.PNG" >}}
 
-{{< img src="https://rmbr.eu/file/dstore/19/8/_Gibbous02.PNG" >}}
+{{< img src="https://media.jason.re/file/dstore/19/8/_Gibbous02.PNG" >}}
 
 I loved every minute of this game, every reference and every little hint. Up until I reached the ending. I will not spoil anything here, but the ending left me deeply unsatisfied and confused. It also leaves the door open for a sequel. I really hope they make enough money of this game to go back, and maybe change the ending a little bit. Explain a little more and do not rely on the player of turning every stone, looking at every item and reading every in-game book. 
 

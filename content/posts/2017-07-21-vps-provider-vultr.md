@@ -1,7 +1,7 @@
 ---
 title: VPS Provider VULTR
 date: 2017-07-21T09:36:16
-feature_image: https://rmbr.eu/file/dstore/17/7/Screen-Shot-2017-07-21-at-09.06.17_sojwtj.png
+feature_image: https://media.jason.re/file/dstore/17/7/Screen-Shot-2017-07-21-at-09.06.17_sojwtj.png
 summary: "For the reasons of diversity and high availability I was looking for an alternative to DigitalOcean."
 tags:
   - hosting

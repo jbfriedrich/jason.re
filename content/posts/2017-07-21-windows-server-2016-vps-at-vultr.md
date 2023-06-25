@@ -1,7 +1,7 @@
 ---
 title: Windows Server 2016 VPS at VultR
 date: 2017-07-21T12:01:24
-feature_image: https://rmbr.eu/file/dstore/17/7/Screen-Shot-2017-07-21-at-07.56.19_dswr7s.png
+feature_image: https://media.jason.re/file/dstore/17/7/Screen-Shot-2017-07-21-at-07.56.19_dswr7s.png
 tags:
   - tech
   - windows

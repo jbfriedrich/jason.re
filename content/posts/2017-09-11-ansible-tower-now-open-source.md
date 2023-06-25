@@ -1,7 +1,7 @@
 ---
 title: Ansible Tower now Open-Source
 date: 2017-09-11T02:03:33
-feature_image: https://rmbr.eu/file/dstore/17/9/awx-ui_pbbe0z.png
+feature_image: https://media.jason.re/file/dstore/17/9/awx-ui_pbbe0z.png
 tags:
   - automation
   - operations
