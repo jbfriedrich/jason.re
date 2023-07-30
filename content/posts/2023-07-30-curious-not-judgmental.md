@@ -1,5 +1,5 @@
 ---
-title: Be curious, not judgmental
+title: Be Curious Not Judgemental
 date: 2023-07-30T18:45:00
 tags:
   - social-media
@@ -29,6 +29,6 @@ That being said, to those who are always eagerly and easily offended: Instead of
 
 I am well aware of the irony, as I am doing the same right now, writing a petty little post in my part of the Internet. But I am so very tired, and I am so fed up with all these always ever present tiny outbursts of outrage about every fucking thing – just because our lives got so fucking meaningless and uneventful that we became addicted to it.
 
-"Be curious, not judgmental!"
+"Be curious, not judgemental!"
 
 We all would be smart to remember these wise words a bit more often, don't you think?
