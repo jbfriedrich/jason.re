@@ -1,4 +1,67 @@
+#####
+# General robots.txt for all my personal sites
+###
+# Changelog:
+# * 2023-08-07: Include settings for Google and ChatGPT bots
+#####
+
 User-Agent: *
 Disallow: 
 
+# Allow general Google Search but fuck them special interest bots
+#-----------------------------------------------------------------
+User-Agent: Googlebot-Image
+User-Agent: Googlebot-Video
+User-Agent: Googlebot-News
+User-Agent: Storebot-Google
+User-Agent: AdsBot-Google-Mobile
+User-Agent: AdsBot-Google
+User-Agent: Mediapartners-Google
+Disallow: /
+
+# Fuck that ChatGPT bot
+#----------------------
+User-agent: GPTBot
+Disallow: /
+
+# Block leaky Cloudflare endpoints
+# --------------------------------
+User-agent: *
+User-Agent: Googlebot-Image
+User-Agent: Googlebot-Video
+User-Agent: Googlebot-News
+User-Agent: Storebot-Google
+User-Agent: AdsBot-Google-Mobile
+User-Agent: AdsBot-Google
+User-Agent: Mediapartners-Google
+User-agent: AdsBot-Google
+Disallow: /cdn-cgi/bm/cv/
+Disallow: /cdn-cgi/challenge-platform/
+Disallow: /cdn-cgi/images/trace/
+Disallow: /cdn-cgi/rum
+Disallow: /cdn-cgi/scripts/
+Disallow: /cdn-cgi/styles/
+Disallow: /cdn-fpw/sxg/
+
+# Fuck them other noisy bots
+# --------------------------
+User-agent: Nuclei
+User-agent: WikiDo
+User-agent: Riddler
+User-agent: PetalBot
+User-agent: Zoominfobot
+User-agent: Go-http-client
+User-agent: Node/simplecrawler
+User-agent: CazoodleBot
+User-agent: dotbot/1.0
+User-agent: Gigabot
+User-agent: Barkrowler
+User-agent: BLEXBot
+User-agent: magpie-crawler
+User-agent: MJ12bot
+User-agent: AhrefsBot
+Disallow: /
+
+# Sitemap settings
+#------------------
 Sitemap: https://jason.re/sitemap.xml
