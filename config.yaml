@@ -69,12 +69,6 @@ menu:
     url: https://click.ba.it/@jason
     weight: 3
     pre: '<i role="img" class="bi bi-mastodon"></i>'
-  - identifier: twitter
-    name: "Twitter"
-    title: "Twitter"
-    url: "https://twitter.com/jbfriedrich"
-    weight: 5
-    pre: '<i role="img" class="bi bi-twitter"></i>'
 
 params:
   mainSections:
@@ -88,7 +82,7 @@ params:
     image: "https://www.gravatar.com/avatar/3c4b5f09f9e988618881f349516028ab?s=250&d=mm&r=x"
     website: "https://friedrich.uk"
   email: "blog@jason.re"
-  copyright: © 2022 Jason Friedrich
+  copyright: © 2023 Jason Friedrich
   friendly_url: jason.re
 
 mediaTypes:
