@@ -156,4 +156,4 @@ set interfaces ethernet eth1 firewall in ipv6-name LAN-to-HE
 
 Congratulations. You are now able to use IPv6! To make sure everything went alright, [test your firewall](http://www.ipv6scanner.com/cgi-bin/main.py) and your general [IPv6 connectivity](http://ipv6-test.com/) and work towards your 20/20 rating!
 
-{{< img caption="IPv6 Test" src="https://media.jason.re/file/dstore/16/1/CXe4EP6WYAEvSlN.jpg" >}}
+{{< img caption="IPv6 Test" src="https://media.jason.re/16/1/CXe4EP6WYAEvSlN.jpg" >}}

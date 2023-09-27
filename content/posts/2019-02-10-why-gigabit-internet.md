@@ -9,7 +9,7 @@ tags:
 
 Whenever I say that I would love to have Gigabit Internet, or at least 500 Mbit up- and downstream, people tend to ask me "What in the world would you do with such a high bandwidth?!" Let me play you the song of my people...
 
-{{< img src="https://media.jason.re/file/dstore/19/2/oliver-twist-bandwidth.jpg" >}}
+{{< img src="https://media.jason.re/19/2/oliver-twist-bandwidth.jpg" >}}
 
 I have around 20 [TB](https://en.wikipedia.org/wiki/Terabyte) of data that I would like to back up from my local [NAS](https://en.wikipedia.org/wiki/Network-attached_storage). I would love to have an encrypted backup outside the house. And with _The Cloud™_ on everyone's lips, it should be very easy to move your backup up there, right? Right?!
 

@@ -11,7 +11,7 @@ tags:
 
 Seitdem es Oetker erlaubt wurde Durstexpress und Flaschenpost zu kaufen, gibt es keine Konkurrenz mehr bei Getränkelieferdiensten – und das zeigt sich stark in der Servicequalität. Nichts funktioniert mehr zuverlässig. Das System erlaubt die Buchung von Getränken die nicht mehr auf Lager sind, und der Bote darf es dann dem angesäuerten Kunden erklären. Ständig sind Getränke nicht verfügbar. Die App zeigt dann oft, der Hersteller könne nicht liefern. Die umliegenden Super- und Getränkemärkte haben aber keinerlei Probleme beliefert zu werden. Komisch. Apropos App, in letzter Zeit kriegt man häufiger folgendes zu sehen:
 
-![Flaschenpost App Screenshot](https://media.jason.re/file/dstore/IMG_0292.PNG)
+![Flaschenpost App Screenshot](https://media.jason.re/IMG_0292.PNG)
 
 Läuft!
 

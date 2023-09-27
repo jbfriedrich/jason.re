@@ -15,13 +15,13 @@ The [Let’s Encrypt Beta](https://letsencrypt.org) has finally started. I regis
 * The plugin to automatically configure Nginx is buggy and what seems pre-alpha (I think it is not delivered/used currently at all)
 * Don’t manually mess with `/etc/letsencrypt` as in **never ever!**
 
-{{< img caption="Let's Encrypt Certificate" src="https://media.jason.re/file/dstore/15/11/Screen-Shot-2015-11-06-at-16-01-50.png" >}}
+{{< img caption="Let's Encrypt Certificate" src="https://media.jason.re/15/11/Screen-Shot-2015-11-06-at-16-01-50.png" >}}
 
 It is already comfortable to use — if you compare it to the manual process you had to undergo before. Once it is finished and all the bugs are ironed out, this thing will kick ass.
 
 The certificates are already deployed on all my major sites, now I just have some maintenance work to do (remove unsafe ciphers etc). I started with [my blog](https://pixelschatten.net) and the [SSL Labs test](https://www.ssllabs.com/ssltest/analyze.html) looks pretty good.
 
-{{< img caption="SSL Labs Rating" src="https://media.jason.re/file/dstore/15/11/Screen-Shot-2015-11-06-at-16-05-03.png" >}}
+{{< img caption="SSL Labs Rating" src="https://media.jason.re/15/11/Screen-Shot-2015-11-06-at-16-05-03.png" >}}
 
 I will try to do more with it in the upcoming days and weeks, but between work and university I currently don’t have that much time for personal projects.
 

@@ -1,7 +1,7 @@
 ---
 title: A New Git Desktop Client
 date: 2019-08-04T17:07:07
-feature_image: https://media.jason.re/file/dstore/19/8/Screen-Shot-2019-08-04-at-17.43.48.png
+feature_image: https://media.jason.re/19/8/Screen-Shot-2019-08-04-at-17.43.48.png
 tags:
   - development
   - en
@@ -18,6 +18,6 @@ When they released version 3.0, they decided to switch to a [subscription based 
 
 While Git Tower switched to a subscription based model, [SublimeHQ](https://www.sublimehq.com/), the creators of the editor [SublimeText](https://www.sublimetext.com/) (which I really, really love), developed their own Git Client called [SublimeMerge](https://www.sublimemerge.com/). As the editor, the Git Client also _does not_ require a subscription, but is sold for 99,00 € and comes with [3 years or free updates](https://www.sublimehq.com/sales_faq).
 
-{{< img title="SublimeMerge website" src="https://media.jason.re/file/dstore/19/8/Screen-Shot-2019-08-04-at-18.11.12.png" >}}
+{{< img title="SublimeMerge website" src="https://media.jason.re/19/8/Screen-Shot-2019-08-04-at-18.11.12.png" >}}
 
 When my Git Tower subscription ends in July 2020, I will give SublimeMerge a try and see if the application will work for me. If not, [Fork](https://git-fork.com/) matured a lot over the last two years, and I guess it will continue to do so. Until then, I will probably find a couple of other application that I can try out. Maybe I will also give GitKraken another try.

@@ -12,16 +12,16 @@ I don’t know why, but game prices do not budge at all, no special deals and no
 
 The Last of Us Remastered was released in 2014, more than 2 years ago. It was several times on sale, both on the [US PlayStation Store](https://store.playstation.com) and online retailers like [Amazon.com](http://amazon.com)
 
-{{< img src="https://media.jason.re/file/dstore/16/10/amazoncom-lastofus.png" >}}
+{{< img src="https://media.jason.re/16/10/amazoncom-lastofus.png" >}}
 
 Uncharted 4 was released in May 2016 and was well received. In the US it was on sale during the summer, multiple times. Again on the US Playstation Store and on Amazon.com. It’s also quite common to get an even better deal in most of the local US retail stores like Best Buy.
 
-{{< img src="https://media.jason.re/file/dstore/16/10/amazoncom-uncharted4.png" >}}
+{{< img src="https://media.jason.re/16/10/amazoncom-uncharted4.png" >}}
 
 And over in Germany? No special deals, no sale in sight. The prices are pretty much the same, all year long. For example on [Amazon.de](http://amazon.de):
 
-{{< img src="https://media.jason.re/file/dstore/16/10/amazonde-lastofus.png" >}}
-{{< img src="https://media.jason.re/file/dstore/16/10/amazonde-uncharted4.png" >}}
+{{< img src="https://media.jason.re/16/10/amazonde-lastofus.png" >}}
+{{< img src="https://media.jason.re/16/10/amazonde-uncharted4.png" >}}
 
 High prices not only on Amazon, same picture for the DE Playstation Store or local DE retail stores. We rarely see any game sales – if there are any at all. And [Amazon Prime Games](https://www.amazon.com/b?node=13584215011), a 20% price reduction for pre-orders and new games, is not available in Germany.
 
@@ -31,13 +31,13 @@ It is a total mystery to me why the physical copy, although more expensive due t
 
 In the US it is one price for all platforms:
 
-{{< img src="https://media.jason.re/file/dstore/16/10/image_2016-10-06_15-09-46.png" >}}
+{{< img src="https://media.jason.re/16/10/image_2016-10-06_15-09-46.png" >}}
 
 While it seems expensive at first, one can use [Amazon Prime](https://www.amazon.com/b?node=13584215011) or [Best Buy Gamers Club Unlocked](http://www.bestbuy.com/site/my-best-buy/gamers-club/pcmcat338600050004.c?id=pcmcat338600050004) to get a 20% discount right from the start. It is also a given that there will be a Halloween sale, a Black Friday sale on Thanksgiving and last but not least a Christmas sale where you will be able to get all kinds of deals and rebates. The big local retail chains will do everything to be cheaper than the online retailers and vice versa.
 
 A different picture in the UK. If we look [at Amazon.co.uk](https://www.amazon.co.uk/Take-2-5050013393120-Mafia-III/dp/B01FTFNB0Q/ref=sr_1_1?s=videogames&ie=UTF8&qid=1475786701&sr=1-1&keywords=mafia%2B3&th=1), the boxed version costs 39,99 £ for all platforms and 32,99 £ for the Steam Code. With the current GBP/EUR conversation rate, definitely the preferred place to buy from:
 
-{{< img src="https://media.jason.re/file/dstore/16/10/Screen-Shot-2016-10-06-at-22.49.31.png" >}}
+{{< img src="https://media.jason.re/16/10/Screen-Shot-2016-10-06-at-22.49.31.png" >}}
 
 Maybe someone can tell me the reason for these huge regional differences? There seems to be no apparent reason. It is 2016, the Internet is available and for the Digital Version it doesn’t matter if your customer is located in the US, Germany, France or the UK. The infrastructure is required anyway, either for the Playstation Network, Xbox Live or Steam.
 
