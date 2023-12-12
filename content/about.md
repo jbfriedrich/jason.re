@@ -1,11 +1,9 @@
 ---
 title: About
-date: 2021-10-12
+date: 2023-12-12
 type: page
 ---
 
-My name is [Jason Friedrich](https://friedrich.uk). I am just another left-handed, binge-watching, tech geek who enjoys drinking coffee, playing video games and writing on the Internet. I've got my head stuck in the clouds [for a living](https://work.jason.re).
+My name is [Jason Friedrich](https://friedrich.uk). I am just another left-handed, tech loving geriatric millenial who enjoys drinking coffee, playing video games and writing on the Internet. I am a make-believe writer and compendium of useless movie & tv show facts. I yell at [clouds](https://en.wikipedia.org/wiki/Cloud_computing) for a living.
 
-I tend to rant and growl... sometimes a lot… You will find my moods, thoughts and rants here. This is my pressure valve to vent some of my frustrations around people, (tech-)culture, tech and everyday life. It is my chalkboard where I make up my mind and utter my opinion. Here I gather my tech related documentation, write about my experiences and try new stuff.
-
-The photos on this blog are, if not credited otherwise, images from the world’s best and most generous community of photographers: [Unsplash](https://unsplash.com/)!
+On this blog you will find my moods, thoughts and rants. It is my pressure valve to vent some of my frustrations around people, technology, (tech-)culture and everyday life. It is my chalkboard where I make up my mind and utter my opinion. Here I gather my tech related documentation, write about my experiences and try new stuff.
