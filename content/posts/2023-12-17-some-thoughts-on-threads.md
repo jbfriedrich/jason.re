@@ -1,7 +1,6 @@
 ---
 title: Some thoughts on Threads
 date: 2023-12-17T18:35:46+01:00
-type: post
 tags: [socialmedia, meta, threads]
 ---
 
