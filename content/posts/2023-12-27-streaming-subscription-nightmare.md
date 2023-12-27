@@ -8,7 +8,7 @@ tags: [streaming, media, tv]
 
 ## Amazon Prime
 
-This one is a no brainer for me. I am ordering a lot of stuff over Amazon and "Same Day" and "Next Day" Prime delivery is worth the cost for me – even though there will be a price hike in 2024. Starting January you will have to pay more for your subscription in the US and Canada if you want to avoid ads. They have no announced anything for Germany yet, but I am sure they will follow suit. I was able to cancel some Prime channels that I rarely or never use, though.
+This one is a no brainer for me. I am ordering a lot of stuff over Amazon and "Same Day" and "Next Day" Prime delivery is worth the cost for me – even though there will be a price hike in 2024. Starting January you will have to pay more for your subscription in the US and Canada if you want to avoid ads. They have not announced anything for Germany yet, but I am sure they will follow suit. I was able to cancel some Prime channels that I rarely or never use, though.
 
 ## Netflix
 
@@ -16,23 +16,23 @@ This is a tough one. I watch Netflix a lot together with my girlfriend. We espec
 
 ## Disney+
 
-I would argue that this service has the most "bang for the buck" for me. With the catalogue of Disney, 20th Century Fox (and its predecessors and successors) and Hulu it has a lot of content that klicks with me and that I am interested in. Probably even more in the futures as all shows that are currently licensed to other streaming services in Europe and Germany will be consolidated on the platform over time. 
+I would argue that this service has the most "bang for the buck" for me. With the catalogue of Disney, 20th Century Fox (including its predecessors and successors) and Hulu it has a lot of content that klicks with me and that I am interested in. Probably even more in the future as all shows that are currently licensed to other streaming services in Europe and Germany will be consolidated on the platform over time. 
 
 ## AppleTV+
 
-This is the easiest of the bunch. Cancelled. They have some really good shows like "Severance", "For all Mankind", "Foundation", "The Mourning Show" and "Shrinking" – just to name a few. But it takes too long for them to produce new content. It is also very hit and miss. It feels to me like this could become the new HBO, given enough time and patience. Apple has enough money and Warner is currently busy fucking up whatever they touch with their constant splits, mergers and bad decisions around "Discovery", "HBO" and "MAX".
+This is the easiest of the bunch. Cancelled. They have some really good shows like "Severance", "For all Mankind", "Foundation", "The Mourning Show" and "Shrinking" – just to name a few. But it takes too long for them to produce new content. It is also very hit and miss. It feels to me like this could become the new HBO, given enough time and patience. Apple has deep pockets and Warner is currently busy fucking up whatever they touch with their constant splits, mergers and bad decisions around "Discovery", "HBO" and "MAX".
 
 ## Curiosity & Nebula
 
 I think those two services were launched by Youtubers and other streamers who were not happy with the current state of affairs at their platform of choice. They wanted to be more independent and less reliable on Youtube.
 
-I got a combo offer, both for only $30 a year, which is far under my "fuck it" price tag of 5 € per month. The jury is still out and I have not decided yet if I want to keep it or not. With that price tag I might decide to keep it just to support an independent streaming network. Youtube has become so fucking greedy and ridiculous with their ads and their pricing for Youtube Premium.
+I got a combo offer, both for only $30 a year, which is far under my "fuck it" price tag of 5 € per month. The jury is still out and I have not decided yet if I want to keep them or not. With that price tag I might decide to keep them just to support some independent streaming networks. Youtube has become so fucking greedy and ridiculous with their ads and their pricing for Youtube Premium.
 
 ## Summary & savings
 
-"I was there Gandalf, 3.000 years ago..." – or at least this is what it feels like when Netflix and everybody else talked about "cutting the chord" and that we could now cancel our cable subscriptions with that abundance of channels that we had to pay for, but never used. The reality is quite different in 2023.
+"I was there Gandalf, 3.000 years ago..." – or at least this is what it feels like when Netflix and everybody else talked about "cutting the chord", and that we now could easily cancel our cable subscriptions. Getting rid of the abundance of channels that we had to pay for but never used. The reality is quite different in 2023.
 
-They have seen how much money Netflix made and became greedy and tried to copy them – with varying success, some better than others. Now everyone and their dog have their own streaming service and we have to subscribe to five or six of them, as the content is scattered between to many providers. That is why I like Amazon's model of independent channels within Prime Video that I can subscribe to.
+They have seen how much money Netflix made and became greedy and tried to copy them – with varying success, some better than others. Now everyone and their dog have their own streaming service and we have to subscribe to five or six of them, as the content is scattered between too many providers. That is why I like Amazon's model of independent channels within Prime Video that I can subscribe to.
 
 The rule seems to be: "The show or the movie you are interesting in will be streamed exclusively on the service you are either not subscribed to or that is not available in your country."
 
