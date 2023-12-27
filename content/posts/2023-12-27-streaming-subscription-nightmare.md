@@ -28,7 +28,7 @@ I think those two services were launched by Youtubers and other streamers who we
 
 I got a combo offer, both for only $30 a year, which is far under my "fuck it" price tag of 5 € per month. The jury is still out and I have not decided yet if I want to keep it or not. With that price tag I might decide to keep it just to support an independent streaming network. Youtube has become so fucking greedy and ridiculous with their ads and their pricing for Youtube Premium.
 
-## Summary
+## Summary & savings
 
 "I was there Gandalf, 3.000 years ago..." – or at least this is what it feels like when Netflix and everybody else talked about "cutting the chord" and that we could now cancel our cable subscriptions with that abundance of channels that we had to pay for, but never used. The reality is quite different in 2023.
 
@@ -36,12 +36,10 @@ They have seen how much money Netflix made and became greedy and tried to copy t
 
 The rule seems to be: "The show or the movie you are interesting in will be streamed exclusively on the service you are either not subscribed to or that is not available in your country."
 
-### Savings
-
 Anyhow, combing through my streaming services was a good idea. I am now saving 31,21 € per month. Thanks Hendrik!
 
 | Streaming service | Monthly price (€) | Comment | Status |
-|:--|-:-|:--|-:-|
+|:--|:--:|:--|:--:|
 | AppleTV+ | 8,25 | 99 € a year | Cancelled |
 | RTL Crime | 3,99 | Prime Channel | Cancelled |
 | MTV+ | 2,99 | Prime Channel | Cancelled |
