@@ -1,7 +1,6 @@
 ---
 title: Streaming subscription nightmare
 date: 2023-12-27T21:38:15+01:00
-type: post
 tags: [streaming, media, tv]
 ---
 
