@@ -2,11 +2,6 @@
 title: Impressum
 date: 2019-07-01
 type: page
-menu:
-  footer:
-    identifier: impressum
-    name: "Impressum"
-    weight: 3
 ---
 
 ## Angaben gemäß § 5 TMG

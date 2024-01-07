@@ -1,12 +1,7 @@
 ---
-title: Feeds
+title: RSS Feeds
 date: 2024-01-07
 type: page
-menu:
-  footer:
-    identifier: impressum
-    name: "Impressum"
-    weight: 3
 ---
 
 This blog offers various feeds that you can subscribe to: 
