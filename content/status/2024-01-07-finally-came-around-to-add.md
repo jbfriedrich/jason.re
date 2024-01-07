@@ -1,5 +1,5 @@
 ---
-title: Finally came around to [add
+title: RSS feed page added
 date: 2024-01-07T23:38:06
 type: status
 ---
