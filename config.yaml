@@ -63,13 +63,18 @@ menu:
     url: "/about/"
     weight: 2
     pre: '<i role="img" class="bi bi-person-fill"></i>'
+  - identifier: feeds
+    name: "Feeds"
+    title: "Feeds"
+    url: "/feeds"
+    weight: 3
+    pre: '<i role="img" class="bi bi-rss-fill"></i>'
   - identifier: mastodon
     name: "Mastodon"
     title: "Mastodon"
     url: https://click.ba.it/@jason
-    weight: 3
+    weight: 4
     pre: '<i role="img" class="bi bi-mastodon"></i>'
-
 params:
   mainSections:
   - posts
