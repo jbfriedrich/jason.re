@@ -65,7 +65,7 @@ menu:
     pre: '<i role="img" class="bi bi-person-fill"></i>'
   - identifier: feeds
     name: "Feeds"
-    title: "Feeds"
+    title: "RSS Feeds"
     url: "/feeds"
     weight: 3
     pre: '<i role="img" class="bi bi-rss-fill"></i>'
