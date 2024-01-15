@@ -19,7 +19,6 @@ After googling, I decided to create a launch daemon to apply the settings at sta
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!-- DISABLE SIP TO USE: macOS Recovery > Utilities > Terminal > `csrutil disable` > Reboot -->
 <plist version="1.0">
     <dict>
         <key>Label</key>
@@ -54,7 +53,7 @@ Now applying the right permissions via `sudo chown root:wheel /Library/LaunchDae
 Then apply the configuration via `sudo launchctl bootstrap system /Library/LaunchDaemons/com.startup.sysctl.plist`. The settings will be applied immediately and you should be able to check it with:
 
 ```shell
-% sysctl -a | grep tempa
+% sysctl -a | grep tempaddr
 net.inet6.ip6.use_tempaddr: 0
 net.inet6.ip6.prefer_tempaddr: 0
 net.inet6.ip6.ula_use_tempaddr: 0
