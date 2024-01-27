@@ -1,5 +1,5 @@
 ---
-title: RSS Feeds
+title: Blog Feeds
 date: 2024-01-07
 type: page
 ---
