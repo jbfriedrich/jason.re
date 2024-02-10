@@ -20,7 +20,7 @@ I would argue that this service has the most "bang for the buck" for me. With th
 
 ## AppleTV+
 
-This is the easiest of the bunch. Cancelled. They have some really good shows like "Severance", "For all Mankind", "Foundation", "The Mourning Show" and "Shrinking" – just to name a few. But it takes too long for them to produce new content. It is also very hit and miss. It feels to me like this could become the new HBO, given enough time and patience. Apple has deep pockets and Warner is currently busy fucking up whatever they touch with their constant splits, mergers and bad decisions around "Discovery", "HBO" and "MAX".
+This is the easiest of the bunch. Cancelled. They have some really good shows like "Severance", "For all Mankind", "Foundation", "The Morning Show" and "Shrinking" – just to name a few. But it takes too long for them to produce new content. It is also very hit and miss. It feels to me like this could become the new HBO, given enough time and patience. Apple has deep pockets and Warner is currently busy fucking up whatever they touch with their constant splits, mergers and bad decisions around "Discovery", "HBO" and "MAX".
 
 ## Curiosity & Nebula
 
