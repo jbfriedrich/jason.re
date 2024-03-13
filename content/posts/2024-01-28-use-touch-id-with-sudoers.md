@@ -1,7 +1,7 @@
 ---
 title: Use Touch ID with sudoers
 date: 2024-01-28T02:38:37
-tags: [security, sudoers, sudo, macos, software, en]
+tags: [macos, security, sudo, en]
 feature_image: https://media.jason.re/2024/01/28/sudo.jpg
 ---
 
