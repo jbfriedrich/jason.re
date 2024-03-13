@@ -1,7 +1,7 @@
 ---
 title: Some thoughts on Threads
 date: 2023-12-17T18:35:46+01:00
-tags: [socialmedia, meta, threads]
+tags: [socialmedia, meta, threads, en]
 ---
 
 Meta was very smart! They launched Threads in the US when Twitter was at their weakest point and had a lot of problems – and the EU start was equally well timed, as Elon just recently [told his advertisers to "fuck off"](https://www.theverge.com/2023/11/29/23981928/elon-musk-ad-boycott-go-fuck-yourself-destroy-x). Well done Elmo, well done.
