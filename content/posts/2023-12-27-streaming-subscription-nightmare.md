@@ -1,7 +1,7 @@
 ---
 title: Streaming subscription nightmare
 date: 2023-12-27T21:38:15+01:00
-tags: [streaming, media, tv]
+tags: [streaming, media, en]
 ---
 
 [Hendrik](https://www.hmans.dev/) planted the seed in my head that it might be a good idea to review my streaming services and cancel the ones I am only rarely using (or not using at all). I am sure I have accrued a lot of "cruft", especially when it comes to the Amazon Prime channels.
