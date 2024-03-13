@@ -2,7 +2,7 @@
 title: OpenSource Entitlement
 date: 2024-01-02T02:16:32
 type: status
-tags: [opensource, oss, business, en]
+tags: [mastodon, oss, business, en]
 ---
 
 Had to mute a couple of people for some time over at Mastodon. I cannot stand this constant bashing of developers and small companies anymore, just because they try to be a viable business.
