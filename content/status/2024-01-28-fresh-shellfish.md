@@ -2,7 +2,7 @@
 title: Fresh shellfish
 date: 2024-01-28T03:01:09
 type: status
-tags: [fish, shell, linux, software]
+tags: [linux, software, shell, en]
 ---
 
 Nice, [fish-shell 3.7.0](https://fishshell.com/docs/current/relnotes.html#fish-3-7-0-released-january-1-2024) has been released. It feels much quicker on the MacBook Air, not sure if it is real or just subjectively perceived, but I'll take that fresh "out of the box" feeling.
