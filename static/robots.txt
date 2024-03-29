@@ -35,22 +35,13 @@ Disallow: /
 
 # Block leaky Cloudflare endpoints
 # --------------------------------
-User-agent: *
-User-Agent: Googlebot-Image
-User-Agent: Googlebot-Video
-User-Agent: Googlebot-News
-User-Agent: Storebot-Google
-User-Agent: AdsBot-Google-Mobile
-User-Agent: AdsBot-Google
-User-Agent: Mediapartners-Google
-User-agent: AdsBot-Google
-Disallow: /cdn-cgi/bm/cv/
-Disallow: /cdn-cgi/challenge-platform/
-Disallow: /cdn-cgi/images/trace/
-Disallow: /cdn-cgi/rum
-Disallow: /cdn-cgi/scripts/
-Disallow: /cdn-cgi/styles/
-Disallow: /cdn-fpw/sxg/
+#Disallow: /cdn-cgi/bm/cv/
+#Disallow: /cdn-cgi/challenge-platform/
+#Disallow: /cdn-cgi/images/trace/
+#Disallow: /cdn-cgi/rum
+#Disallow: /cdn-cgi/scripts/
+#Disallow: /cdn-cgi/styles/
+#Disallow: /cdn-fpw/sxg/
 
 # Fuck them other noisy bots
 # --------------------------
