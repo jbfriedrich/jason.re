@@ -1,7 +1,7 @@
 ---
 title: Media diet – March 2024
 date: 2024-04-02T02:20:48
-tags: [media,streaming,podcasts,books,en]
+tags: [media,streaming,podcasts,books,gaming,en]
 ---
 
 I ~~blatantly stole~~ obviously borrowed the idea for this post from [Carlo](https://zottmann.org/). He is doing them for a while now, and I always found them pretty interesting.
@@ -27,3 +27,5 @@ My media diet in March was pretty sci-fi heavy. I hope that I finish Patrick Ste
 🎙️ [WR1014 Die Übernahme Ostdeutschlands](https://wrint.de/2019/11/21/wr1014-die-uebernahme-ostdeutschlands/) – An interview in German with [Ilko-Sascha Kowalczuk](https://de.wikipedia.org/wiki/Ilko-Sascha_Kowalczuk) about his life in the [GDR](https://en.wikipedia.org/wiki/East_Germany). About East Germany and the re-unification process: the good, the bad and the ugly.
 
 🎙️ [WR1577 Walter Ulbricht](https://wrint.de/2024/03/14/wr1577-walter-ulbricht/) – A follow-up interview with [Ilko-Sascha Kowalczuk](https://de.wikipedia.org/wiki/Ilko-Sascha_Kowalczuk) in German about the life of [Walter Ulbricht](https://en.wikipedia.org/wiki/Walter_Ulbricht) and the common misconceptions about him and the [SED party](https://en.wikipedia.org/wiki/Socialist_Unity_Party_of_Germany) in the [GDR](https://en.wikipedia.org/wiki/East_Germany). At the end there is a little segway into [ME/CFS](https://en.wikipedia.org/wiki/Myalgic_encephalomyelitis/chronic_fatigue_syndrome), which Ilko-Sascha Kowalczuk suffers from since 2014. 
+
+🎮 [World of Warcraft](https://worldofwarcraft.blizzard.com/en-us/) – After I [quit the game back in 2009](https://jason.re/status/20090723025456/), I would have never thought that I would enjoy World of Warcraft ever again. But here I am, more successful than ever in terms of gear level. Even running dungeons and raids for the first time ever. It really is true, it makes a difference with whom you play with – and I am very happy with the progress I made.
