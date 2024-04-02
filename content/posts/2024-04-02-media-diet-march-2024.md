@@ -14,7 +14,7 @@ My media diet in March was pretty sci-fi heavy. I hope that I finish Patrick Ste
 
 🎬 [The Marvels](https://www.youtube.com/watch?v=wS_qbDztgVY&pp=ygULdGhlIG1lcnZlbHM%3D) – another horrible "phase 4" Marvel movie. I really liked [Captain Marvel](https://www.youtube.com/watch?v=Z1BCujX3pw8&pp=ygUOY2FwdGFpbiBtYXJ2ZWw%3D), but this one wanted too much and tried too hard to be a movie for everyone. The humor was too forced and the teenager was loud and annoying (⭐️ 2/5).
 
-🎧 ["Making it so" by Patrick Stewart](https://www.simonandschuster.com/books/Making-It-So/Patrick-Stewart/9781982167738) – Patrick Stewart's autobiography. I am listening to the audiobook version that is read by by him. I have not fully finished it yet, but it is already a recommendation from me (⭐️ 4/5).
+🎧 ["Making it so"](https://www.simonandschuster.com/books/Making-It-So/Patrick-Stewart/9781982167738) – Patrick Stewart's autobiography. I am listening to the audiobook version that is read by him. I have not fully finished it yet, but it is already a recommendation from me (⭐️ 4/5).
 
 📺 [Avatar: Season 1](https://www.youtube.com/watch?v=xEmlE9Ianuo&pp=ygUWYXZhdGFyIG5ldGZsaXggdHJhaWxlcg%3D%3D) – Feels realistic and extremely fake at the same time. I blame the weird color grading. The cast is really great, but they messed up the adaptation for the characters (especially Katara). As with all the new series and movies, it also suffers from "telling, not showing" and is too long (⭐️ 3/5).
 
