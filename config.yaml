@@ -57,23 +57,35 @@ menu:
     url: "/"
     weight: 1
     pre: '<i role="img" class="bi bi-house-fill"></i>'
+  - identifier: allposts
+    name: "Posts"
+    title: "Posts"
+    url: "/posts/"
+    weight: 2
+    pre: '<i role="img" class="bi bi-journals"></i>'
+  - identifier: allmicros
+    name: "Updates"
+    title: "Updates"
+    url: "/status/"
+    weight: 3
+    pre: '<i role="img" class="bi bi-stickies"></i>'
   - identifier: about
     name: "About"
     title: "About"
     url: "/about/"
-    weight: 2
+    weight: 4
     pre: '<i role="img" class="bi bi-person-fill"></i>'
   - identifier: feeds
     name: "Feeds"
     title: "RSS Feeds"
     url: "/feeds/"
-    weight: 3
+    weight: 5
     pre: '<i role="img" class="bi bi-rss-fill"></i>'
   - identifier: mastodon
     name: "Mastodon"
     title: "Mastodon"
     url: https://click.ba.it/@jason
-    weight: 4
+    weight: 6
     pre: '<i role="img" class="bi bi-mastodon"></i>'
 params:
   mainSections:
