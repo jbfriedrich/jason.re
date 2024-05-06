@@ -62,13 +62,13 @@ menu:
     title: "Posts"
     url: "/posts/"
     weight: 2
-    pre: '<i role="img" class="bi bi-file-post-fill"></i>'
+    pre: '<i role="img" class="bi bi-file-text-fill"></i>'
   - identifier: allmicros
     name: "Updates"
     title: "Updates"
     url: "/status/"
     weight: 3
-    pre: '<i role="img" class="bi bi-stickies-fill"></i>'
+    pre: '<i role="img" class="bi bi-sticky-fill"></i>'
   - identifier: about
     name: "About"
     title: "About"
