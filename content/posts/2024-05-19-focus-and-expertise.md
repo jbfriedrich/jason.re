@@ -18,6 +18,4 @@ I am very happy that I am finally able to "code". I am far from being a "develop
 
 I guess I needed a reminder that no skill is "just magic" and no one has fully figured it out. Just decisions and "best guesses" based on experience, exposure and usage. I also needed the confirmation that the brain works a little bit like a muscle, in some regards. Staying "in focus" just needs a little "training". But the ability will come back over time.
 
-That is a relief. And it will come in handy, as I am an "individual contributor" again since February. I started my Azure training two weeks ago with the eventual goal to become a certified [Azure Solutions Architect](https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/).
-
-Godspeed and good luck to me.
+That is a relief. And it will come in handy, as I am an "individual contributor" again since February. I started my Azure training two weeks ago with the eventual goal to become a certified [Azure Solutions Architect](https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/). I am looking forward to my (virtual) in-class training starting Monday.
