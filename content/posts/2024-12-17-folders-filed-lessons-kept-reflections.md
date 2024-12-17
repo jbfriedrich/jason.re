@@ -1,5 +1,5 @@
 ---
-title: Folders filed, lessons kept: Reflections
+title: "Folders filed, lessons kept: Reflections on four years of management"
 date: 2024-12-17T19:35:06
 tags: [en, workplace, career, management]
 ---
