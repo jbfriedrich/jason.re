@@ -1,3 +1,5 @@
 .DS_Store
 resources
 !.env
+public
+.hugo_build.lock
