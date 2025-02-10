@@ -26,5 +26,3 @@ From the looks of it, under macOS, you can either have fast write speeds or data
 > [...]
 
 It is a very [long thread](https://twitter.com/marcan42/status/1494213855387734019), but its worth the read.
-
-{{< tweet 1494213855387734019 >}}
