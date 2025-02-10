@@ -4,7 +4,7 @@ title: "Thoughts, Links & Moods"
 theme: "hemingway"
 #publishDir: docs
 summaryLength: 50
-paginate: 12
+paginate: 9
 canonifyURLs: false
 footnoteReturnLinkContents: "↩"
 plainIDAnchors: true
@@ -40,6 +40,10 @@ frontmatter:
 
 markup:
   goldmark:
+    parser:
+      attribute:
+        block: true
+      wrapStandAloneImageWithinParagraph: false
     renderer:
       hardWraps: true
       unsafe: true
@@ -54,39 +58,35 @@ menu:
   - identifier: home
     name: "Home"
     title: "Home"
-    url: "/"
+    pageref: "/"
     weight: 1
-    pre: '<i role="img" class="bi bi-house-fill"></i>'
   - identifier: allposts
     name: "Posts"
     title: "Posts"
-    url: "/posts/"
+    pageref: "/posts/"
     weight: 2
-    pre: '<i role="img" class="bi bi-file-text-fill"></i>'
   - identifier: allmicros
     name: "Updates"
     title: "Updates"
-    url: "/status/"
+    pageref: "/status/"
     weight: 3
-    pre: '<i role="img" class="bi bi-sticky-fill"></i>'
-  - identifier: about
-    name: "About"
-    title: "About"
-    url: "/about/"
-    weight: 4
-    pre: '<i role="img" class="bi bi-person-fill"></i>'
+  footer:
   - identifier: feeds
     name: "Feeds"
     title: "RSS Feeds"
-    url: "/feeds/"
-    weight: 5
-    pre: '<i role="img" class="bi bi-rss-fill"></i>'
+    pageref: "/feeds/"
+    weight: 1
+  - identifier: taglist
+    name: "Tags"
+    title: "Tags"
+    pageref: "/tags/"
+    weight: 2
   - identifier: mastodon
     name: "Mastodon"
     title: "Mastodon"
     url: https://click.ba.it/@jason
-    weight: 6
-    pre: '<i role="img" class="bi bi-mastodon"></i>'
+    weight: 3
+
 params:
   mainSections:
   - posts
@@ -95,8 +95,6 @@ params:
     given_name: "Jason"
     family_name: "Friedrich"
     display_name: "Jason Friedrich"
-    thumbnail: "https://www.gravatar.com/avatar/3c4b5f09f9e988618881f349516028ab"
-    image: "https://www.gravatar.com/avatar/3c4b5f09f9e988618881f349516028ab?s=250&d=mm&r=x"
     website: "https://friedrich.uk"
     fediverse_handle: "@jason@click.ba.it"
   email: "blog@jason.re"
@@ -134,7 +132,7 @@ privacy:
   instagram:
     disable: false
     simple: false
-  twitter:
+  x:
     disable: false
     enableDNT: true
     simple: false
