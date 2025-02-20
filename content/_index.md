@@ -3,6 +3,8 @@ date: "2025-02-09"
 draft: false
 title: "Recent posts"
 summary: "Hi! I'm Jason. Welcome to the blog, to my thoughts, links and moods!"
+images:
+- "https://media.click.ba.it/accounts/headers/108/193/425/891/628/609/original/bf6911fbef728a69.jpeg"
 ---
 
 I am just another left-handed, binge-watching, tech-loving geriatric millenial who enjoys drinking coffee and playing video games. I am an amateur wordsmith who enjoys weaving short little stories – and a walking compendium of useless movie & tv show facts. I work in IT and yell at [clouds](https://en.wikipedia.org/wiki/Cloud_computing) for a living.
