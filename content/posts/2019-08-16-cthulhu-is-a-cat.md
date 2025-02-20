@@ -11,14 +11,14 @@ When I saw "[Gibbous - A Cthulhu Adventure](https://gibbousgame.com/)", I immedi
 
 The puzzles are easy when you have an "Adventure Game" background - with a couple of exceptions of the rule. Especially to the end of the game, at the end of chapter six, there are some pretty hard, almost unfair puzzles. All in all I would say it is a nice balance, especially for newcomers to the genre.
 
-{{< img src="https://media.jason.re/19/8/_Gibbous01.PNG" >}}
+![Gibbous screenshot 1](https://media.jason.re/19/8/_Gibbous01.PNG "Let's investigate what's going on!")
 
-{{< img src="https://media.jason.re/19/8/_Gibbous05.PNG" >}}
+![Gibbous screenshot 2](https://media.jason.re/19/8/_Gibbous05.PNG "That hotel is not creepy at all!")
 
-{{< img src="https://media.jason.re/19/8/_Gibbous12.PNG" >}}
+![Gibbous screenshot 3](https://media.jason.re/19/8/_Gibbous12.PNG "Something is really fishy here!")
 
-{{< img src="https://media.jason.re/19/8/_Gibbous02.PNG" >}}
+![Gibbous screenshot 4](https://media.jason.re/19/8/_Gibbous02.PNG "That is a lot of books!")
 
 I loved every minute of this game, every reference and every little hint. Up until I reached the ending. I will not spoil anything here, but the ending left me deeply unsatisfied and confused. It also leaves the door open for a sequel. I really hope they make enough money of this game to go back, and maybe change the ending a little bit. Explain a little more and do not rely on the player of turning every stone, looking at every item and reading every in-game book. 
 
-Besides all its shortcomings, it is an impressive debut of a small, independent, three person gaming studio. If you take your time, it takes between 10 and 15 hours to play through the game. It is out now for Windows, Linux and Mac. Available on [GOG](https://www.gog.com/game/gibbous_a_cthulhu_adventure)and [Steam](https://store.steampowered.com/app/914020/Gibbous___A_Cthulhu_Adventure/).
+Besides all its shortcomings, it is an impressive debut of a small, independent, three person gaming studio. If you take your time, it takes between 10 and 15 hours to play through the game. It is out now for Windows, Linux and Mac. Available on [GOG](https://www.gog.com/game/gibbous_a_cthulhu_adventure) and [Steam](https://store.steampowered.com/app/914020/Gibbous___A_Cthulhu_Adventure/).
