@@ -81,11 +81,16 @@ menu:
     title: "Tags"
     pageref: "/tags/"
     weight: 2
+  - identifier: Website
+    name: "Website"
+    title: "Website"
+    url: "https://friedrich.uk"
+    weight: 3
   - identifier: mastodon
     name: "Mastodon"
     title: "Mastodon"
     url: https://click.ba.it/@jason
-    weight: 3
+    weight: 4
 
 params:
   mainSections:
