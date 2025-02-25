@@ -38,8 +38,8 @@ The rule seems to be: "The show or the movie you are interesting in will be stre
 
 Anyhow, combing through my streaming services was a good idea. I am now saving 31,21 € per month. Thanks Hendrik!
 
-| Streaming service | Monthly price (€) | Comment | Status |
-|:--|:--:|:--|:--:|
+| Streaming service | Monthly fee (€) | Comment | Status |
+|:--:|:--:|:--:|:--:|
 | AppleTV+ | 8,25 | 99 € a year | Cancelled |
 | RTL Crime | 3,99 | Prime Channel | Cancelled |
 | MTV+ | 2,99 | Prime Channel | Cancelled |
