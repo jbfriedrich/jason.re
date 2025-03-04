@@ -4,7 +4,7 @@ title: "Thoughts, Links & Moods"
 theme: "hemingway"
 #publishDir: docs
 summaryLength: 50
-paginate: 12
+paginate: 9
 canonifyURLs: false
 footnoteReturnLinkContents: "↩"
 plainIDAnchors: true
