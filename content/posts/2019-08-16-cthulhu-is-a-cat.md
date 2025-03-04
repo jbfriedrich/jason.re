@@ -17,7 +17,7 @@ The puzzles are easy when you have an "Adventure Game" background - with a coupl
 
 ![Gibbous screenshot 3](https://media.jason.re/19/8/_Gibbous12.PNG "Something is really fishy here!")
 
-![Gibbous screenshot 4](https://media.jason.re/19/8/_Gibbous02.PNG "That is a lot of books!")
+![Gibbous screenshot 4](https://media.jason.re/19/8/_Gibbous02.PNG "That is a lot of books! Did you read'em all?")
 
 I loved every minute of this game, every reference and every little hint. Up until I reached the ending. I will not spoil anything here, but the ending left me deeply unsatisfied and confused. It also leaves the door open for a sequel. I really hope they make enough money of this game to go back, and maybe change the ending a little bit. Explain a little more and do not rely on the player of turning every stone, looking at every item and reading every in-game book. 
 
