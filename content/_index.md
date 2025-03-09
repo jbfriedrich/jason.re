@@ -7,6 +7,6 @@ images:
 - "https://media.click.ba.it/accounts/headers/108/193/425/891/628/609/original/bf6911fbef728a69.jpeg"
 ---
 
-I am just another left-handed, binge-watching, tech-loving geriatric millenial who enjoys drinking coffee and playing video games. I am an amateur wordsmith who enjoys weaving short little stories – and a walking compendium of useless movie & tv show facts. I work in IT and yell at [clouds](https://en.wikipedia.org/wiki/Cloud_computing) for a living.
+I am a left-handed, coffee-fueled, tech-loving geriatric millennial with a penchant for video games and excessive binge-watching. I dabble in writing short stories no one asked for and hoard obscure movie trivia like a dragon sitting on a pile of useless-but-shiny facts. By trade, I work in IT, where I shake my fist at the sky and yell at [clouds](https://en.wikipedia.org/wiki/Cloud_computing) for a living.”
 
 On this blog you will find my moods, thoughts and rants. It is my pressure valve to vent some of my frustrations around people, technology, (tech-)culture and everyday life. It is my chalkboard where I make up my mind and utter my opinion. Here I gather my tech related documentation, write about my experiences and try new stuff.
