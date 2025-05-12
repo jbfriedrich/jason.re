@@ -127,6 +127,10 @@ outputs:
 disableKinds:
   - 'RSS'
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 privacy:
   googleAnalytics:
     anonymizeIP: true
