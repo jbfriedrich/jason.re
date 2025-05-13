@@ -30,13 +30,13 @@ frontmatter:
     - "publishDate"
     - ":filename"
   publishDate:
-    - "publishDate"
     - "date"
+    - "publishDate"
   lastmod:
     - "lastmod"
     - ":fileModTime"
     - "publishDate"
-    - "date"
+    
 
 markup:
   goldmark:
