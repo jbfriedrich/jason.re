@@ -3,7 +3,7 @@ title: Kein IP-Umzug auf Hetzner vSwitches
 slug: hetzner-vswitches-ipnetz
 feature_image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2834&q=80"
 date: 2022-11-03T17:20:00
-tags: [hetzner, network, customer-service, de]
+tags: [hetzner, networking, customer-service, de]
 ---
 
 Ich bin gerade ein wenig von [Hetzner](https://www.hetzner.de) enttäuscht. Ich bin sehr lange Kunde dort, und hatte über die Jahre bereits etliche Root Server und VPS. Eigentlich war ich immer recht zufrieden. Nun habe ich seit ein oder zwei Jahren wieder einen Root Server gemietet, dazu ein "/64" IPv6-Netz und ein "/29" IPv4-Netz.
