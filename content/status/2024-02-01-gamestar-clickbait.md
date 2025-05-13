@@ -2,7 +2,7 @@
 title: Gamestar Clickbait
 date: 2024-02-01T11:48:51
 type: status
-tags: [gamestar, gaming, medien, de]
+tags: [gamestar, gaming, media, de]
 ---
 
 Oh Gott, was hasse ich diese [Clickbait Scheiße](https://www.gamestar.de/artikel/survival-spiel-odyssey-blizzard-technische-probleme,3407644.html). Ich weiß schon wieso ich die Gamestar Webseite sehr selten ansteuere. Ein werbeverseuchter, mit Videos zugemüllter, wiedergekäuter Worthaufen, dessen "Nachrichtengehalt" eigentlich in einem Absatz abgehandelt wäre:

@@ -5,7 +5,7 @@ feature_image: https://images.unsplash.com/photo-1527168027773-0cc890c4f42e?ixli
 summary: 'In the past it was easy to share interesting, or funny finds on the Internet. It was this magical place which was called “cyberspace” by the uninitiated.'
 tags:
   - automation
-  - social-media
+  - socialmedia
   - tech
   - en
 ---

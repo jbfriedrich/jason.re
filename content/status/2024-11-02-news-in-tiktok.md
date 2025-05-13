@@ -2,7 +2,7 @@
 title: News in TikTok
 date: 2024-11-02T13:56:58
 type: status
-tags: [usa, election, politics]
+tags: [usa, election, politics, en]
 ---
 
 It's interesting and shocking that so many young voters [only now seem to look more into the candidates and what they stand for](https://www.washingtonpost.com/technology/2024/10/31/tiktok-trump-access-hollywood-gen-z/)! The election campaign is going for a while now, the internet is full of information about Trump and his fascist and sexist behavior. Or maybe it was just not visible on their social media platform of choice… 🤔

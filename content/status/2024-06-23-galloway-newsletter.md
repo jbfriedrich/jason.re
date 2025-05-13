@@ -2,7 +2,7 @@
 title: Galloway newsletter
 date: 2024-06-23T13:46:17
 type: status
-tags: [newletter, en]
+tags: [newsletter, media, en]
 ---
 
 Another interesting newsletter. This time it is "No Mercy / No Malice" by [Scott Galloway](https://www.linkedin.com/in/profgalloway/). I am sure I am late to the party… again! His [latest edition](https://www.profgalloway.com/ai-laundromat/) about AI has some very interesting food for thought:

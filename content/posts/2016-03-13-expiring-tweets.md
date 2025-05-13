@@ -3,7 +3,7 @@ title: Expiring tweets
 date: 2016-03-13T19:49:43
 feature_image: https://images.unsplash.com/photo-1457433575995-8407028a9970?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=6e0ca51aa7e06e3f3625b39355ad2619
 tags:
-  - social-media
+  - socialmedia
   - society
   - en
 ---

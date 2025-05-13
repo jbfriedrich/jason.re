@@ -3,7 +3,7 @@ date: 2017-10-16T21:22:58
 type: status
 tags:
   - internet
-  - social-media
+  - socialmedia
   - society
   - en
 language: en

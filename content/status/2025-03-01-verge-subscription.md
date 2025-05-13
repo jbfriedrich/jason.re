@@ -2,7 +2,7 @@
 title: Verge subscription
 date: 2025-03-01T20:22:23
 type: status
-tags: [news, journalism, en]
+tags: [media, journalism, en]
 ---
 
 In addition to my [404 Media](https://www.404media.co/) subscription, I also just subscribed to [The Verge](https://www.theverge.com/). That should cover all my needs when it comes to tech news and tech journalism.

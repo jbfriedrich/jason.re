@@ -3,7 +3,7 @@ title: Antisocial
 date: 2013-05-02T01:44:57
 feature_image: https://images.unsplash.com/photo-1524048824421-51d2958dc634?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=d2306cdf17e558edbe1f03ddc3beba75
 tags:
-  - social-media
+  - socialmedia
   - en
 ---
 
