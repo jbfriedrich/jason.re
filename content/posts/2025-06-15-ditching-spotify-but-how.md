@@ -1,5 +1,6 @@
 ---
 title: Ditching Spotify... but how?
+slug: ditching-spotify-but-how
 date: 2025-06-15T19:56:45
 tags: [music, streaming, en]
 ---
