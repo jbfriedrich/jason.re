@@ -5,8 +5,7 @@ type: status
 tags: [de, hosting, business]
 ---
 
-Manuel Schmitt [hat Manitu verkauft](https://hostblogger.de/blog/archives/7365-Veraenderungen-bei-manitu-ein-sehr-persoenliches-Update.html)
-Schade, wieder ein sympathisches, vom Inhaber geführtes Unternehmen weniger 🥲.
+Manuel Schmitt [hat Manitu verkauft](https://hostblogger.de/blog/archives/7365-Veraenderungen-bei-manitu-ein-sehr-persoenliches-Update.html). Schade, wieder ein sympathisches, vom Inhaber geführtes Unternehmen weniger 🥲.
 
 Es wird sicherlich nicht über Nacht passieren, aber 1Blu ist eine anonyme AG, die früher oder später „Kosten einspart“, „Synergieeffekte nutzt“ oder andere Entscheidungen „zum Wohle der Aktionäre“ trifft – Entscheidungen, die dann selbstverständlich über das Wohl der Mitarbeiter oder Kunden gestellt werden.
 
