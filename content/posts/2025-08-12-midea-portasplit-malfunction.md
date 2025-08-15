@@ -1,7 +1,7 @@
 ---
 title: Midea Portasplit malfunction
 date: 2025-08-12T18:48:54
-tags: [airconditioning, weather, customer-service, en]
+tags: [airconditioning, weather, customerservice, en]
 ---
 
 I guess I bragged too much with my new AC unit and the universe did not like it very much. After it worked fine for quite a while, the temperature went down and I stowed it away for the last couple of weeks – resting up and waiting for the next heatwave.

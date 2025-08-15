@@ -2,7 +2,7 @@
 date: 2019-05-27T17:22:56
 type: status
 tags:
-  - customer-service
+  - customerservice
   - picture
   - de
 ---
