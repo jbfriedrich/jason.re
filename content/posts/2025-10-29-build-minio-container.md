@@ -1,7 +1,7 @@
 ---
 title: Build your own MinIO container
 date: 2025-10-29T02:10:00
-tags: [selhosting, container, minio, s3, en]
+tags: [selfhosting, container, minio, s3, en]
 ---
 
 With very shitty timing, shortly after `CVE RELEASE 2025-10-15T17-29-55Z`, MinIO [decided](https://github.com/minio/minio/issues/21647) that the MinIO community version is "source only" from now on, you have to build the docker container yourself.
