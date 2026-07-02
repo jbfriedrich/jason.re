@@ -1,7 +1,8 @@
 ---
 title: Disable IPv6 privacy extension on macOS
 date: 2024-01-15T04:40:53+01:00
-tags: [macos, networking, ipv6, en]
+tags: [macos, networking, ipv6]
+lang: [en]
 ---
 
 To disable the IPv6 privacy extension in macOS, you are supposed to change the following setting via the sysctl command: 

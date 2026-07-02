@@ -4,8 +4,9 @@ date: 2008-02-05T16:59:31
 feature_image: https://images.unsplash.com/photo-1534844404100-27259dbdc22c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=374c8a40d825660460d9a193fca581a0
 tags:
   - tech
-  - de
   - messenging
+lang:
+  - de
 ---
 
 Ich überlege seit einiger Zeit ernsthaft ob ich den Messenger wechseln sollte. Allerdings bin ich mir nicht sicher ob ich [GoogleTalk](http://talk.google.com)/[Jabber](http://www.jabber.org) oder [Skype](http://www.skype.com) weiter verwenden soll. Sicher ist nur, dass ich [ICQ](http://www.icq.com) gerne den Rücken kehren will. Das Protkoll ist meiner Meinung nach zu alt, und kann wegen den propritären Quellen nicht ohne viel Aufwand in alternativen Clients gepflegt werden. Außerdem bietet ICQ keinen nativen Client für [mein Betriebssystem](http://www.apple.com/macosx/) an, und alle anderen Clients haben immer irgendwelche Probleme mit dem Protokoll.

@@ -4,8 +4,9 @@ date: 2019-08-04T17:07:07
 feature_image: https://media.jason.re/19/8/Screen-Shot-2019-08-04-at-17.43.48.png
 tags:
   - development
-  - en
   - business
+lang:
+  - en
 ---
 
 I am not what you would consider a "Pro User" for git. Not at all. I would classify myself as an intermediate user. But even as an intermediate user, things can get pretty ugly and inconvenient when you only rely on the standard Git console client.

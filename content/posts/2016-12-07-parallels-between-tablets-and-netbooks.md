@@ -5,6 +5,7 @@ feature_image: https://images.unsplash.com/photo-1509339338943-fc6da78cdd4b?ixli
 tags:
   - hardware
   - tech
+lang:
   - en
 ---
 

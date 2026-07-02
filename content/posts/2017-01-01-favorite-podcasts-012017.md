@@ -5,8 +5,9 @@ feature_image: https://images.unsplash.com/photo-1527150122806-f682d2fd8b09?ixli
 summary: "I am an avid podcast listener. My favorite English and German podcasts categorized as “regular” and “other”, sorted in alphabetical order."
 tags:
   - media
-  - en
   - podcasts
+lang:
+  - en
 ---
 
 # Regular Podcasts

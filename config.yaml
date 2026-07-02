@@ -1,10 +1,11 @@
 baseURL: "https://jason.re"
 languageCode: "en-us"
 title: "Thoughts, Links & Moods"
-theme: "hemingway"
+theme: "wilde"
 #publishDir: docs
 summaryLength: 50
-paginate: 12
+pagination:
+  pagerSize: 6
 canonifyURLs: false
 footnoteReturnLinkContents: "↩"
 plainIDAnchors: true
@@ -13,10 +14,10 @@ assetDir: "static"
 # Date String Format: Mon Jan 2 15:04:05 MST 2006
 #sectionPagesMenu: main
 permalinks:
-  posts: /post/:slug
-  status: /status/:2006:01:02:150405
-  links: /:section/:2006:01:02:150405
-  pictures: /:section/:title
+  posts:  /posts/:slug
+  notes:  /notes/:2006:01:02:150405
+  links:  /:sections/:2006:01:02:150405
+  photos: /photos/:2006/:01/:slug
 taxonomies:
   tag: tags
   type: type
@@ -55,21 +56,12 @@ markup:
 # main menu
 menu:
   main:
-  - identifier: home
-    name: "Home"
-    title: "Home"
-    pageref: "/"
-    weight: 1
-  - identifier: allposts
-    name: "Posts"
-    title: "Posts"
-    pageref: "/posts/"
-    weight: 2
-  - identifier: allmicros
-    name: "Updates"
-    title: "Updates"
-    pageref: "/status/"
-    weight: 3
+  - {identifier: home,    name: "Home",    title: "Home",    url: "/",         weight: 1}
+  - {identifier: posts,   name: "Posts",   title: "Posts",   url: "/posts/",   weight: 2}
+  - {identifier: notes,   name: "Notes",   title: "Notes",   url: "/notes/",   weight: 3}
+  - {identifier: links,   name: "Links",   title: "Links",   url: "/links/",   weight: 4}
+  - {identifier: photos,  name: "Photos",  title: "Photos",  url: "/photos/",  weight: 5}
+  - {identifier: archive, name: "Archive", title: "Archive", url: "/archive/", weight: 6}
   footer:
   - identifier: feeds
     name: "Feeds"
@@ -93,9 +85,17 @@ menu:
     weight: 4
 
 params:
+  # --- wilde theme: stream preset, warm palette ---
+  preset: stream
+  hue: 25           # amber/rust (primary)
+  altHue: 200       # teal (secondary)
+  homeCount: 12
+  description: "Jason's personal blog – Thoughts, links & moods"
   mainSections:
   - posts
-  - status
+  - notes
+  - links
+  - photos
   author:
     given_name: "Jason"
     family_name: "Friedrich"
@@ -106,7 +106,7 @@ params:
   friendly_url: jason.re
 
 mediaTypes:
-  application/atom:
+  application/atom+xml:
     suffixes:
       - 'xml'
 
@@ -114,12 +114,14 @@ outputFormats:
   atom:
     baseName: 'index'
     isPlainText: false
-    mediaType: 'application/atom'
+    mediaType: 'application/atom+xml'
+    rel: 'alternate'
 
 outputs:
   home:
     - HTML
     - Atom
+    - JSON
   section:
     - HTML
     - Atom

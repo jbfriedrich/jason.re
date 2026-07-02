@@ -5,6 +5,7 @@ feature_image: https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?ixli
 tags:
   - esports
   - gaming
+lang:
   - en
 ---
 

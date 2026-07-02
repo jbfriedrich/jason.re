@@ -6,6 +6,7 @@ summary: "A recent conversation on Twitter made me think about why I never purch
 tags:
   - tech
   - digitalization
+lang:
   - en
 ---
 

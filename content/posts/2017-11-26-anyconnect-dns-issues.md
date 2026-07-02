@@ -7,6 +7,7 @@ tags:
   - apple
   - networking
   - tech
+lang:
   - en
 ---
 

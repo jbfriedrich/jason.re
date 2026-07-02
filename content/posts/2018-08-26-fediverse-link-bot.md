@@ -7,6 +7,7 @@ tags:
   - automation
   - socialmedia
   - tech
+lang:
   - en
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Improved Feedbin newsletter feature
 date: 2024-04-27T19:53:05
-tags: [feedbin, rss, newsletter, en]
+tags: [feedbin, rss, newsletter]
+lang: [en]
 ---
 
 [Chris Coyier](https://chriscoyier.net/2024/04/26/feedbin-email-newsletter-emails/) had a great idea:

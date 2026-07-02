@@ -1,7 +1,8 @@
 ---
 title: Overcast Redesign
 date: 2024-07-21T00:07:59
-tags: [en, software, podcasts]
+tags: [software, podcasts]
+lang: [en]
 ---
 
 Apart from the bugs, the new UI and UX of [Overcast](https://overcast.fm) really is a step backwards in my opinion. I wish I could go back to the old version for a while - at least until the bugs are fixed and it is clear if there will be future UI/UX changes. Just a few examples:

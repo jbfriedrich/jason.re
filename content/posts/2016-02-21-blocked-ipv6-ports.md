@@ -6,6 +6,7 @@ tags:
   - ipv6
   - networking
   - tech
+lang:
   - en
 ---
 

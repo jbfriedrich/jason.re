@@ -4,6 +4,7 @@ date: 2018-04-24T00:19:46
 draft: true
 tags:
   - gaming
+lang:
   - en
 ---
 

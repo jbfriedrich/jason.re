@@ -6,6 +6,7 @@ tags:
   - education
   - personal
   - training
+lang:
   - en
 ---
 

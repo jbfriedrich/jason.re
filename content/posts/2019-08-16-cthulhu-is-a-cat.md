@@ -4,6 +4,7 @@ date: 2019-08-16T02:24:29
 feature_image: https://media.jason.re/19/8/Trio910x499.png
 tags:
   - gaming
+lang:
   - en
 ---
 

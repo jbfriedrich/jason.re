@@ -3,9 +3,10 @@ title: Optimale Podcast-Länge
 date: 2019-08-10T15:43:28
 feature_image: https://images.unsplash.com/photo-1421757350652-9f65a35effc7?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
 tags:
-  - de
   - media
   - podcasts
+lang:
+  - de
 ---
 
 Ich denke man kann die Länge von Podcasts nicht pauschalisieren, aber ich lehne mich mal aus dem Fenster und sage, dass _kein_ Podcast der 10 oder 15 Minuten lang ist den Namen verdient. Es ist dann nur ein „Wortbeitrag“, ein Segment, eingebettet in ein größeres Ganzes. So wie man es aus dem jetzigen, kaputten Radio kennt.

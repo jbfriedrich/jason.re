@@ -5,6 +5,7 @@ feature_image: https://images.unsplash.com/photo-1544197150-b99a580bb7a8
 tags:
   - networking
   - internet
+lang:
   - en
 ---
 

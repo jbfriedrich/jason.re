@@ -6,6 +6,7 @@ summary: 'While taking a closer look at VULTR I became very interested in their 
 tags:
   - hosting
   - tech
+lang:
   - en
 ---
 

@@ -5,6 +5,7 @@ feature_image: https://images.unsplash.com/photo-1498622205843-3b0ac17f8ba4?ixli
 tags:
   - apple
   - tech
+lang:
   - en
 ---
 

@@ -4,10 +4,11 @@ date: 2019-08-04T19:01:54
 feature_image: https://media.jason.re/19/8/IMG_0858.jpeg
 tags:
   - picture
-  - en
   - homelab
   - tech
   - hardware
+lang:
+  - en
 ---
 
 My Intel NUC home lab is finally fan-less. In the summer months, with air temperatures of 30˚ to 40˚C, the small fans were spinning almost all day. Especially with the older models. Nevermore!

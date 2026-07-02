@@ -1,7 +1,8 @@
 ---
 title: Be more curious!
 date: 2023-07-30T18:45:00
-tags: [socialmedia, society, en]
+tags: [socialmedia, society]
+lang: [en]
 ---
 
 Some people think that the Fediverse is some kind of "holy ground", where people shed their skin, left all toxicity at Facebook and Twitter and its all roses now. Well, it is definitely not. Just because we left Twitter, we did not stop being human beings. And it seems that social media as a whole, no matter what platform, makes jumping to conclusions easy – and we automatically assume the worst. Jumping to one-sided conclusions based on a couple of lines, based on a picture. I wish the world was that simple...

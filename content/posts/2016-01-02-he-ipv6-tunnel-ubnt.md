@@ -6,6 +6,7 @@ summary: "IPv6 gets more and more important. I think 2016 will be the year when 
 tags:
   - ipv6
   - networking
+lang:
   - en
 ---
 

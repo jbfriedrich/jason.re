@@ -5,8 +5,9 @@ feature_image: https://images.unsplash.com/photo-1519056231101-0f83a012aed3?ixli
 summary: "Da mein alter Laptop langsam in die Jahre kommt, und sich die Ausfallerscheinen häuften, wollte ich mir bis zum Machbook einen kleinen handlichen Mini-Computer anschaffen."
 tags:
   - tech
-  - de
   - notebooks
+lang:
+  - de
 ---
 
 Nach dem Wälzen der Fachliteratur zum Thema Netbooks, habe ich mich für das “Asus Eee PC 1000 HE” entschieden. Hauptgründe für dieses Gerät waren die Akkulaufzeit von 9,5 Stunden (auf dem Papier, in der Realität wohl eher 7 Stunden), das gute 10″ LED Displays und die Qualität der früheren Eee PCs.

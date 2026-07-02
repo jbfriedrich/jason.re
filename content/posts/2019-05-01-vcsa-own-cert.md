@@ -5,8 +5,9 @@ feature_image: https://images.unsplash.com/photo-1553991562-9f24b119ff51?ixlib=r
 tags:
   - vmware
   - virtualization
-  - en
   - tech
+lang:
+  - en
 ---
 
 Managing your own CA is usually very tedious and time consuming, so I decided to partly automate it using a Docker container and easy-rsa. The container generates my CA and server/client certificates for all my devices in my home office and the test lab.
