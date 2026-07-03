@@ -3,7 +3,7 @@ title: Apple vs the Digital Markets
 date: 2024-01-27T15:33:30
 link: https://developer.apple.com/support/apps-using-alternative-payment-providers-in-the-eu/
 domains: [developer.apple.com]
-tags: [apple, eu, regulation]
+tags: [apple, eu, regulation, politics]
 languages: [en]
 ---
 

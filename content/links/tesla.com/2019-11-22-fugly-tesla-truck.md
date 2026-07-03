@@ -3,7 +3,7 @@ title: Fugly Tesla truck
 date: 2019-11-22T13:00:23
 link: https://www.tesla.com/cybertruck
 domains: [tesla.com]
-tags: [cars]
+tags: [cars, tesla]
 languages: [en]
 ---
 

@@ -3,7 +3,7 @@ title: Apple earnings FY Q1 2019
 date: 2019-01-29T23:11:14
 link: https://www.macrumors.com/2019/01/29/apple-1q-2019-results/
 domains: [macrumors.com]
-tags: [apple]
+tags: [apple, economy]
 languages: [en]
 ---
 
