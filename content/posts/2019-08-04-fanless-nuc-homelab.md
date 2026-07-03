@@ -7,7 +7,7 @@ tags:
   - homelab
   - tech
   - hardware
-lang:
+languages:
   - en
 ---
 

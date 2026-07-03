@@ -4,7 +4,7 @@ date: 2022-02-20T21:05:18
 link: https://www.thegamer.com/horizon-forbidden-west-delayed-crunch/
 domains: [thegamer.com]
 tags: [entertainment, streaming, media]
-lang: [en]
+languages: [en]
 ---
 
 It is nice to read that a game studio director seems to care about his employees — and it doesn't seem to be empty words either.

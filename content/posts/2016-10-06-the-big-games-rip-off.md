@@ -5,7 +5,7 @@ feature_image: https://images.unsplash.com/photo-1532219600601-8494408a4a2c?ixli
 summary: "I am talking a lot with my US colleagues and friends about video games, video game prices, special deals and upcoming sales. Every time that topic comes up, I realize how much we pay for games in Germany."
 tags:
   - gaming
-lang:
+languages:
   - en
 ---
 

@@ -7,7 +7,7 @@ tags:
   - macos
   - tech
   - windows
-lang:
+languages:
   - en
 ---
 

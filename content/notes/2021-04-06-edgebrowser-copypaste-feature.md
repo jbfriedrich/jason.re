@@ -4,7 +4,7 @@ date: 2021-04-06T16:30:00
 tags:
   - microsoft
   - edge
-lang:
+languages:
   - en
 ---
 

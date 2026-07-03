@@ -3,7 +3,7 @@ title: Ghost Recon Breakpoint Microtransactions
 date: 2019-10-01T22:02:22
 tags:
   - gaming
-lang:
+languages:
   - en
 ---
 

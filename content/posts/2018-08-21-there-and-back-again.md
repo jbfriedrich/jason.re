@@ -7,7 +7,7 @@ tags:
   - blogging
   - tech
   - wordpress
-lang:
+languages:
   - en
 ---
 

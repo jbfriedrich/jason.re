@@ -5,7 +5,7 @@ feature_image: https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?ixli
 tags:
   - google
   - tech
-lang:
+languages:
   - en
 ---
 

@@ -5,7 +5,7 @@ tags:
   - apple
   - tech
   - hardware
-lang:
+languages:
   - en
 ---
 

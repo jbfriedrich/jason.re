@@ -2,7 +2,7 @@
 title: Marvel's Rivals eats Overwatch's lunch
 date: 2024-12-21T11:50:53
 tags: [gaming, blizzard, marvel]
-lang: [en]
+languages: [en]
 ---
 
 [Overwatch](https://overwatch.blizzard.com/), watch out — [Marvel Rivals](https://www.marvelrivals.com) might just steal all your players – and they might even manage to keep them!

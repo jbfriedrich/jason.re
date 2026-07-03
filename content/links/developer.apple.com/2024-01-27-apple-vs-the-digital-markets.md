@@ -4,7 +4,7 @@ date: 2024-01-27T15:33:30
 link: https://developer.apple.com/support/apps-using-alternative-payment-providers-in-the-eu/
 domains: [developer.apple.com]
 tags: [apple, eu, regulation]
-lang: [en]
+languages: [en]
 ---
 
 It was clear that Apple would not roll over and comply with the new EU regulations. Of course they are trying to make it as hard as possible for developers to not use their payment system and stick to the status quo.

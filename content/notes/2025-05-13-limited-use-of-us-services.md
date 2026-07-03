@@ -2,7 +2,7 @@
 title: Limited use of US services
 date: 2025-05-13T20:31:24
 tags: [tech, usa]
-lang: [en]
+languages: [en]
 ---
 
 Due to recent events, I decided to start limiting the use of US services for my IT needs. I am hosting with [Hetzner](https://www.hetzner.com/de/) forever, either using their Cloud offerings or a dedicated Root server. My email is hosted with [Fastmail](https://www.fastmail.com/), which is an Australian company. So it is not hosted in the US, but it still feels not optimal as they have a presence in the US as well. Fastmail's contenders in Germany are not that great though. [Mailbox.org](https://mailbox.org)'s webmail interface is horrible compared to Fastmail, and it seems there are some latency issues as well when using IMAP.

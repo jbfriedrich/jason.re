@@ -5,7 +5,7 @@ feature_image: https://images.unsplash.com/photo-1540761352041-7d28666d4e37?ixli
 tags:
   - linux
   - tech
-lang:
+languages:
   - de
 ---
 

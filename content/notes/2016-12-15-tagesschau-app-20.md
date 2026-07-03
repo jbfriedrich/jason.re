@@ -3,7 +3,7 @@ date: 2016-12-15T18:54:26
 tags:
   - media
   - oeffentlich-rechtlich
-lang:
+languages:
   - de
 language: de
 ---

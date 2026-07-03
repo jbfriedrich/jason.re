@@ -2,7 +2,7 @@
 title: Freshly brewed
 date: 2024-03-22T20:54:55
 tags: [automation, mac, software]
-lang: [en]
+languages: [en]
 ---
 
 I do not reinstall my systems that often, so I always forget how to properly [dump to and restore from my Brewfile](https://github.com/Homebrew/homebrew-bundle). Maybe this post will help me to not forget (which I will), or at least help me jog my memory in case it does slip my mind again.

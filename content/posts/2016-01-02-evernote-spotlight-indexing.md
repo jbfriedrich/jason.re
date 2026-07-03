@@ -6,7 +6,7 @@ tags:
   - apple
   - macos
   - tech
-lang:
+languages:
   - en
 ---
 

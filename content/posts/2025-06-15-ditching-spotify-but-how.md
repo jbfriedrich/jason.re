@@ -3,7 +3,7 @@ title: Ditching Spotify... but how?
 slug: ditching-spotify-but-how
 date: 2025-06-15T19:56:45
 tags: [music, streaming]
-lang: [en]
+languages: [en]
 ---
 
 I'm becoming increasingly reluctant to renew my Spotify Premium subscription for another year. They [paid out $10 billion in 2024](https://techcrunch.com/2025/03/11/spotify-says-its-payouts-are-getting-better-but-artists-still-disagree/), but only the biggest artists and record companies [benefit from Spotify's streamshare model](https://www.heise.de/en/news/Streaming-study-Remuneration-models-favor-major-artists-10279072.html).  

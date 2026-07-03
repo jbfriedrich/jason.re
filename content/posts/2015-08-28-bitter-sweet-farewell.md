@@ -5,7 +5,7 @@ feature_image: https://images.unsplash.com/photo-1529268209110-62be1d87fe75?ixli
 tags:
   - workplace
   - personal
-lang:
+languages:
   - en
 ---
 

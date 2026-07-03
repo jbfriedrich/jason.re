@@ -2,7 +2,7 @@
 title: Ab jetzt gilt das E-Rezept
 date: 2024-01-02T02:13:52
 tags: [medizin, erezept, krankenkasse]
-lang: [de]
+languages: [de]
 ---
 
 Ich bin mal sehr gespannt auf die ersten Erfahrungen mit dem E-Rezept. Ich kann mir gerade noch nicht so ganz vorstellen das wirklich alle Krankenkassen und alle Ärzte darauf vorbereitet sind.

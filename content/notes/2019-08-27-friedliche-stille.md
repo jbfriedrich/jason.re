@@ -2,7 +2,7 @@
 date: 2019-08-27T03:56:57
 tags:
   - personal
-lang:
+languages:
   - de
 ---
 Es ist viel zu warm. Eine weitere tropische Nacht die mich schlecht schlafen lässt. Es ist schon eine Weile her, dass ich mir „aktiv“ einen Sternenhimmel angesehen, oder einfach nur einen Sonnenaufgang genossen habe.

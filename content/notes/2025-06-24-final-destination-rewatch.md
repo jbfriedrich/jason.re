@@ -2,7 +2,7 @@
 title: Final Destination Rewatch
 date: 2025-06-24T21:58:25
 tags: [movie, review]
-lang: [en]
+languages: [en]
 ---
 
 To prepare myself for "Final Destination: Bloodlines", I decided to rewatch all existing "Final Destination" movies. Let me say this: I knew that I did not need to rewatch them to "better understand the plot", alright, they are no "silver screen classics", but I did not remember them to be THAT bad 😂.

@@ -5,7 +5,7 @@ tags:
   - microsoft
   - software
   - workplace
-lang:
+languages:
   - en
 ---
 

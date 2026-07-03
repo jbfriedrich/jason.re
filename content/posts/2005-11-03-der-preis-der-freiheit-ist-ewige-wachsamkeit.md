@@ -5,7 +5,7 @@ feature_image: https://images.unsplash.com/photo-1515040242872-08257d6d08c2?ixli
 tags:
   - politics
   - society
-lang:
+languages:
   - de
 ---
 

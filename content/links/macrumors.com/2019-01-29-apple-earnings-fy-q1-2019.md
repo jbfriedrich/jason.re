@@ -4,7 +4,7 @@ date: 2019-01-29T23:11:14
 link: https://www.macrumors.com/2019/01/29/apple-1q-2019-results/
 domains: [macrumors.com]
 tags: [apple]
-lang: [en]
+languages: [en]
 ---
 
 Apple just released their quarterly results for the first fiscal quarter for 2019 (in the real world, that is Q4 2018). The results were as expected after the [warning](https://www.macrumors.com/2019/01/02/apple-lowers-q1-2019-revenue-guidance/) they issued late last year.

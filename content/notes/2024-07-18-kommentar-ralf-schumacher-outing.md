@@ -1,7 +1,7 @@
 ---
 title: Kommentar Ralf Schumacher Outing
 date: 2024-07-18T19:11:56
-lang: [de]
+languages: [de]
 ---
 
 Was für eine komische Welt, in der sich ein ehemaliger Rennfahrer mit einem [kleinen Instagram Post](https://www.instagram.com/p/C9aY1ujNZHL/) als bi-sexuell oder schwul outet, und Menschen dann der geschiedenen Ehefrau [solche Sätze schreiben](https://www.instagram.com/p/C74gvIlMAj-/c/18094775140447361/):

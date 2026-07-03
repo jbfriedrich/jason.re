@@ -2,7 +2,7 @@
 title: Ahrefs Cloud Saga
 date: 2024-06-01T22:34:41
 tags: [cloud, business]
-lang: [en]
+languages: [en]
 ---
 
 [Two](https://tech.ahrefs.com/how-ahrefs-saved-us-400m-in-3-years-by-not-going-to-the-cloud-8939dd930af8) interesting [posts](https://tech.ahrefs.com/how-ahrefs-gets-a-billion-dollar-worth-infrastructure-with-a-90-discount-5edd473b2399) from Ahref describing the cost savings that drove their move from the cloud to a colocation datacenter.

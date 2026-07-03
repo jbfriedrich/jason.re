@@ -5,7 +5,7 @@ feature_image: https://images.unsplash.com/photo-1538843427389-48d6e33e9b89?ixli
 summary: "Alles begann mit dem weihnachtlichen Gedanken meine US-Kollegen mit dem berühmten Deutschen Weihnachtsgebäck zu beliefern. Lebkuchen, Spekulatius, Christstollen… das volle Programm. Sie wissen schon!"
 tags:
   - customerservice
-lang:
+languages:
   - de
 ---
 

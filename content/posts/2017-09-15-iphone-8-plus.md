@@ -6,7 +6,7 @@ tags:
   - apple
   - iphone
   - tech
-lang:
+languages:
   - en
 ---
 

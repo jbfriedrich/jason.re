@@ -7,7 +7,7 @@ tags:
   - entertainment
   - society
   - tv
-lang:
+languages:
   - de
 ---
 

@@ -2,7 +2,7 @@
 title: Media diet – March 2024
 date: 2024-04-02T02:20:48
 tags: [media, mediadiet]
-lang: [en]
+languages: [en]
 ---
 
 I ~~blatantly stole~~ obviously borrowed the idea for this post from [Carlo](https://zottmann.org/). He is doing them for a while now, and I always found them pretty interesting.

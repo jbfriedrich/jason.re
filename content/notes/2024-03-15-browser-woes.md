@@ -2,7 +2,7 @@
 title: Browser woes
 date: 2024-03-15T18:02:06
 tags: [software, browsers, internet]
-lang: [en]
+languages: [en]
 ---
 
 I really, really wanted to ditch Google Chrome because of their constant [enshittification](https://www.techdirt.com/2023/08/02/googles-plan-to-drm-the-web-goes-against-everything-google-once-stood-for/) and their stance on [blocking ads](https://www.theverge.com/2023/11/16/23964509/google-manifest-v3-rollout-ad-blockers). But Safari makes it very hard for me to love it. The plugin system is far worse compared to Chrome, the UI feels wonky and the UX is average at best. I loved Safari's "iCloud Tabs" integration, but that is about it.

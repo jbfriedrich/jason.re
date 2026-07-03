@@ -4,7 +4,7 @@ date: 2024-11-02T13:56:58
 link: https://www.washingtonpost.com/technology/2024/10/31/tiktok-trump-access-hollywood-gen-z/
 domains: [washingtonpost.com]
 tags: [usa, election, politics]
-lang: [en]
+languages: [en]
 ---
 
 It's interesting and shocking that so many young voters only now seem to look more into the candidates and what they stand for! The election campaign is going for a while now, the internet is full of information about Trump and his fascist and sexist behavior. Or maybe it was just not visible on their social media platform of choice… 🤔

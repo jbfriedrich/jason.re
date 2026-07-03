@@ -2,7 +2,7 @@
 date: 2019-08-08T22:47:58
 tags:
   - gaming
-lang:
+languages:
   - en
 ---
 

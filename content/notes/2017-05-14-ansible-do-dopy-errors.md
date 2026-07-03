@@ -5,7 +5,7 @@ tags:
   - linux
   - tech
   - automation
-lang:
+languages:
   - en
 ---
 

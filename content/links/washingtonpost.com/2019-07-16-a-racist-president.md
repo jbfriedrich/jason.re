@@ -4,7 +4,7 @@ date: 2019-07-16T10:58:16
 link: https://www.washingtonpost.com/opinions/george-conway-trump-is-a-racist-president/2019/07/15/b13c0bd4-a740-11e9-9214-246e594de5d5_story.html
 domains: [washingtonpost.com]
 tags: [politics]
-lang: [en]
+languages: [en]
 ---
 
 A very good opinion piece in the Washington Post.

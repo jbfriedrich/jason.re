@@ -21,7 +21,7 @@ permalinks:
 taxonomies:
   tag: tags
   type: type
-  language: lang
+  language: languages
 
 timeZone: Europe/Berlin
 frontmatter:

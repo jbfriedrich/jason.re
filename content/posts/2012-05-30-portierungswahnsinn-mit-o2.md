@@ -6,7 +6,7 @@ tags:
   - customerservice
   - cellphone
   - mobilfunk
-lang:
+languages:
   - de
 ---
 

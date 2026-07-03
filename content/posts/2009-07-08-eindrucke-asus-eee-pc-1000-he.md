@@ -6,7 +6,7 @@ summary: "Da mein alter Laptop langsam in die Jahre kommt, und sich die Ausfalle
 tags:
   - tech
   - notebooks
-lang:
+languages:
   - de
 ---
 

@@ -6,7 +6,7 @@ tags:
   - linux
   - networking
   - tech
-lang:
+languages:
   - en
 ---
 

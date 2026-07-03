@@ -6,7 +6,7 @@ tags:
   - automation
   - operations
   - tech
-lang:
+languages:
   - en
 ---
 

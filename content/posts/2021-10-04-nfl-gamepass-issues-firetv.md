@@ -7,7 +7,7 @@ tags:
   - media
   - sports
   - streaming
-lang:
+languages:
   - en
 ---
 

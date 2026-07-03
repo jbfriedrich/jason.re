@@ -4,7 +4,7 @@ date: 2019-12-02T11:36:03
 link: https://www.golem.de/news/eu-roaming-ohne-preisaufschlag-zwoelfmal-mehr-mobile-datennutzung-1912-145297.html
 domains: [golem.de]
 tags: [neuland, mobilfunk, digitalisierung]
-lang: [de]
+languages: [de]
 ---
 
 Wer haette das gedacht?! Kaum laesst man aus den kuenstlich aufgeblasenen Roaming-Preisen die Luft raus, schon nutzen die Leute mehr Daten! [Nein! Doch! Ohh!](https://www.youtube.com/watch?v=w4aLThuU008).

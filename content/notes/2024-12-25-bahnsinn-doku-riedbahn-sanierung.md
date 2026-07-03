@@ -2,7 +2,7 @@
 title: Bahnsinn Doku Riedbahn Sanierung
 date: 2024-12-25T15:03:56
 tags: [infrastruktur, db, bahn]
-lang: [de]
+languages: [de]
 ---
 
 Die Bahn hat es wirklich geschafft, die Riedbahn wurde [erfolgreich saniert](https://www.ingenieur.de/technik/fachbereiche/verkehr/so-wird-die-riedbahn-zum-vorbild-fuer-die-sanierung-weiterer-strecken/) – sogar in der vorher veranschlagten Bauzeit. Respekt, ohne jegliche Ironie! So viel Chuzpe und Kompetenz hätte ich der Bahn wirklich nicht (mehr) zugetraut.

@@ -3,7 +3,7 @@ title: We love surveillance
 date: 2015-01-04T06:19:54
 tags:
   - society
-lang:
+languages:
   - en
 ---
 

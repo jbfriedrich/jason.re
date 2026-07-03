@@ -4,7 +4,7 @@ date: 2019-04-15T03:43:39
 link: https://www.cnet.com/news/the-mandalorian-exclusive-footage-revealed-at-star-wars-celebration-chicago-panel/
 domains: [cnet.com]
 tags: [entertainment, tv]
-lang: [en]
+languages: [en]
 ---
 
 {{< img caption="Mandalorian still image" src="https://media.jason.re/19/4/mandalorian_feature.jpg" >}}

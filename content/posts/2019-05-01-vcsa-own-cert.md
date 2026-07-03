@@ -6,7 +6,7 @@ tags:
   - vmware
   - virtualization
   - tech
-lang:
+languages:
   - en
 ---
 

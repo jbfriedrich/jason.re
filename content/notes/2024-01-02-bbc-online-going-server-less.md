@@ -2,7 +2,7 @@
 title: BBC Online going server-less
 date: 2024-01-02T21:40:26
 tags: [cloud, serverless]
-lang: [en]
+languages: [en]
 ---
 
 Very detailed write-up from the people that run *BBC Online*. They made the decision in 2020 to go server-less and have written about their reasoning and their experiences a year and a half later:

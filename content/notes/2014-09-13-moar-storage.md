@@ -6,7 +6,7 @@ tags:
   - tech
   - cloud
   - storage
-lang:
+languages:
   - en
 ---
 

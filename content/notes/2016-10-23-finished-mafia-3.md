@@ -2,7 +2,7 @@
 date: 2016-10-23T19:26:36
 tags:
   - gaming
-lang:
+languages:
   - en
 language: en
 ---

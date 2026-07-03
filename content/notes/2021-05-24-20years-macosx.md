@@ -5,7 +5,7 @@ tags:
   - macos
   - apple
   - software
-lang:
+languages:
   - en
 ---
 

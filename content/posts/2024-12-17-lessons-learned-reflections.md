@@ -2,7 +2,7 @@
 title: "Lessons learned: Reflections on four years of management"
 date: 2024-12-17T19:35:06
 tags: [workplace, career, management]
-lang: [en]
+languages: [en]
 ---
 
 Inbox Zero achieved in Outlook, desktop and OneDrive cleaned up. I finally got around to archiving folders for my former teams and for people management in general. Although my time as a manager officially ended in September, I remained in a transitional phase to support my teams and the new management through two reorganizations.

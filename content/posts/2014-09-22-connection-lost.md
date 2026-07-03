@@ -5,7 +5,7 @@ feature_image: https://images.unsplash.com/photo-1516044734145-07ca8eef8731?ixli
 tags:
   - networking
   - tech
-lang:
+languages:
   - en
 ---
 

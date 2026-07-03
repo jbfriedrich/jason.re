@@ -6,7 +6,7 @@ tags:
   - tech
   - windows
   - hosting
-lang:
+languages:
   - en
 ---
 I was very surprised to see [VultR](https://www.vultr.com/) offering Windows Server 2012 R2 and Windows Server 2016. To my knowledge, it is the only VPS provider to do so. There is an additional monthly fee for the license, but the price is quie tolerable in my opinion.

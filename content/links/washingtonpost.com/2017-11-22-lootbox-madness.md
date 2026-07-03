@@ -4,7 +4,7 @@ date: 2017-11-22T10:41:13
 link: https://www.washingtonpost.com/news/comic-riffs/wp/2017/11/18/how-a-star-wars-video-game-faced-charges-that-it-was-promoting-gambling/
 domains: [washingtonpost.com]
 tags: [gaming, media]
-lang: [en]
+languages: [en]
 ---
 
 A couple of days ago the Washington Post wrote an article about EA's Battlefront 2. It was the first time I read something this thorough and detailed about a game and its mechanics in a general media publication — and not in a gaming blog or podcast.

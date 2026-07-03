@@ -5,7 +5,7 @@ tags:
   - firewall
   - tech
   - windows
-lang:
+languages:
   - en
 ---
 

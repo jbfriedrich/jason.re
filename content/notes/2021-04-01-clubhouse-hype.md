@@ -5,7 +5,7 @@ tags:
   - clubhouse
   - covid
   - hype
-lang:
+languages:
   - en
 ---
 

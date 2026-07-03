@@ -4,7 +4,7 @@ date: 2012-11-15T02:34:36
 link: http://www.nydailynews.com/news/world/uk-man-amazing-new-robotic-arm-article-1.1198220
 domains: [nydailynews.com]
 tags: [medicine, science]
-lang: [en]
+languages: [en]
 ---
 
 When I read news like this, I begin to think that we are not so far away from the future depicted in [DeusEx: Human Revolution](http://www.youtube.com/watch?v=Kq5KWLqUewc).

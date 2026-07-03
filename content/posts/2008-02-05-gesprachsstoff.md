@@ -5,7 +5,7 @@ feature_image: https://images.unsplash.com/photo-1534844404100-27259dbdc22c?ixli
 tags:
   - tech
   - messenging
-lang:
+languages:
   - de
 ---
 

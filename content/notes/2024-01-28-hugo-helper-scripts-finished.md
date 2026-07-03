@@ -2,7 +2,7 @@
 title: Hugo helper scripts finished
 date: 2024-01-28T03:48:03
 tags: [blogging]
-lang: [en]
+languages: [en]
 ---
 
 The Python n00b in me is very happy right now. It took me ages, but version 1.0 of my two scripts that will help me blogging comfortably with Hugo are finally ready. They are not perfect, nor "finished" – and probably a bit rough around the edges. But I think it is a good first version – especially as I am not a developer at all.

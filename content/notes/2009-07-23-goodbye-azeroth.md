@@ -3,7 +3,7 @@ date: 2009-07-23T02:54:56
 tags:
   - gaming
   - worldofwarcraft
-lang:
+languages:
   - en
 ---
 

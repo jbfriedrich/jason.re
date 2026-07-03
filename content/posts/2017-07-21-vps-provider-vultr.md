@@ -6,7 +6,7 @@ summary: "For the reasons of diversity and high availability I was looking for a
 tags:
   - hosting
   - tech
-lang:
+languages:
   - en
 ---
 

@@ -4,7 +4,7 @@ date: 2024-04-02T03:00:53
 link: https://ianbetteridge.com/2024/04/01/antitrust-meta-apple-and-more/
 domains: [ianbetteridge.com]
 tags: [apple, eu, politics]
-lang: [en]
+languages: [en]
 ---
 
 Very interesting comments by Ian Betteridge on the antitrust actions from the US and the EU against Apple, Meta, and Google. A sight for sore eyes after [John Gruber's](https://daringfireball.net/) tremendously stupid takes on the [European Union's](https://en.wikipedia.org/wiki/European_Union) "[Digital Markets Act](https://en.wikipedia.org/wiki/Digital_Markets_Act)" (DMA)

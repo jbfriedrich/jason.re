@@ -3,7 +3,7 @@ date: 2019-01-29T23:51:52
 tags:
   - microsoft
   - cloud
-lang:
+languages:
   - en
 ---
 

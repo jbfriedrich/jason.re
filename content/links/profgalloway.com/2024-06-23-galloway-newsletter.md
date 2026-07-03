@@ -4,7 +4,7 @@ date: 2024-06-23T13:46:17
 link: https://www.profgalloway.com/ai-laundromat/
 domains: [profgalloway.com]
 tags: [newsletter, media]
-lang: [en]
+languages: [en]
 ---
 
 Another interesting newsletter. This time it is "No Mercy / No Malice" by [Scott Galloway](https://www.linkedin.com/in/profgalloway/). I am sure I am late to the party again! His latest edition about AI has some very interesting food for thought:

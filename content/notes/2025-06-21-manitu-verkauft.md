@@ -2,7 +2,7 @@
 title: Manitu verkauft
 date: 2025-06-21T21:17:24
 tags: [hosting, business]
-lang: [de]
+languages: [de]
 ---
 
 Manuel Schmitt [hat Manitu verkauft](https://hostblogger.de/blog/archives/7365-Veraenderungen-bei-manitu-ein-sehr-persoenliches-Update.html). Schade, wieder ein sympathisches, vom Inhaber geführtes Unternehmen weniger 🥲.
