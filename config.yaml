@@ -2,7 +2,7 @@ baseURL: "https://jason.re"
 languageCode: "en-us"
 title: "Thoughts, Links & Moods"
 theme: "wilde"
-#publishDir: docs
+timeZone: Europe/Berlin
 summaryLength: 50
 pagination:
   pagerSize: 6
@@ -23,7 +23,6 @@ taxonomies:
   type: type
   language: languages
 
-timeZone: Europe/Berlin
 frontmatter:
   date:
     - "date"
@@ -37,7 +36,6 @@ frontmatter:
     - "lastmod"
     - ":fileModTime"
     - "publishDate"
-    
 
 markup:
   goldmark:
@@ -63,9 +61,9 @@ menu:
   - {identifier: photos,  name: "Photos",  title: "Photos",  url: "/photos/",  weight: 5}
   - {identifier: archive, name: "Archive", title: "Archive", url: "/archive/", weight: 6}
   footer:
-  - identifier: feeds
-    name: "Feeds"
-    title: "RSS Feeds"
+  - identifier: rss
+    name: "RSS"
+    title: "RSS feeds"
     pageref: "/feeds/"
     weight: 1
   - identifier: taglist
