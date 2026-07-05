@@ -4,7 +4,6 @@ date: 2011-09-04T23:39:59
 feature_image: https://images.unsplash.com/photo-1516295904088-1ff1398c9596?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=32ca35ce0ad0d80983208ab55975fa52
 summary: "A recent conversation on Twitter made me think about why I never purchased any movies or eBooks in the iTunes Store or at Amazon. The longer I think about it, the more disadvantages come to my mind. The answer is quite easy for me."
 tags:
-  - tech
   - digitalization
 languages:
   - en

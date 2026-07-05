@@ -3,7 +3,7 @@ title: ATP locked down
 date: 2019-04-24T15:37:06
 link: https://overcast.fm/+CdQwKWV0/1:04:00
 domains: [overcast.fm]
-tags: [apple, tech, software]
+tags: [apple, software]
 languages: [en]
 ---
 

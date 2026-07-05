@@ -5,7 +5,6 @@ feature_image: https://images.unsplash.com/photo-1511485910951-f7a707918e93?ixli
 summary: '"What, you changed your blog? Again?!". That is something I hear very often these days. And they are right, every single one of them.'
 tags:
   - blogging
-  - tech
   - wordpress
 languages:
   - en

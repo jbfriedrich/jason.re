@@ -3,7 +3,7 @@ title: Apple's MacBook refresh 2017
 date: 2017-06-07T13:06:01
 link: https://www.anandtech.com/show/11519/apple-updates-mac-laptops-pro-vanilla-air-all-get-new-cpus
 domains: [anandtech.com]
-tags: [apple, hardware, tech]
+tags: [apple, hardware]
 languages: [en]
 ---
 

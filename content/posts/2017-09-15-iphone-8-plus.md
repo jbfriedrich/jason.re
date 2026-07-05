@@ -5,7 +5,6 @@ feature_image: https://images.unsplash.com/photo-1531312267124-cd1f431feb1e?ixli
 tags:
   - apple
   - iphone
-  - tech
 languages:
   - en
 ---

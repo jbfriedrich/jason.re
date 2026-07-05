@@ -3,7 +3,6 @@ title: iMac memory extension
 date: 2015-05-28T18:34:11
 tags:
   - apple
-  - tech
   - hardware
 languages:
   - en

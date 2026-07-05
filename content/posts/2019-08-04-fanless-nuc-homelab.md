@@ -5,7 +5,6 @@ feature_image: https://media.jason.re/19/8/IMG_0858.jpeg
 tags:
   - picture
   - homelab
-  - tech
   - hardware
 languages:
   - en

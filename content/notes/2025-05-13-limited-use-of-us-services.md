@@ -1,7 +1,7 @@
 ---
-title: Limited use of US services
+title: Limiting usage of US services
 date: 2025-05-13T20:31:24
-tags: [tech, usa]
+tags: [usa, politics, business]
 languages: [en]
 ---
 

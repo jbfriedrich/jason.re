@@ -5,7 +5,6 @@ feature_image: https://media.jason.re/18/8/hon8h9dvtbm.jpg
 tags:
   - apple
   - hardware
-  - tech
 languages:
   - en
 ---
