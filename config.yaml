@@ -85,10 +85,11 @@ menu:
     weight: 4
 
 params:
-  # --- wilde theme: stream preset, warm palette ---
+  # --- wilde theme: stream preset ---
   preset: stream
-  hue: 25           # amber/rust (primary)
-  altHue: 200       # teal (secondary)
+  # hue/altHue omitted: inherit tinycss OKLCH defaults (magenta 347 / blue 262)
+  # while we explore the OKLCH palette. NOTE: these are now OKLCH hue ANGLES,
+  # not HSL degrees — set e.g. hue: 55 for amber, not 25, when re-theming.
   homeCount: 12
   description: "Jason's personal blog – Thoughts, links & moods"
   mainSections:
