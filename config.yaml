@@ -1,6 +1,6 @@
 baseURL: "https://jason.re"
 languageCode: "en-us"
-title: "Thoughts, Links & Moods"
+title: "Undertow"
 theme: "wilde"
 timeZone: Europe/Berlin
 summaryLength: 50
@@ -91,7 +91,8 @@ params:
   # while we explore the OKLCH palette. NOTE: these are now OKLCH hue ANGLES,
   # not HSL degrees — set e.g. hue: 55 for amber, not 25, when re-theming.
   homeCount: 12
-  description: "Jason's personal blog – Thoughts, links & moods"
+  tagline: "Thoughts, links & notes"
+  description: "Thoughts, links, notes & the occasional photo"
   mainSections:
   - posts
   - notes
