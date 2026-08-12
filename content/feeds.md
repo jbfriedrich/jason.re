@@ -1,6 +1,6 @@
 ---
 title: RSS feeds
-date: 2024-01-07
+date: 2026-08-12
 type: page
 ---
 
@@ -10,7 +10,8 @@ type: page
 - **[Only links](https://jason.re/links/index.xml)** – Links I found interesting, with a bit of commentary.
 - **[Only photos](https://jason.re/photos/index.xml)** – Photo galleries from here and there.
 
-#### External feeds
+## External feeds
 
-- **[Only Mastodon posts](https://click.ba.it/@jason.rss)** – Even more of my hot takes & opinions on Mastodon
-- **[Only links](https://click.ba.it/@links.rss)** – Links I found interesting, directly from my feed reader
+- **[Mastodon posts](https://click.ba.it/@jason.rss)** – Even more of my hot takes & opinions on Mastodon
+- **[Linkbot content](https://click.ba.it/@links.rss)** – Links I found interesting, directly from my feed reader
+- **[Moods & ramblings](https://asides.blog/rss/)** - Big feelings and small thoughts on 280 characters
