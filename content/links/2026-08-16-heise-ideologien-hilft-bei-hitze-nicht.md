@@ -13,7 +13,7 @@ Heise setzt sich mal mit den Ideologien hinter der Klimaanlagen-Feindlichkeit au
 > 
 > Denn was braucht ein altes Omahäuschen, wenn es sich aufheizt, damit es das signifikant weniger täte? Dämmung. Überhänge. Hitzeschutzverglasung. Belüftung. Erdkühlung. Kurz: massive bauliche Investitionen. Kann man schrittweise alles machen, wenn die Bauteile fällig werden. Es kann sich in Ausnahmefällen sogar finanziell rentieren, allermindestens wird das Haus in Sachen Komfort stark aufgewertet, ohne dass dem Komfort ein Wert zugewiesen wurde.
 > 
-> Klimaanlagen-Abwärme ist nur ein sehr kleiner Teil dessen, was Städte aufheizt. Die Humboldt-Universität zu Berlin (https://edoc.hu-berlin.de/items/2fa115e7-48aa-46f0-b203-4f0a17c1d7dc) hat zuletzt modelliert, was es bedeuten würde, wenn ALLE Wohnflächen Berlins bei 30 °C außen auf 22 °C innen gekühlt würden.
+> Klimaanlagen-Abwärme ist nur ein sehr kleiner Teil dessen, was Städte aufheizt. Die Humboldt-Universität zu Berlin hat [zuletzt modelliert](https://edoc.hu-berlin.de/items/2fa115e7-48aa-46f0-b203-4f0a17c1d7dc), was es bedeuten würde, wenn ALLE Wohnflächen Berlins bei 30 °C außen auf 22 °C innen gekühlt würden.
 > 
 > Tagsüber war kein Unterschied ausmachbar, weil die Abwärme der Geräte in der brutalen Menge der Sonnenenergie untergeht. Nachts kamen im Modell +0,6 °C heraus, wenn alle Geräte in allen Wohnungen durchlaufen. Wenn die Leute aufgrund Vorkühlung tagsüber auf der Suche nach minimalen Kosten per Solarstrom gekühlt haben, dürfte auch dieser Wert im Rauschen untergehen.
 
