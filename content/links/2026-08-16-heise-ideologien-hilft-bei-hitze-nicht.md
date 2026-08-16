@@ -1,5 +1,5 @@
 ---
-title: "Heise: Ideologien hilft bei Hitze nicht"
+title: "Heise: Ideologien helfen bei Hitze nicht"
 date: 2026-08-16T02:55:38
 link: https://www.heise.de/meinung/Klimaanlagen-Feindlichkeit-Warum-Ideologie-bei-Hitze-nicht-hilft-11395004.html
 domains: [heise.de]
