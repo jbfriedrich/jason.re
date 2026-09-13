@@ -1,5 +1,4 @@
 ---
-title: Buchempfehlung
 date: 2021-04-12T11:42:15
 tags:
   - google
