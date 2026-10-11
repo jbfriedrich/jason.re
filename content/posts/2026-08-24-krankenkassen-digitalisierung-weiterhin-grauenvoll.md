@@ -1,5 +1,5 @@
 ---
-title: Krankenkassen-Digitalisierung weiterhin mangelhaft
+title: Krankenkassen-Digitalisierung weiterhin grauenvoll
 date: 2026-08-24T05:06:27
 tags: [digitalisierung, politics]
 ---
