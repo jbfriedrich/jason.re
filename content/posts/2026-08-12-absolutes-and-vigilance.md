@@ -16,4 +16,4 @@ It is harder and harder these days to see that fine line, after far too many peo
 >
 > — Karl Popper (1945)
 
-My thoughts are neither new, nor original, I am well aware of that. But with all the divisiveness and hate out there, I had to write them down. So that I can read them repeatedly, again and again and again, in testing, confusing and „interesting“ times like these. As a reminder, to never become like *them*.
+My thoughts are neither new, nor original, I am well aware of that. But with all the divisiveness and hate out there, I had to write them down. So that I can read them repeatedly, again and again and again, in testing, confusing and „interesting“ times like these.
