@@ -92,9 +92,8 @@ menu:
 params:
   # --- wilde theme: stream preset ---
   preset: stream
-  # hue/altHue omitted: inherit tinycss OKLCH defaults (magenta 347 / blue 262)
-  # while we explore the OKLCH palette. NOTE: these are now OKLCH hue ANGLES,
-  # not HSL degrees — set e.g. hue: 55 for amber, not 25, when re-theming.
+  # hue/altHue omitted: the site uses tinycss's default palette, magenta 347 /
+  # indigo 227. If set, they are OKLCH hue angles, not HSL degrees.
   homeCount: 12
   # tagline: "Thoughts, links & notes"
   description: "Thoughts, links, notes & the occasional photo"
