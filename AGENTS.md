@@ -11,6 +11,8 @@ open task** — add new ones there and delete them when done.
 - **Content is the author's.** publicare writes most entries; don't rewrite posts, notes or
   links unless asked. Its front matter conventions (`title:` only when the author wrote one,
   `url:` on links, `domains:`) are load-bearing for the theme.
+- **Section headings start at `##`.** The title is the page's `<h1>`; inside a post
+  use `##`, then `###`, `####` in order, without skipping levels.
 - **Theme changes belong in Wilde**, not in `layouts/` here. This repo has no layout
   overrides; keep it that way. Update the theme by bumping the `themes/wilde` submodule.
 - **Never modify photo files.** Display problems are fixed in Wilde's templates.
