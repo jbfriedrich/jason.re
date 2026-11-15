@@ -13,7 +13,7 @@ The official recommendation is the CSV export under _My Books → Import & Expor
 
 So I looked at what Goodreads still serves without a login. It turns out to be quite a lot.
 
-### What still works without logging in
+#### What still works without logging in
 
 | Endpoint | What you get |
 |---|---|
@@ -24,7 +24,7 @@ So I looked at what Goodreads still serves without a login. It turns out to be q
 
 The shelf and the profile have to be public, of course. Everything else is plain HTTP.
 
-### The shelf widget
+#### The shelf widget
 
 Goodreads still offers widgets that bloggers can embed to show their shelves. The "custom widget" is a small JavaScript file that writes the HTML of your shelf into the page, and it is happy to be requested on its own:
 
@@ -51,7 +51,7 @@ A few things I learned the hard way:
 - **Books without a cover** come with a `nophoto` placeholder and therefore without a book id. More on that below.
 - **The grid widget** (`/review/grid_widget/…`) returns 200 books per request, which looks tempting. But it silently drops books without a cover, so you can never be sure you got all of them.
 
-### Getting past 100 books
+#### Getting past 100 books
 
 My shelf has over 600 books, and the widget only shows 100 at a time. But every sort order shows a *different* 100. So I collect them: the first and the last 100 for each sort key (`date_added`, `title`, `author`, `date_pub`, `avg_rating`, `num_pages`, `num_ratings`, `isbn`, each with `order=a` and `order=d`), and then `sort=random` until nothing is missing.
 
@@ -71,7 +71,7 @@ Two things make this cheap and safe to run regularly:
 1. **Only delete when the count matches.** I only remove books that were not found when the collected set is exactly as large as the profile count. A harvest that falls short (time limit, network issue) may add books, but never removes any.
 2. **Check before you harvest.** Two requests are usually enough: the profile count and the 100 newest entries (`sort=date_added&order=d`). If the count is unchanged and all of the newest are known, nothing changed. If the count grew by exactly the number of unknown new entries, those are simply additions and can be inserted directly. Only removals need the full harvest.
 
-### The GraphQL API behind the book pages
+#### The GraphQL API behind the book pages
 
 The widget does not give you a description, rating, page count or publication year. The book page has all of that, but it is expensive: about 640 KB per book. Goodreads does not compress it, no matter which `Accept-Encoding` you send. For 600 books that is roughly 400 MB.
 
@@ -113,7 +113,7 @@ The difference is dramatic. With **25 books per request**, a book costs about **
 
 Why 25 and not 100? I tried 50, and the request was blocked by AppSync's firewall (`403 WAFForbiddenException`). The limit seems to be the size of the *request body*: 50 lookups were 11.7 KB, and AWS WAF's standard rule set blocks bodies over 8 KB. A single request right afterwards went through, so it is not a ban, just a size limit. Use a fragment like the `...F` above, so each additional book only adds a few dozen bytes, and keep the body well below 8 KB.
 
-### Some details that cost me time
+#### Some details that cost me time
 
 - **Stale book ids.** When Goodreads merges editions, the cover file name in the widget can keep the *old* book id. GraphQL then answers that alias with `RESOURCE_NOT_FOUND` ("Book is invalid"), and the book page is a "soft 404": HTTP 200 with the title "Page not found". In that case I look the book up once by title and author through `/book/auto_complete?format=json&q=…` and continue with the current id. If that finds nothing either, the book really is gone.
 - **Books without a cover** have no book id in the widget at all. The same autocomplete lookup solves that.
@@ -121,7 +121,7 @@ Why 25 and not 100? I tried 50, and the request was blocked by AppSync's firewal
 - **The key rotates.** If GraphQL answers `401`, read the key from a book page again. I store it and only fetch a page when needed.
 - **Keep a fallback.** This API is undocumented and can change any day. If GraphQL stops working, my code falls back to parsing the `__NEXT_DATA__` of the book pages. That is slower, but it keeps working.
 
-### Be nice
+#### Be nice
 
 None of this is an official API. Everything above is what the Goodreads website itself does in every visitor's browser. But automated access is still a grey area under their terms, and they can change or block it whenever they like.
 
