@@ -1,7 +1,6 @@
 ---
 title: Reading a Goodreads shelf after the RSS feeds are gone
 date: 2026-11-14T18:56:02
-draft: true
 slug: goodreads-shelf-without-rss
 summary: 'Goodreads discontinued its RSS feeds and the shelf pages now require a login. A public widget, a profile page and the GraphQL API behind the book pages still get you the whole shelf with full book details, without any login.'
 tags: [development, automation, selfhosting, books]
