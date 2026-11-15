@@ -10,7 +10,7 @@ Jason Friedrich
 44892 Bochum
 Deutschland
 
-##### Kontakt
+### Kontakt
 
 E-Mail: blog [at] jason [dot] re
 [DSGVO/Privacy Information](/privacy/)

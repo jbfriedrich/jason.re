@@ -24,13 +24,13 @@ Since it is never a good idea to install multiple [Python](https://www.python.or
 
 Python on Mac OS X is quite old, and I do not want to mess it up by accident, so I always install Python and [pip](https://pypi.python.org/pypi/pip) via [Homebrew](https://brew.sh/).
 
-#### Use pip to install virtualenv and the wrapper
+## Use pip to install virtualenv and the wrapper
 
 ```shell
 pip install virtualenv virtualenvwrapper
 ```
 
-#### Export Python and VirtualEnv settings (.bashrc)
+## Export Python and VirtualEnv settings (.bashrc)
 
 ```bash
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3.5
@@ -39,7 +39,7 @@ export PROJECT_HOME="${HOME}/devel"
 source /usr/local/bin/virtualenvwrapper.sh
 ```
 
-#### Install Atom packages with all requirements
+## Install Atom packages with all requirements
 
 ```shell
 $ pip install pep8 flake8 jedi flake8-docstrings

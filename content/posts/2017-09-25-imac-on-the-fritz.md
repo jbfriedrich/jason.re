@@ -17,7 +17,7 @@ It is currently unclear if it is the graphics card itself, some related hardware
 
 I already emailed a local authorised service provider. Once I hear back from them, I will bring it in to get an analysis and a quote. Based on that, I will see what my options are.
 
-### Update (Feb 2018)
+## Update (Feb 2018)
 
 Thanks to a good friend I was able to disassemble the iMac and extract the graphics card. We put it in the oven and baked it for 20 minutes at 200 degrees Celsius. We cleaned the iMac, replaced the thermal paste and reassembled the iMac again.
 

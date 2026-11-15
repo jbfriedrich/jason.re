@@ -11,14 +11,14 @@ languages:
 
 Nach dem Wälzen der Fachliteratur zum Thema Netbooks, habe ich mich für das “Asus Eee PC 1000 HE” entschieden. Hauptgründe für dieses Gerät waren die Akkulaufzeit von 9,5 Stunden (auf dem Papier, in der Realität wohl eher 7 Stunden), das gute 10″ LED Displays und die Qualität der früheren Eee PCs.
 
-# Positives
+## Positives
 
 Der Eee PC 1000 HE sieht in schwarz sehr schick aus, wer bisher nur “normale” Laptops und Notebooks hatte, wird von seinem geringen Gewicht begeistert sein. Auch die Rechenleistung, die trotz alle Kompaktheit in dem Netbook steckt ist wirklich erstaunlich. Auch die Akkulaufzeit kann sich sehen lassen, 7 Stunden sind bei mäßiger WLAN Nutzung locker drin.
 
-# Negatives
+## Negatives
 
 Das Dispay ist wirklich sehr klein, und für den täglichen Gebrauch meiner Meinung nach ungeeignet. Um ein paar Emails zu lesen, oder mal ein bisschen im Internet zu surfen, eignet es sich sehr gut, allerdings ist mir der Preis für so eine Mini-Surfstation doch viel zu hoch. Ich denke gerade die “schräge” Auflösung von 1024×600 trägt dazu bei, dass Lesen von längeren Artikeln mit sehr viel Anstrengung verbunden ist.
 
-# Fazit
+## Fazit
 
 Sehr schönes, gut verarbeitetes Gerät. Nur für Leute geeignet, die bereit sind für eine mobile Surfstation ca. 400 EUR auszugeben. Für ernsthafte Arbeiten unterwegs nicht geeignet, bedingt geeignet für Videos unterwegs. Nichts für mich, daher wieder zurück geschickt.
